@@ -1,0 +1,49 @@
+
+
+<div class="container">
+  <h3 mat-dialog-title dir="rtl">הוספת בית ספר</h3>
+  <form class="mat-dialog-content" (ngSubmit)="submit" #formControl="ngForm">
+
+    <!--Textarea for demo purposes-->
+    <div class="form" dir="rtl">
+      <mat-form-field ngClass="pink">
+        <textarea matInput #input class="form-control" placeholder="שם בית ספר" [(ngModel)]="data.SchoolName" name="SchoolName" required ></textarea>
+        <mat-error *ngIf="formControl.invalid">{{getErrorMessage()}}</mat-error>
+      </mat-form-field>
+    </div>
+
+    <!--Contains mat-hint for characters count and has maxLengt set-->
+    <div dir="rtl">
+    <mat-form-field class="example-full-width" ngClass="pink">
+        <input matInput  placeholder="עיר" aria-label="State" [matAutocomplete]="auto1" [formControl]="stateCtrl" (ngModelChange)="searchByCityName($event)">
+      </mat-form-field>
+      <mat-autocomplete #auto1="matAutocomplete" ngClass="pink">
+        <mat-option *ngFor="let item of newCities" (click)="updateNgModelCity(item.CityId)" [value]="item.CityName">
+          <div>{{item.CityName}}</div>
+        </mat-option>
+      </mat-autocomplete>
+    </div>
+    <!-- <div class="form" dir="rtl">
+      <mat-form-field color="accent">
+        <input matInput #inputstate class="form-control" placeholder="עיר" [(ngModel)]="data.City" name="City" required >
+        <mat-error *ngIf="formControl.invalid">{{getErrorMessage()}}</mat-error>
+      </mat-form-field>
+    </div> -->
+
+    <div class="form" dir="rtl">
+      <mat-form-field ngClass="pink">
+        <input matInput placeholder="כתובת" [(ngModel)]="data.Address" name="Address">
+      </mat-form-field>
+    </div>
+
+    <div class="form" dir="rtl">
+      <mat-form-field ngClass="pink">
+        <input matInput placeholder="טלפון" [(ngModel)]="data.Telephon" name="Telephon">
+      </mat-form-field>
+    </div>
+    <div mat-dialog-actions dir="rtl">
+      <button mat-button [type]="submit" [disabled]="!formControl.valid" [mat-dialog-close]="1" (click)="confirmAdd()">שמירה</button>
+      <button mat-button (click)="onNoClick()" tabindex="-1">ביטול</button>
+    </div>
+  </form>
+</div>

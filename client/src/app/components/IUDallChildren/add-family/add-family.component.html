@@ -1,0 +1,78 @@
+
+<div class="container">
+    <h3 mat-dialog-title dir="rtl">הוספת משפחה</h3>
+    
+    <!-- <div id="line"></div> -->
+    <form class="mat-dialog-content" (ngSubmit)="submit" #formControl="ngForm">
+  
+      <!--Textarea for demo purposes-->
+      <div class="form" dir="rtl">
+        <mat-form-field color="accent">
+          <textarea matInput #input class="form-control" placeholder="שם משפחה" [(ngModel)]="data.FamilyName" name="FamilyName" required ></textarea>
+          <mat-error *ngIf="formControl.invalid">{{getErrorMessage()}}</mat-error>
+        </mat-form-field>
+      </div>
+
+      <div class="form" dir="rtl">
+          <mat-form-field color="accent">
+            <input matInput placeholder="שם האבא" [(ngModel)]="data.FatherFirstName" name="FatherFirstName">
+          </mat-form-field>
+        </div>
+
+        <div class="form" dir="rtl">
+            <mat-form-field color="accent">
+              <input matInput placeholder="שם האמא" [(ngModel)]="data.MotherFirstName" name="MotherFirstName">
+            </mat-form-field>
+          </div>
+      
+          <div class="form" dir="rtl">
+              <mat-form-field color="accent">
+                <input matInput placeholder="מספר ילדים" [(ngModel)]="data.NumOfChildren" name="NumOfChildren">
+              </mat-form-field>
+            </div>
+           <!-- cities -->
+           <div dir="rtl">
+            <mat-form-field class="example-full-width" dir="rtl" color="accent">
+                <input matInput  placeholder="חיפוש עיר" aria-label="State" [matAutocomplete]="auto" [formControl]="stateCtrl">
+              </mat-form-field>
+              <mat-autocomplete #auto="matAutocomplete">
+                <mat-option *ngFor="let item of newCities" [value]="item.CityName">
+                  <div (click)="city(item.CityId)">{{item.CityName}}</div>
+                </mat-option>
+              </mat-autocomplete>
+            </div> 
+           <div class="form" dir="rtl">
+                  <mat-form-field color="accent">
+                    <input matInput placeholder="כתובת" [(ngModel)]="data.Address" name="Address">
+                  </mat-form-field>
+            </div>
+
+            <!-- <div class="form">
+                <mat-form-field color="accent">
+                  <input matInput placeholder="Telephone" [(ngModel)]="data.Telephone" name="Telephone">
+                </mat-form-field>
+              </div> -->
+
+              
+              <div class="form" dir="rtl">
+                  <mat-form-field color="accent">
+                    <input matInput placeholder="פלאפון 1" [(ngModel)]="data.Cellular1" name="Cellular1">
+                  </mat-form-field>
+                </div>
+
+                
+                <div class="form" dir="rtl">
+                    <mat-form-field color="accent">
+                      <input matInput placeholder="פלאפון 2" [(ngModel)]="data.Cellular2" name="Cellular2">
+                    </mat-form-field>
+                  </div>
+              
+                          
+      
+      <div mat-dialog-actions dir="rtl">
+        <button mat-button [type]="submit" [disabled]="!formControl.valid" [mat-dialog-close]="1" (click)="confirmAdd()">שמירה</button>
+        <button mat-button (click)="onNoClick()" tabindex="-1">ביטול</button>
+      </div>
+    </form>
+  </div>
+  

@@ -1,0 +1,579 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="TimeTableDevModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="sysdiagram">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityContainer Name="TimeTableDevEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagram" />
+    <FunctionImport Name="sp_alterdiagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+      <Parameter Name="version" Mode="In" Type="Int32" />
+      <Parameter Name="definition" Mode="In" Type="Binary" />
+    </FunctionImport>
+    <FunctionImport Name="sp_creatediagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+      <Parameter Name="version" Mode="In" Type="Int32" />
+      <Parameter Name="definition" Mode="In" Type="Binary" />
+    </FunctionImport>
+    <FunctionImport Name="sp_dropdiagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_helpdiagramdefinition" ReturnType="Collection(TimeTableDevModel.sp_helpdiagramdefinition_Result)">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_helpdiagrams" ReturnType="Collection(TimeTableDevModel.sp_helpdiagrams_Result)">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_renamediagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+      <Parameter Name="new_diagramname" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_upgraddiagrams" />
+    <EntitySet Name="Banks" EntityType="TimeTableDevModel.Bank" />
+    <EntitySet Name="CheckDetails" EntityType="TimeTableDevModel.CheckDetail" />
+    <EntitySet Name="Childs" EntityType="TimeTableDevModel.Child" />
+    <EntitySet Name="ChildsRegistrationToSubjects" EntityType="TimeTableDevModel.ChildsRegistrationToSubject" />
+    <EntitySet Name="Cities" EntityType="TimeTableDevModel.City" />
+    <EntitySet Name="CreditDetails" EntityType="TimeTableDevModel.CreditDetail" />
+    <EntitySet Name="Families" EntityType="TimeTableDevModel.Family" />
+    <EntitySet Name="Groups" EntityType="TimeTableDevModel.Group" />
+    <AssociationSet Name="FK_CheckDetails_Banks" Association="TimeTableDevModel.FK_CheckDetails_Banks">
+      <End Role="Bank" EntitySet="Banks" />
+      <End Role="CheckDetail" EntitySet="CheckDetails" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Customers_families" Association="TimeTableDevModel.FK_Customers_families">
+      <End Role="Family" EntitySet="Families" />
+      <End Role="Child" EntitySet="Childs" />
+    </AssociationSet>
+    <AssociationSet Name="FK_SubjectsForChild_Childs" Association="TimeTableDevModel.FK_SubjectsForChild_Childs">
+      <End Role="Child" EntitySet="Childs" />
+      <End Role="ChildsRegistrationToSubject" EntitySet="ChildsRegistrationToSubjects" />
+    </AssociationSet>
+    <AssociationSet Name="FK_families_Cities" Association="TimeTableDevModel.FK_families_Cities">
+      <End Role="City" EntitySet="Cities" />
+      <End Role="Family" EntitySet="Families" />
+    </AssociationSet>
+    <AssociationSet Name="ChildsToGroups" Association="TimeTableDevModel.ChildsToGroups">
+      <End Role="Child" EntitySet="Childs" />
+      <End Role="Group" EntitySet="Groups" />
+    </AssociationSet>
+    <EntitySet Name="Lessons" EntityType="TimeTableDevModel.Lesson" />
+    <EntitySet Name="Payments" EntityType="TimeTableDevModel.Payment" />
+    <EntitySet Name="Schools" EntityType="TimeTableDevModel.School" />
+    <EntitySet Name="Subjects" EntityType="TimeTableDevModel.Subject" />
+    <EntitySet Name="TammyValues" EntityType="TimeTableDevModel.TammyValue" />
+    <EntitySet Name="Workers" EntityType="TimeTableDevModel.Worker" />
+    <EntitySet Name="WorkingDays" EntityType="TimeTableDevModel.WorkingDay" />
+    <AssociationSet Name="FK_CheckDetails_Payment" Association="TimeTableDevModel.FK_CheckDetails_Payment">
+      <End Role="Payment" EntitySet="Payments" />
+      <End Role="CheckDetail" EntitySet="CheckDetails" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Childs_Schools" Association="TimeTableDevModel.FK_Childs_Schools">
+      <End Role="School" EntitySet="Schools" />
+      <End Role="Child" EntitySet="Childs" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Lessons_Childs" Association="TimeTableDevModel.FK_Lessons_Childs">
+      <End Role="Child" EntitySet="Childs" />
+      <End Role="Lesson" EntitySet="Lessons" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Payment_Childs" Association="TimeTableDevModel.FK_Payment_Childs">
+      <End Role="Child" EntitySet="Childs" />
+      <End Role="Payment" EntitySet="Payments" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TammyValues_Childs" Association="TimeTableDevModel.FK_TammyValues_Childs">
+      <End Role="Child" EntitySet="Childs" />
+      <End Role="TammyValue" EntitySet="TammyValues" />
+    </AssociationSet>
+    <AssociationSet Name="FK_SubjectsForChild_Subjects" Association="TimeTableDevModel.FK_SubjectsForChild_Subjects">
+      <End Role="Subject" EntitySet="Subjects" />
+      <End Role="ChildsRegistrationToSubject" EntitySet="ChildsRegistrationToSubjects" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Schools_Cities" Association="TimeTableDevModel.FK_Schools_Cities">
+      <End Role="City" EntitySet="Cities" />
+      <End Role="School" EntitySet="Schools" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Workers_Cities" Association="TimeTableDevModel.FK_Workers_Cities">
+      <End Role="City" EntitySet="Cities" />
+      <End Role="Worker" EntitySet="Workers" />
+    </AssociationSet>
+    <AssociationSet Name="FK_CreditDetails_Payment" Association="TimeTableDevModel.FK_CreditDetails_Payment">
+      <End Role="Payment" EntitySet="Payments" />
+      <End Role="CreditDetail" EntitySet="CreditDetails" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Groups_Schools" Association="TimeTableDevModel.FK_Groups_Schools">
+      <End Role="School" EntitySet="Schools" />
+      <End Role="Group" EntitySet="Groups" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Lessons_Groups" Association="TimeTableDevModel.FK_Lessons_Groups">
+      <End Role="Group" EntitySet="Groups" />
+      <End Role="Lesson" EntitySet="Lessons" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Lessons_Subjects" Association="TimeTableDevModel.FK_Lessons_Subjects">
+      <End Role="Subject" EntitySet="Subjects" />
+      <End Role="Lesson" EntitySet="Lessons" />
+    </AssociationSet>
+    <AssociationSet Name="FK_WorkingDays_Workers1" Association="TimeTableDevModel.FK_WorkingDays_Workers1">
+      <End Role="Worker" EntitySet="Workers" />
+      <End Role="WorkingDay" EntitySet="WorkingDays" />
+    </AssociationSet>
+  </EntityContainer>
+  <ComplexType Name="sp_helpdiagramdefinition_Result">
+    <Property Type="Int32" Name="version" Nullable="true" />
+    <Property Type="Binary" Name="definition" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="sp_helpdiagrams_Result">
+    <Property Type="String" Name="Database" Nullable="true" MaxLength="128" />
+    <Property Type="String" Name="Name" Nullable="false" MaxLength="128" />
+    <Property Type="Int32" Name="ID" Nullable="false" />
+    <Property Type="String" Name="Owner" Nullable="true" MaxLength="128" />
+    <Property Type="Int32" Name="OwnerID" Nullable="false" />
+  </ComplexType>
+  <EntityType Name="Bank">
+    <Key>
+      <PropertyRef Name="BankId" />
+    </Key>
+    <Property Name="BankId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="BankName" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="CheckDetails" Relationship="TimeTableDevModel.FK_CheckDetails_Banks" FromRole="Bank" ToRole="CheckDetail" />
+  </EntityType>
+  <EntityType Name="CheckDetail">
+    <Key>
+      <PropertyRef Name="PaymentId" />
+    </Key>
+    <Property Name="PaymentId" Type="Int32" Nullable="false" />
+    <Property Name="AccountOwnerName" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="AccountNumber" Type="String" MaxLength="25" FixedLength="false" Unicode="true" />
+    <Property Name="BankId" Type="Int32" />
+    <Property Name="BranchName" Type="String" MaxLength="25" FixedLength="false" Unicode="true" />
+    <Property Name="BranchNumber" Type="Int32" />
+    <Property Name="RepaymentDate" Type="DateTime" Precision="0" />
+    <Property Name="Sum" Type="Int32" />
+    <Property Name="Comments" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Bank" Relationship="TimeTableDevModel.FK_CheckDetails_Banks" FromRole="CheckDetail" ToRole="Bank" />
+    <NavigationProperty Name="Payment" Relationship="TimeTableDevModel.FK_CheckDetails_Payment" FromRole="CheckDetail" ToRole="Payment" />
+  </EntityType>
+  <EntityType Name="Child">
+    <Key>
+      <PropertyRef Name="IdentityNum" />
+    </Key>
+    <Property Name="IdentityNum" Type="String" Nullable="false" MaxLength="9" FixedLength="false" Unicode="true" />
+    <Property Name="FamilyId" Type="Int32" Nullable="false" />
+    <Property Name="FirstName" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="Kind" Type="Boolean" />
+    <Property Name="BirthDate" Type="DateTime" Precision="3" />
+    <Property Name="PlaceInFamily" Type="Int32" />
+    <Property Name="SchoolId" Type="Int32" />
+    <Property Name="Grade" Type="Int32" />
+    <Property Name="JoiningDate" Type="DateTime" Precision="3" />
+    <Property Name="ViturSodiutFrom" Type="Boolean" Nullable="false" />
+    <Property Name="PreviousCare" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="Note" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="IsActive" Type="Boolean" Nullable="false" />
+    <Property Name="IsMunicipality" Type="Boolean" />
+    <Property Name="sumAfterDiscount" Type="Int32" />
+    <NavigationProperty Name="Family" Relationship="TimeTableDevModel.FK_Customers_families" FromRole="Child" ToRole="Family" />
+    <NavigationProperty Name="ChildsRegistrationToSubjects" Relationship="TimeTableDevModel.FK_SubjectsForChild_Childs" FromRole="Child" ToRole="ChildsRegistrationToSubject" />
+    <NavigationProperty Name="Groups" Relationship="TimeTableDevModel.ChildsToGroups" FromRole="Child" ToRole="Group" />
+    <NavigationProperty Name="School" Relationship="TimeTableDevModel.FK_Childs_Schools" FromRole="Child" ToRole="School" />
+    <NavigationProperty Name="Lessons" Relationship="TimeTableDevModel.FK_Lessons_Childs" FromRole="Child" ToRole="Lesson" />
+    <NavigationProperty Name="Payments" Relationship="TimeTableDevModel.FK_Payment_Childs" FromRole="Child" ToRole="Payment" />
+    <NavigationProperty Name="TammyValues" Relationship="TimeTableDevModel.FK_TammyValues_Childs" FromRole="Child" ToRole="TammyValue" />
+  </EntityType>
+  <EntityType Name="ChildsRegistrationToSubject">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="SubjectId" Type="Int32" />
+    <Property Name="ChildId" Type="String" MaxLength="9" FixedLength="false" Unicode="true" />
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="RegisterDate" Type="DateTime" Precision="3" />
+    <Property Name="WaitMode" Type="Boolean" />
+    <Property Name="Comments" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Child" Relationship="TimeTableDevModel.FK_SubjectsForChild_Childs" FromRole="ChildsRegistrationToSubject" ToRole="Child" />
+    <NavigationProperty Name="Subject" Relationship="TimeTableDevModel.FK_SubjectsForChild_Subjects" FromRole="ChildsRegistrationToSubject" ToRole="Subject" />
+  </EntityType>
+  <EntityType Name="City">
+    <Key>
+      <PropertyRef Name="CityId" />
+    </Key>
+    <Property Name="CityId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CityName" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Families" Relationship="TimeTableDevModel.FK_families_Cities" FromRole="City" ToRole="Family" />
+    <NavigationProperty Name="Schools" Relationship="TimeTableDevModel.FK_Schools_Cities" FromRole="City" ToRole="School" />
+    <NavigationProperty Name="Workers" Relationship="TimeTableDevModel.FK_Workers_Cities" FromRole="City" ToRole="Worker" />
+  </EntityType>
+  <EntityType Name="CreditDetail">
+    <Key>
+      <PropertyRef Name="CreditDetailsId" />
+    </Key>
+    <Property Name="CreditDetailsId" Type="String" Nullable="false" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Name="PaymentId" Type="Int32" Nullable="false" />
+    <Property Name="PayerName" Type="String" MaxLength="25" FixedLength="false" Unicode="true" />
+    <Property Name="OwnerName" Type="String" MaxLength="25" FixedLength="true" Unicode="true" />
+    <Property Name="OwnerIdentityNumber" Type="String" MaxLength="11" FixedLength="true" Unicode="true" />
+    <Property Name="CreditNumber" Type="String" MaxLength="25" FixedLength="true" Unicode="true" />
+    <Property Name="CardExpirationDate" Type="String" MaxLength="8" FixedLength="true" Unicode="true" />
+    <Property Name="ThreeLastDigits" Type="String" MaxLength="3" FixedLength="true" Unicode="true" />
+    <Property Name="NumberOfPayments" Type="Int32" />
+    <Property Name="FirstRepaymentDate" Type="DateTime" Precision="0" />
+    <Property Name="Comments" Type="String" MaxLength="255" FixedLength="true" Unicode="true" />
+    <NavigationProperty Name="Payment" Relationship="TimeTableDevModel.FK_CreditDetails_Payment" FromRole="CreditDetail" ToRole="Payment" />
+  </EntityType>
+  <EntityType Name="Family">
+    <Key>
+      <PropertyRef Name="FamilyId" />
+    </Key>
+    <Property Name="FamilyId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="FamilyName" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="FatherFirstName" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="MotherFirstName" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="NumOfChildren" Type="Int32" />
+    <Property Name="CityId" Type="Int32" />
+    <Property Name="Address" Type="String" MaxLength="25" FixedLength="true" Unicode="true" />
+    <Property Name="Telephone" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Cellular1" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Cellular2" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Childs" Relationship="TimeTableDevModel.FK_Customers_families" FromRole="Family" ToRole="Child" />
+    <NavigationProperty Name="City" Relationship="TimeTableDevModel.FK_families_Cities" FromRole="Family" ToRole="City" />
+  </EntityType>
+  <EntityType Name="Group">
+    <Key>
+      <PropertyRef Name="code" />
+    </Key>
+    <Property Name="code" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="SchoolId" Type="Int32" />
+    <Property Name="grade1" Type="Int32" />
+    <Property Name="grade2" Type="Int32" />
+    <Property Name="TreatmentType" Type="Int32" />
+    <Property Name="GroupName" Type="String" MaxLength="25" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Childs" Relationship="TimeTableDevModel.ChildsToGroups" FromRole="Group" ToRole="Child" />
+    <NavigationProperty Name="School" Relationship="TimeTableDevModel.FK_Groups_Schools" FromRole="Group" ToRole="School" />
+    <NavigationProperty Name="Lessons" Relationship="TimeTableDevModel.FK_Lessons_Groups" FromRole="Group" ToRole="Lesson" />
+  </EntityType>
+  <Association Name="FK_CheckDetails_Banks">
+    <End Type="TimeTableDevModel.Bank" Role="Bank" Multiplicity="0..1" />
+    <End Type="TimeTableDevModel.CheckDetail" Role="CheckDetail" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Bank">
+        <PropertyRef Name="BankId" />
+      </Principal>
+      <Dependent Role="CheckDetail">
+        <PropertyRef Name="BankId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Customers_families">
+    <End Type="TimeTableDevModel.Family" Role="Family" Multiplicity="1" />
+    <End Type="TimeTableDevModel.Child" Role="Child" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Family">
+        <PropertyRef Name="FamilyId" />
+      </Principal>
+      <Dependent Role="Child">
+        <PropertyRef Name="FamilyId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_SubjectsForChild_Childs">
+    <End Type="TimeTableDevModel.Child" Role="Child" Multiplicity="0..1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Type="TimeTableDevModel.ChildsRegistrationToSubject" Role="ChildsRegistrationToSubject" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Child">
+        <PropertyRef Name="IdentityNum" />
+      </Principal>
+      <Dependent Role="ChildsRegistrationToSubject">
+        <PropertyRef Name="ChildId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_families_Cities">
+    <End Type="TimeTableDevModel.City" Role="City" Multiplicity="0..1" />
+    <End Type="TimeTableDevModel.Family" Role="Family" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="City">
+        <PropertyRef Name="CityId" />
+      </Principal>
+      <Dependent Role="Family">
+        <PropertyRef Name="CityId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="ChildsToGroups">
+    <End Type="TimeTableDevModel.Child" Role="Child" Multiplicity="*" />
+    <End Type="TimeTableDevModel.Group" Role="Group" Multiplicity="*" />
+  </Association>
+  <EntityType Name="Lesson">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="FromDate" Type="DateTime" Precision="3" />
+    <Property Name="EndDate" Type="DateTime" Precision="3" />
+    <Property Name="ChildId" Type="String" MaxLength="9" FixedLength="false" Unicode="true" />
+    <Property Name="StartsAt" Type="Time" Nullable="false" Precision="7" />
+    <Property Name="GroupId" Type="Int32" />
+    <Property Name="Subject" Type="Int32" />
+    <Property Name="LessonDuration" Type="Double" />
+    <Property Name="TeacherId" Type="Int32" />
+    <Property Name="Day" Type="Int32" />
+    <NavigationProperty Name="Child" Relationship="TimeTableDevModel.FK_Lessons_Childs" FromRole="Lesson" ToRole="Child" />
+    <NavigationProperty Name="Group" Relationship="TimeTableDevModel.FK_Lessons_Groups" FromRole="Lesson" ToRole="Group" />
+    <NavigationProperty Name="Subject1" Relationship="TimeTableDevModel.FK_Lessons_Subjects" FromRole="Lesson" ToRole="Subject" />
+  </EntityType>
+  <EntityType Name="Payment">
+    <Key>
+      <PropertyRef Name="PaymentId" />
+    </Key>
+    <Property Name="PaymentId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ChildIdentityNumber" Type="String" Nullable="false" MaxLength="9" FixedLength="false" Unicode="true" />
+    <Property Name="Date" Type="DateTime" Precision="0" />
+    <Property Name="PaymentForm" Type="Int32" />
+    <Property Name="Sum" Type="Int32" />
+    <NavigationProperty Name="CheckDetail" Relationship="TimeTableDevModel.FK_CheckDetails_Payment" FromRole="Payment" ToRole="CheckDetail" />
+    <NavigationProperty Name="Child" Relationship="TimeTableDevModel.FK_Payment_Childs" FromRole="Payment" ToRole="Child" />
+    <NavigationProperty Name="CreditDetails" Relationship="TimeTableDevModel.FK_CreditDetails_Payment" FromRole="Payment" ToRole="CreditDetail" />
+  </EntityType>
+  <EntityType Name="School">
+    <Key>
+      <PropertyRef Name="SchoolId" />
+    </Key>
+    <Property Name="SchoolId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="SchoolName" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="City" Type="Int32" />
+    <Property Name="Address" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="Telephon" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Childs" Relationship="TimeTableDevModel.FK_Childs_Schools" FromRole="School" ToRole="Child" />
+    <NavigationProperty Name="City1" Relationship="TimeTableDevModel.FK_Schools_Cities" FromRole="School" ToRole="City" />
+    <NavigationProperty Name="Groups" Relationship="TimeTableDevModel.FK_Groups_Schools" FromRole="School" ToRole="Group" />
+  </EntityType>
+  <EntityType Name="Subject">
+    <Key>
+      <PropertyRef Name="SubjectId" />
+    </Key>
+    <Property Name="SubjectId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="SubjectName" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="MinNumOfMeeting" Type="Int32" />
+    <Property Name="AvgNumOfMeeting" Type="Int32" />
+    <Property Name="MinAge" Type="Int32" />
+    <Property Name="MaxAge" Type="Int32" />
+    <Property Name="DurationInMinuts" Type="Int32" />
+    <NavigationProperty Name="ChildsRegistrationToSubjects" Relationship="TimeTableDevModel.FK_SubjectsForChild_Subjects" FromRole="Subject" ToRole="ChildsRegistrationToSubject" />
+    <NavigationProperty Name="Lessons" Relationship="TimeTableDevModel.FK_Lessons_Subjects" FromRole="Subject" ToRole="Lesson" />
+  </EntityType>
+  <EntityType Name="TammyValue">
+    <Key>
+      <PropertyRef Name="TammyValueId" />
+    </Key>
+    <Property Name="TammyValueId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Child" Type="String" Nullable="false" MaxLength="9" FixedLength="false" Unicode="true" />
+    <Property Name="TammyDate" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="CurrentValue" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Child1" Relationship="TimeTableDevModel.FK_TammyValues_Childs" FromRole="TammyValue" ToRole="Child" />
+  </EntityType>
+  <EntityType Name="Worker">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="IdentityNum" Type="String" Nullable="false" MaxLength="9" FixedLength="false" Unicode="true" />
+    <Property Name="FirstName" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="LastName" Type="String" Nullable="false" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="Kind" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="DutyCode" Type="Int32" />
+    <Property Name="Tel" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+    <Property Name="CellPhone" Type="String" MaxLength="11" FixedLength="false" Unicode="true" />
+    <Property Name="City" Type="Int32" />
+    <Property Name="Street" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="HouseNumber" Type="Int32" />
+    <Property Name="BirthDate" Type="DateTime" Precision="3" />
+    <Property Name="Type" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="RateForFirstYear" Type="Int32" />
+    <Property Name="RateForNextYear" Type="Int32" />
+    <NavigationProperty Name="City1" Relationship="TimeTableDevModel.FK_Workers_Cities" FromRole="Worker" ToRole="City" />
+    <NavigationProperty Name="WorkingDays" Relationship="TimeTableDevModel.FK_WorkingDays_Workers1" FromRole="Worker" ToRole="WorkingDay" />
+  </EntityType>
+  <EntityType Name="WorkingDay">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="WorkerId" Type="Int32" Nullable="false" />
+    <Property Name="WeekDay" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Worker" Relationship="TimeTableDevModel.FK_WorkingDays_Workers1" FromRole="WorkingDay" ToRole="Worker" />
+  </EntityType>
+  <Association Name="FK_CheckDetails_Payment">
+    <End Type="TimeTableDevModel.Payment" Role="Payment" Multiplicity="1" />
+    <End Type="TimeTableDevModel.CheckDetail" Role="CheckDetail" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="Payment">
+        <PropertyRef Name="PaymentId" />
+      </Principal>
+      <Dependent Role="CheckDetail">
+        <PropertyRef Name="PaymentId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Childs_Schools">
+    <End Type="TimeTableDevModel.School" Role="School" Multiplicity="0..1" />
+    <End Type="TimeTableDevModel.Child" Role="Child" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="School">
+        <PropertyRef Name="SchoolId" />
+      </Principal>
+      <Dependent Role="Child">
+        <PropertyRef Name="SchoolId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Lessons_Childs">
+    <End Type="TimeTableDevModel.Child" Role="Child" Multiplicity="0..1" />
+    <End Type="TimeTableDevModel.Lesson" Role="Lesson" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Child">
+        <PropertyRef Name="IdentityNum" />
+      </Principal>
+      <Dependent Role="Lesson">
+        <PropertyRef Name="ChildId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Payment_Childs">
+    <End Type="TimeTableDevModel.Child" Role="Child" Multiplicity="1" />
+    <End Type="TimeTableDevModel.Payment" Role="Payment" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Child">
+        <PropertyRef Name="IdentityNum" />
+      </Principal>
+      <Dependent Role="Payment">
+        <PropertyRef Name="ChildIdentityNumber" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TammyValues_Childs">
+    <End Type="TimeTableDevModel.Child" Role="Child" Multiplicity="1" />
+    <End Type="TimeTableDevModel.TammyValue" Role="TammyValue" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Child">
+        <PropertyRef Name="IdentityNum" />
+      </Principal>
+      <Dependent Role="TammyValue">
+        <PropertyRef Name="Child" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_SubjectsForChild_Subjects">
+    <End Type="TimeTableDevModel.Subject" Role="Subject" Multiplicity="0..1" />
+    <End Type="TimeTableDevModel.ChildsRegistrationToSubject" Role="ChildsRegistrationToSubject" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Subject">
+        <PropertyRef Name="SubjectId" />
+      </Principal>
+      <Dependent Role="ChildsRegistrationToSubject">
+        <PropertyRef Name="SubjectId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Schools_Cities">
+    <End Type="TimeTableDevModel.City" Role="City" Multiplicity="0..1" />
+    <End Type="TimeTableDevModel.School" Role="School" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="City">
+        <PropertyRef Name="CityId" />
+      </Principal>
+      <Dependent Role="School">
+        <PropertyRef Name="City" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Workers_Cities">
+    <End Type="TimeTableDevModel.City" Role="City" Multiplicity="0..1" />
+    <End Type="TimeTableDevModel.Worker" Role="Worker" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="City">
+        <PropertyRef Name="CityId" />
+      </Principal>
+      <Dependent Role="Worker">
+        <PropertyRef Name="City" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_CreditDetails_Payment">
+    <End Type="TimeTableDevModel.Payment" Role="Payment" Multiplicity="1" />
+    <End Type="TimeTableDevModel.CreditDetail" Role="CreditDetail" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Payment">
+        <PropertyRef Name="PaymentId" />
+      </Principal>
+      <Dependent Role="CreditDetail">
+        <PropertyRef Name="PaymentId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Groups_Schools">
+    <End Type="TimeTableDevModel.School" Role="School" Multiplicity="0..1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Type="TimeTableDevModel.Group" Role="Group" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="School">
+        <PropertyRef Name="SchoolId" />
+      </Principal>
+      <Dependent Role="Group">
+        <PropertyRef Name="SchoolId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Lessons_Groups">
+    <End Type="TimeTableDevModel.Group" Role="Group" Multiplicity="0..1" />
+    <End Type="TimeTableDevModel.Lesson" Role="Lesson" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Group">
+        <PropertyRef Name="code" />
+      </Principal>
+      <Dependent Role="Lesson">
+        <PropertyRef Name="GroupId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Lessons_Subjects">
+    <End Type="TimeTableDevModel.Subject" Role="Subject" Multiplicity="0..1" />
+    <End Type="TimeTableDevModel.Lesson" Role="Lesson" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Subject">
+        <PropertyRef Name="SubjectId" />
+      </Principal>
+      <Dependent Role="Lesson">
+        <PropertyRef Name="Subject" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_WorkingDays_Workers1">
+    <End Type="TimeTableDevModel.Worker" Role="Worker" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Type="TimeTableDevModel.WorkingDay" Role="WorkingDay" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Worker">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="WorkingDay">
+        <PropertyRef Name="WorkerId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

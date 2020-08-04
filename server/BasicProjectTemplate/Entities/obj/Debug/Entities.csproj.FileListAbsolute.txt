@@ -1,0 +1,22 @@
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\Entities\bin\Debug\Entities.dll.config
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\Entities\bin\Debug\Entities.dll
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\Entities\bin\Debug\Entities.pdb
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\Entities\bin\Debug\EntityFramework.dll
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\Entities\bin\Debug\EntityFramework.SqlServer.dll
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\Entities\bin\Debug\EntityFramework.xml
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\Entities\bin\Debug\EntityFramework.SqlServer.xml
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\Entities\obj\Debug\Entities.csprojResolveAssemblyReference.cache
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\Entities\obj\Debug\Entities.dll
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\Entities\obj\Debug\Entities.pdb
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\Entities\bin\Debug\Entities.dll.config
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\Entities\bin\Debug\Entities.dll
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\Entities\bin\Debug\Entities.pdb
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\Entities\bin\Debug\EntityFramework.dll
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\Entities\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\Entities\bin\Debug\EntityFramework.xml
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\Entities\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\Entities\obj\Debug\Entities.csproj.CoreCompileInputs.cache
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\Entities\obj\Debug\Entities.csproj.CopyComplete
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\Entities\obj\Debug\Entities.dll
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\Entities\obj\Debug\Entities.pdb
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\Entities\obj\Debug\Entities.csprojAssemblyReference.cache

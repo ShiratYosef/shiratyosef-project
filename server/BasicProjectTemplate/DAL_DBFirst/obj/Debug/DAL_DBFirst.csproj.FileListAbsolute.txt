@@ -1,0 +1,32 @@
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\DAL_DBFirst\bin\Debug\DAL_DBFirst.dll.config
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\DAL_DBFirst\bin\Debug\DAL_DBFirst.dll
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\DAL_DBFirst\bin\Debug\DAL_DBFirst.pdb
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\DAL_DBFirst\bin\Debug\EntityFramework.dll
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\DAL_DBFirst\bin\Debug\EntityFramework.SqlServer.dll
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\DAL_DBFirst\bin\Debug\EntityFramework.xml
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\DAL_DBFirst\bin\Debug\EntityFramework.SqlServer.xml
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\DAL_DBFirst\obj\Debug\DAL_DBFirst.csprojResolveAssemblyReference.cache
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\DAL_DBFirst\obj\Debug\DAL_DBFirst.dll
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\DAL_DBFirst\obj\Debug\DAL_DBFirst.pdb
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\DAL_DBFirst\bin\Debug\DAL_DBFirst.dll.config
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\DAL_DBFirst\bin\Debug\DAL_DBFirst.dll
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\DAL_DBFirst\bin\Debug\DAL_DBFirst.pdb
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\DAL_DBFirst\bin\Debug\EntityFramework.dll
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\DAL_DBFirst\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\DAL_DBFirst\bin\Debug\EntityFramework.xml
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\DAL_DBFirst\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\DAL_DBFirst\obj\Debug\DAL_DBFirst.csproj.CoreCompileInputs.cache
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\DAL_DBFirst\obj\Debug\DAL_DBFirst.csproj.CopyComplete
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\DAL_DBFirst\obj\Debug\DAL_DBFirst.dll
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\DAL_DBFirst\obj\Debug\DAL_DBFirst.pdb
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\DAL_DBFirst\obj\Debug\DAL_DBFirst.csprojAssemblyReference.cache
+D:\BasicProjectTemplate\DAL_DBFirst\bin\Debug\DAL_DBFirst.dll.config
+D:\BasicProjectTemplate\DAL_DBFirst\bin\Debug\DAL_DBFirst.dll
+D:\BasicProjectTemplate\DAL_DBFirst\bin\Debug\DAL_DBFirst.pdb
+D:\BasicProjectTemplate\DAL_DBFirst\bin\Debug\EntityFramework.dll
+D:\BasicProjectTemplate\DAL_DBFirst\bin\Debug\EntityFramework.SqlServer.dll
+D:\BasicProjectTemplate\DAL_DBFirst\bin\Debug\EntityFramework.xml
+D:\BasicProjectTemplate\DAL_DBFirst\bin\Debug\EntityFramework.SqlServer.xml
+D:\BasicProjectTemplate\DAL_DBFirst\obj\Debug\DAL_DBFirst.csprojResolveAssemblyReference.cache
+D:\BasicProjectTemplate\DAL_DBFirst\obj\Debug\DAL_DBFirst.dll
+D:\BasicProjectTemplate\DAL_DBFirst\obj\Debug\DAL_DBFirst.pdb

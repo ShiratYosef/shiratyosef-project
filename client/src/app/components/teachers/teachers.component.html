@@ -1,0 +1,92 @@
+<mat-table #table [dataSource]="teachers" matSort class="mat-cell">
+    
+
+    <ng-container matColumnDef="Id">
+      <mat-header-cell *matHeaderCellDef mat-sort-header>הערות</mat-header-cell>
+      <mat-cell *matCellDef="let row"> {{row.Id}}</mat-cell>
+    </ng-container>
+
+    <ng-container matColumnDef="RateForFirstYear">
+      <mat-header-cell *matHeaderCellDef mat-sort-header>האם פעיל</mat-header-cell>
+      <mat-cell *matCellDef="let row"> {{row.RateForFirstYear}}</mat-cell>
+    </ng-container>
+
+    <ng-container matColumnDef="Type">
+      <mat-header-cell *matHeaderCellDef mat-sort-header>שם בית ספר</mat-header-cell>
+      <mat-cell *matCellDef="let row"> {{row.Type}}</mat-cell>
+    </ng-container>
+
+    <ng-container matColumnDef="BirthDate">
+      <mat-header-cell *matHeaderCellDef mat-sort-header>כיתה</mat-header-cell>
+      <mat-cell *matCellDef="let row"> {{row.BirthDate}}</mat-cell>
+    </ng-container>
+    
+    <ng-container matColumnDef="Street">
+      <mat-header-cell *matHeaderCellDef mat-sort-header>תאריך הצטרפות</mat-header-cell>
+      <mat-cell *matCellDef="let row"> {{row.Street}}</mat-cell>
+    </ng-container>
+
+    <ng-container matColumnDef="City">
+      <mat-header-cell *matHeaderCellDef mat-sort-header>תאריך לידה</mat-header-cell>
+      <mat-cell *matCellDef="let row"> {{row.City}}</mat-cell>
+    </ng-container>
+
+    <ng-container matColumnDef="CellPhone">
+      <mat-header-cell *matHeaderCellDef mat-sort-header>כתובת</mat-header-cell>
+      <mat-cell *matCellDef="let row"> {{row.CellPhone}}</mat-cell>
+    </ng-container>
+     
+    <ng-container matColumnDef="Tel">
+      <mat-header-cell *matHeaderCellDef mat-sort-header>פלאפון2</mat-header-cell>
+      <mat-cell *matCellDef="let row"> {{row.Tel}}</mat-cell>
+    </ng-container>
+
+    <ng-container matColumnDef="FirstName">
+      <mat-header-cell *matHeaderCellDef mat-sort-header>פלאפון1</mat-header-cell>
+      <mat-cell *matCellDef="let row"> {{row.FirstName}}</mat-cell>
+    </ng-container>
+
+    <ng-container matColumnDef="LastName">
+        <mat-header-cell *matHeaderCellDef mat-sort-header>פלאפון1</mat-header-cell>
+        <mat-cell *matCellDef="let row"> {{row.LastName}}</mat-cell>
+      </ng-container>
+
+      <ng-container matColumnDef="IdentityNum">
+        <mat-header-cell *matHeaderCellDef mat-sort-header>פלאפון1</mat-header-cell>
+        <mat-cell *matCellDef="let row"> {{row.IdentityNum}}</mat-cell>
+      </ng-container>
+    <!-- <ng-container matColumnDef="Telephon">
+      <mat-header-cell *matHeaderCellDef mat-sort-header>טלפון</mat-header-cell>
+      <mat-cell *matCellDef="let row"> {{row.Telephon}}</mat-cell>
+    </ng-container> -->
+
+
+    
+
+   <!-- actions -->
+
+    <ng-container matColumnDef="actions">
+      <mat-header-cell *matHeaderCellDef>
+        <button mat-icon-button color="accent" (click)="addNew()">
+          <mat-icon aria-label="Example icon-button with a heart icon">add</mat-icon>
+        </button>
+      </mat-header-cell>
+   
+   
+  
+      <mat-cell *matCellDef="let row; let i=index;">
+        <button mat-icon-button color="accent" (click)="startEdit(row.IdentityNum,row.FamilyName,row.FirstName,row.Telephon,row.Cellular1, 
+        row.Cellular2,row.Address,row.BirthDate,row.Grade,row.SchoolName,row.IsActive,row.Note)">
+          <mat-icon aria-label="Edit">edit</mat-icon>
+        </button>
+  
+        <button mat-icon-button color="accent" (click)="deleteItem(row.IdentityNum,row.FamilyName,row.FirstName,row.Telephon,row.Cellular1, 
+        row.Cellular2,row.Address,row.BirthDate,row.Grade,row.SchoolName,row.IsActive,row.Note)">
+          <mat-icon aria-label="Delete">delete</mat-icon>
+        </button>
+      </mat-cell>
+    </ng-container>
+  
+    <mat-header-row *matHeaderRowDef="displayedColumns"></mat-header-row>
+    <mat-row *matRowDef="let row; columns: displayedColumns;"></mat-row>
+  </mat-table>

@@ -1,0 +1,16 @@
+
+<div class="container">
+    <h3 mat-dialog-title id="delete" dir="rtl">מחיקת ילד</h3>
+    <div id="line"></div>
+  <h3>? האם אתה בטוח שברצונך למחוק ילד זה</h3>
+  <div mat-dialog-content dir="rtl">
+     {{data.FirstName}} {{data.FamilyName}} 
+    <p></p>
+    <!-- <div mat-dialog-content dir="rtl">
+      
+     <p></p> -->
+  <div mat-dialog-actions dir="rtl">
+    <button mat-button [mat-dialog-close]="1" (click)="confirmDelete()">מחיקה</button>
+    <button mat-button (click)="onNoClick()" tabindex="-1">ביטול</button>
+  </div>
+</div>

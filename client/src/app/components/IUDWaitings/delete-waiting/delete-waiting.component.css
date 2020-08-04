@@ -1,0 +1,33 @@
+.container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .container > * {
+    width: 100%;
+  }
+  h3{
+    color:rgba(34, 30, 30,0.6);
+font-family:Tahoma;
+  }
+  button{
+    color:rgba(34, 30, 30,0.6);
+    font-family:Tahoma; 
+  }
+  h3{
+    color:rgba(34, 30, 30,0.6);
+    font-family:Tahoma;
+}
+div{
+  color:rgba(34, 30, 30,0.6);
+  font-family:Tahoma;
+}
+
+ 
+  .mat-dialog-title {
+    margin-top: 15px !important;
+    background-color:#92b83e;
+    font-family:Tahoma; ;
+    color:white;
+    text-align: center;
+    }  

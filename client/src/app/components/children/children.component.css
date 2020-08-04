@@ -1,0 +1,95 @@
+table {
+  position: absolute;
+    width: 100%;
+    top:35%;
+  }
+
+  mat-form-field{
+    position: absolute;
+    top:25%;
+    right:7%;
+  }
+  
+  tr.example-detail-row {
+    height: 0;
+  }
+  
+  tr.example-element-row:not(.example-expanded-row):hover {
+    background: #777;
+  }
+  
+  tr.example-element-row:not(.example-expanded-row):active {
+    background: #efefef;
+  }
+  
+  .example-element-row td {
+    border-bottom-width: 0;
+  }
+  
+  .example-element-detail {
+    overflow: hidden;
+    display: flex;
+  }
+  
+  .example-element-diagram {
+    min-width: 80px;
+    border: 2px solid black;
+    padding: 8px;
+    font-weight: lighter;
+    margin: 8px 0;
+    height: 104px;
+  }
+  
+  .example-element-symbol {
+    font-weight: bold;
+    font-size: 40px;
+    line-height: normal;
+  }
+  
+  .example-element-description {
+    padding: 16px;
+  }
+  
+  .example-element-description-attribution {
+    opacity: 0.5;
+  }
+  .highlight {
+    background: #e7e7e7; /* green */
+  }
+  .header{
+    background: #2770a5;
+  }
+
+  .div{
+    position: absolute;
+    top:25%;
+    direction: rtl;
+   width: 20%;
+   color:rgba(34, 30, 30,0.6);
+   font-family:Tahoma;
+  }
+  mat-cell{
+    color:rgba(34, 30, 30,0.6);
+    font-family:Tahoma;
+  }
+  mat-table{
+    position: absolute;
+    top:40%;
+    width: 100%;
+    color:rgba(34, 30, 30,0.6);
+    font-family:Tahoma;
+  }
+  ::ng-deep .mat-focused .mat-form-field-label {
+    /*change color of label*/
+    color: #2770a5 !important;
+   }
+  ::ng-deep.mat-form-field-ripple {
+    /*change color of underline when focused*/
+    background-color: #2770a5 !important;;
+   }
+   mat-header-cell{
+    font-size: 100%;
+    color:white;
+    background-color:#2770a5 ;
+    /* font-weight: bold; */
+  }

@@ -1,0 +1,263 @@
+Y:\group 1 תשעט\שווב יהודית\Project\BLL\bin\Debug\BLL.dll
+Y:\group 1 תשעט\שווב יהודית\Project\BLL\bin\Debug\BLL.pdb
+Y:\group 1 תשעט\שווב יהודית\Project\BLL\obj\Debug\BLL.dll
+Y:\group 1 תשעט\שווב יהודית\Project\BLL\obj\Debug\BLL.pdb
+Y:\group 1 תשעט\שווב יהודית\project\BLL\bin\Debug\BLL.dll.config
+Y:\group 1 תשעט\שווב יהודית\project\BLL\bin\Debug\DAL.dll
+Y:\group 1 תשעט\שווב יהודית\project\BLL\bin\Debug\DTO.dll
+Y:\group 1 תשעט\שווב יהודית\project\BLL\bin\Debug\EntityFramework.dll
+Y:\group 1 תשעט\שווב יהודית\project\BLL\bin\Debug\EntityFramework.SqlServer.dll
+Y:\group 1 תשעט\שווב יהודית\project\BLL\bin\Debug\DAL.pdb
+Y:\group 1 תשעט\שווב יהודית\project\BLL\bin\Debug\DAL.dll.config
+Y:\group 1 תשעט\שווב יהודית\project\BLL\bin\Debug\DTO.pdb
+Y:\group 1 תשעט\שווב יהודית\project\BLL\bin\Debug\DTO.dll.config
+Y:\group 1 תשעט\שווב יהודית\project\BLL\bin\Debug\EntityFramework.xml
+Y:\group 1 תשעט\שווב יהודית\project\BLL\bin\Debug\EntityFramework.SqlServer.xml
+Y:\group 1 תשעט\שווב יהודית\project\BLL\bin\Debug\Newtonsoft.Json.dll
+Y:\group 1 תשעט\שווב יהודית\project\BLL\bin\Debug\System.Net.Http.Formatting.dll
+Y:\group 1 תשעט\שווב יהודית\project\BLL\bin\Debug\System.Web.Cors.dll
+Y:\group 1 תשעט\שווב יהודית\project\BLL\bin\Debug\System.Web.Http.Cors.dll
+Y:\group 1 תשעט\שווב יהודית\project\BLL\bin\Debug\System.Web.Http.dll
+Y:\group 1 תשעט\שווב יהודית\project\BLL\bin\Debug\Newtonsoft.Json.xml
+Y:\group 1 תשעט\שווב יהודית\project\BLL\bin\Debug\System.Net.Http.Formatting.xml
+Y:\group 1 תשעט\שווב יהודית\project\BLL\bin\Debug\System.Web.Http.xml
+Y:\group 1 תשעט\שווב יהודית\project\BLL\bin\Debug\System.Web.Http.Cors.xml
+Y:\group 1 תשעט\שווב יהודית\project\BLL\obj\Debug\BLL.csprojAssemblyReference.cache
+Y:\group 1 תשעט\שווב יהודית\project\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+Y:\group 1 תשעט\שווב יהודית\project\BLL\obj\Debug\BLL.csproj.CopyComplete
+Y:\group 1 תשעט\קרליץ בתי\project\BLL\bin\Debug\BLL.dll.config
+Y:\group 1 תשעט\קרליץ בתי\project\BLL\bin\Debug\BLL.dll
+Y:\group 1 תשעט\קרליץ בתי\project\BLL\bin\Debug\BLL.pdb
+Y:\group 1 תשעט\קרליץ בתי\project\BLL\bin\Debug\DAL.dll
+Y:\group 1 תשעט\קרליץ בתי\project\BLL\bin\Debug\DTO.dll
+Y:\group 1 תשעט\קרליץ בתי\project\BLL\bin\Debug\EntityFramework.dll
+Y:\group 1 תשעט\קרליץ בתי\project\BLL\bin\Debug\EntityFramework.SqlServer.dll
+Y:\group 1 תשעט\קרליץ בתי\project\BLL\bin\Debug\Newtonsoft.Json.dll
+Y:\group 1 תשעט\קרליץ בתי\project\BLL\bin\Debug\System.Net.Http.Formatting.dll
+Y:\group 1 תשעט\קרליץ בתי\project\BLL\bin\Debug\System.Web.Cors.dll
+Y:\group 1 תשעט\קרליץ בתי\project\BLL\bin\Debug\System.Web.Http.Cors.dll
+Y:\group 1 תשעט\קרליץ בתי\project\BLL\bin\Debug\System.Web.Http.dll
+Y:\group 1 תשעט\קרליץ בתי\project\BLL\bin\Debug\DAL.pdb
+Y:\group 1 תשעט\קרליץ בתי\project\BLL\bin\Debug\DAL.dll.config
+Y:\group 1 תשעט\קרליץ בתי\project\BLL\bin\Debug\DTO.pdb
+Y:\group 1 תשעט\קרליץ בתי\project\BLL\bin\Debug\DTO.dll.config
+Y:\group 1 תשעט\קרליץ בתי\project\BLL\bin\Debug\EntityFramework.xml
+Y:\group 1 תשעט\קרליץ בתי\project\BLL\bin\Debug\EntityFramework.SqlServer.xml
+Y:\group 1 תשעט\קרליץ בתי\project\BLL\bin\Debug\Newtonsoft.Json.xml
+Y:\group 1 תשעט\קרליץ בתי\project\BLL\bin\Debug\System.Net.Http.Formatting.xml
+Y:\group 1 תשעט\קרליץ בתי\project\BLL\bin\Debug\System.Web.Http.xml
+Y:\group 1 תשעט\קרליץ בתי\project\BLL\bin\Debug\System.Web.Http.Cors.xml
+Y:\group 1 תשעט\קרליץ בתי\project\BLL\obj\Debug\BLL.csprojAssemblyReference.cache
+Y:\group 1 תשעט\קרליץ בתי\project\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+Y:\group 1 תשעט\קרליץ בתי\project\BLL\obj\Debug\BLL.csproj.CopyComplete
+Y:\group 1 תשעט\קרליץ בתי\project\BLL\obj\Debug\BLL.dll
+Y:\group 1 תשעט\קרליץ בתי\project\BLL\obj\Debug\BLL.pdb
+Y:\group 1 תשעט\קרליץ בתי\‏‏Shirat Yosef\project\BLL\bin\Debug\BLL.dll.config
+Y:\group 1 תשעט\קרליץ בתי\‏‏Shirat Yosef\project\BLL\bin\Debug\BLL.dll
+Y:\group 1 תשעט\קרליץ בתי\‏‏Shirat Yosef\project\BLL\bin\Debug\BLL.pdb
+Y:\group 1 תשעט\קרליץ בתי\‏‏Shirat Yosef\project\BLL\bin\Debug\DAL.dll
+Y:\group 1 תשעט\קרליץ בתי\‏‏Shirat Yosef\project\BLL\bin\Debug\DTO.dll
+Y:\group 1 תשעט\קרליץ בתי\‏‏Shirat Yosef\project\BLL\bin\Debug\EntityFramework.dll
+Y:\group 1 תשעט\קרליץ בתי\‏‏Shirat Yosef\project\BLL\bin\Debug\EntityFramework.SqlServer.dll
+Y:\group 1 תשעט\קרליץ בתי\‏‏Shirat Yosef\project\BLL\bin\Debug\Newtonsoft.Json.dll
+Y:\group 1 תשעט\קרליץ בתי\‏‏Shirat Yosef\project\BLL\bin\Debug\System.Net.Http.Formatting.dll
+Y:\group 1 תשעט\קרליץ בתי\‏‏Shirat Yosef\project\BLL\bin\Debug\System.Web.Cors.dll
+Y:\group 1 תשעט\קרליץ בתי\‏‏Shirat Yosef\project\BLL\bin\Debug\System.Web.Http.Cors.dll
+Y:\group 1 תשעט\קרליץ בתי\‏‏Shirat Yosef\project\BLL\bin\Debug\System.Web.Http.dll
+Y:\group 1 תשעט\קרליץ בתי\‏‏Shirat Yosef\project\BLL\bin\Debug\DAL.pdb
+Y:\group 1 תשעט\קרליץ בתי\‏‏Shirat Yosef\project\BLL\bin\Debug\DAL.dll.config
+Y:\group 1 תשעט\קרליץ בתי\‏‏Shirat Yosef\project\BLL\bin\Debug\DTO.pdb
+Y:\group 1 תשעט\קרליץ בתי\‏‏Shirat Yosef\project\BLL\bin\Debug\DTO.dll.config
+Y:\group 1 תשעט\קרליץ בתי\‏‏Shirat Yosef\project\BLL\bin\Debug\EntityFramework.xml
+Y:\group 1 תשעט\קרליץ בתי\‏‏Shirat Yosef\project\BLL\bin\Debug\EntityFramework.SqlServer.xml
+Y:\group 1 תשעט\קרליץ בתי\‏‏Shirat Yosef\project\BLL\bin\Debug\Newtonsoft.Json.xml
+Y:\group 1 תשעט\קרליץ בתי\‏‏Shirat Yosef\project\BLL\bin\Debug\System.Net.Http.Formatting.xml
+Y:\group 1 תשעט\קרליץ בתי\‏‏Shirat Yosef\project\BLL\bin\Debug\System.Web.Http.xml
+Y:\group 1 תשעט\קרליץ בתי\‏‏Shirat Yosef\project\BLL\bin\Debug\System.Web.Http.Cors.xml
+Y:\group 1 תשעט\קרליץ בתי\‏‏Shirat Yosef\project\BLL\obj\Debug\BLL.csprojAssemblyReference.cache
+Y:\group 1 תשעט\קרליץ בתי\‏‏Shirat Yosef\project\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+Y:\group 1 תשעט\קרליץ בתי\‏‏Shirat Yosef\project\BLL\obj\Debug\BLL.csproj.CopyComplete
+Y:\group 1 תשעט\קרליץ בתי\‏‏Shirat Yosef\project\BLL\obj\Debug\BLL.dll
+Y:\group 1 תשעט\קרליץ בתי\‏‏Shirat Yosef\project\BLL\obj\Debug\BLL.pdb
+D:\baty\project\BLL\bin\Debug\BLL.dll.config
+D:\baty\project\BLL\bin\Debug\BLL.dll
+D:\baty\project\BLL\bin\Debug\BLL.pdb
+D:\baty\project\BLL\bin\Debug\DAL.dll
+D:\baty\project\BLL\bin\Debug\DTO.dll
+D:\baty\project\BLL\bin\Debug\EntityFramework.dll
+D:\baty\project\BLL\bin\Debug\EntityFramework.SqlServer.dll
+D:\baty\project\BLL\bin\Debug\Newtonsoft.Json.dll
+D:\baty\project\BLL\bin\Debug\System.Net.Http.Formatting.dll
+D:\baty\project\BLL\bin\Debug\System.Web.Cors.dll
+D:\baty\project\BLL\bin\Debug\System.Web.Http.Cors.dll
+D:\baty\project\BLL\bin\Debug\System.Web.Http.dll
+D:\baty\project\BLL\bin\Debug\DAL.pdb
+D:\baty\project\BLL\bin\Debug\DAL.dll.config
+D:\baty\project\BLL\bin\Debug\DTO.pdb
+D:\baty\project\BLL\bin\Debug\DTO.dll.config
+D:\baty\project\BLL\bin\Debug\EntityFramework.xml
+D:\baty\project\BLL\bin\Debug\EntityFramework.SqlServer.xml
+D:\baty\project\BLL\bin\Debug\Newtonsoft.Json.xml
+D:\baty\project\BLL\bin\Debug\System.Net.Http.Formatting.xml
+D:\baty\project\BLL\bin\Debug\System.Web.Http.xml
+D:\baty\project\BLL\bin\Debug\System.Web.Http.Cors.xml
+D:\baty\project\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+D:\baty\project\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+D:\baty\project\BLL\obj\Debug\BLL.dll
+D:\baty\project\BLL\obj\Debug\BLL.pdb
+D:\baty\project1\BLL\bin\Debug\BLL.dll.config
+D:\baty\project1\BLL\bin\Debug\BLL.dll
+D:\baty\project1\BLL\bin\Debug\BLL.pdb
+D:\baty\project1\BLL\bin\Debug\DAL.dll
+D:\baty\project1\BLL\bin\Debug\DTO.dll
+D:\baty\project1\BLL\bin\Debug\EntityFramework.dll
+D:\baty\project1\BLL\bin\Debug\EntityFramework.SqlServer.dll
+D:\baty\project1\BLL\bin\Debug\Newtonsoft.Json.dll
+D:\baty\project1\BLL\bin\Debug\System.Net.Http.Formatting.dll
+D:\baty\project1\BLL\bin\Debug\System.Web.Cors.dll
+D:\baty\project1\BLL\bin\Debug\System.Web.Http.Cors.dll
+D:\baty\project1\BLL\bin\Debug\System.Web.Http.dll
+D:\baty\project1\BLL\bin\Debug\DAL.pdb
+D:\baty\project1\BLL\bin\Debug\DAL.dll.config
+D:\baty\project1\BLL\bin\Debug\DTO.pdb
+D:\baty\project1\BLL\bin\Debug\DTO.dll.config
+D:\baty\project1\BLL\bin\Debug\EntityFramework.xml
+D:\baty\project1\BLL\bin\Debug\EntityFramework.SqlServer.xml
+D:\baty\project1\BLL\bin\Debug\Newtonsoft.Json.xml
+D:\baty\project1\BLL\bin\Debug\System.Net.Http.Formatting.xml
+D:\baty\project1\BLL\bin\Debug\System.Web.Http.xml
+D:\baty\project1\BLL\bin\Debug\System.Web.Http.Cors.xml
+D:\baty\project1\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+D:\baty\project1\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+D:\baty\project1\BLL\obj\Debug\BLL.dll
+D:\baty\project1\BLL\obj\Debug\BLL.pdb
+D:\baty\ShiratYosef project\project1\BLL\bin\Debug\BLL.dll.config
+D:\baty\ShiratYosef project\project1\BLL\bin\Debug\BLL.dll
+D:\baty\ShiratYosef project\project1\BLL\bin\Debug\BLL.pdb
+D:\baty\ShiratYosef project\project1\BLL\bin\Debug\DAL.dll
+D:\baty\ShiratYosef project\project1\BLL\bin\Debug\DTO.dll
+D:\baty\ShiratYosef project\project1\BLL\bin\Debug\EntityFramework.dll
+D:\baty\ShiratYosef project\project1\BLL\bin\Debug\EntityFramework.SqlServer.dll
+D:\baty\ShiratYosef project\project1\BLL\bin\Debug\Newtonsoft.Json.dll
+D:\baty\ShiratYosef project\project1\BLL\bin\Debug\System.Net.Http.Formatting.dll
+D:\baty\ShiratYosef project\project1\BLL\bin\Debug\System.Web.Cors.dll
+D:\baty\ShiratYosef project\project1\BLL\bin\Debug\System.Web.Http.Cors.dll
+D:\baty\ShiratYosef project\project1\BLL\bin\Debug\System.Web.Http.dll
+D:\baty\ShiratYosef project\project1\BLL\bin\Debug\DAL.pdb
+D:\baty\ShiratYosef project\project1\BLL\bin\Debug\DAL.dll.config
+D:\baty\ShiratYosef project\project1\BLL\bin\Debug\DTO.pdb
+D:\baty\ShiratYosef project\project1\BLL\bin\Debug\DTO.dll.config
+D:\baty\ShiratYosef project\project1\BLL\bin\Debug\EntityFramework.xml
+D:\baty\ShiratYosef project\project1\BLL\bin\Debug\EntityFramework.SqlServer.xml
+D:\baty\ShiratYosef project\project1\BLL\bin\Debug\Newtonsoft.Json.xml
+D:\baty\ShiratYosef project\project1\BLL\bin\Debug\System.Net.Http.Formatting.xml
+D:\baty\ShiratYosef project\project1\BLL\bin\Debug\System.Web.Http.xml
+D:\baty\ShiratYosef project\project1\BLL\bin\Debug\System.Web.Http.Cors.xml
+D:\baty\ShiratYosef project\project1\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+D:\baty\ShiratYosef project\project1\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+D:\baty\ShiratYosef project\project1\BLL\obj\Debug\BLL.dll
+D:\baty\ShiratYosef project\project1\BLL\obj\Debug\BLL.pdb
+D:\finallproject\project1\BLL\bin\Debug\BLL.dll.config
+D:\finallproject\project1\BLL\bin\Debug\BLL.dll
+D:\finallproject\project1\BLL\bin\Debug\BLL.pdb
+D:\finallproject\project1\BLL\bin\Debug\DAL.dll
+D:\finallproject\project1\BLL\bin\Debug\DTO.dll
+D:\finallproject\project1\BLL\bin\Debug\EntityFramework.dll
+D:\finallproject\project1\BLL\bin\Debug\EntityFramework.SqlServer.dll
+D:\finallproject\project1\BLL\bin\Debug\Newtonsoft.Json.dll
+D:\finallproject\project1\BLL\bin\Debug\System.Net.Http.Formatting.dll
+D:\finallproject\project1\BLL\bin\Debug\System.Web.Cors.dll
+D:\finallproject\project1\BLL\bin\Debug\System.Web.Http.Cors.dll
+D:\finallproject\project1\BLL\bin\Debug\System.Web.Http.dll
+D:\finallproject\project1\BLL\bin\Debug\DAL.pdb
+D:\finallproject\project1\BLL\bin\Debug\DAL.dll.config
+D:\finallproject\project1\BLL\bin\Debug\DTO.pdb
+D:\finallproject\project1\BLL\bin\Debug\DTO.dll.config
+D:\finallproject\project1\BLL\bin\Debug\EntityFramework.xml
+D:\finallproject\project1\BLL\bin\Debug\EntityFramework.SqlServer.xml
+D:\finallproject\project1\BLL\bin\Debug\Newtonsoft.Json.xml
+D:\finallproject\project1\BLL\bin\Debug\System.Net.Http.Formatting.xml
+D:\finallproject\project1\BLL\bin\Debug\System.Web.Http.xml
+D:\finallproject\project1\BLL\bin\Debug\System.Web.Http.Cors.xml
+D:\finallproject\project1\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+D:\finallproject\project1\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+D:\finallproject\project1\BLL\obj\Debug\BLL.dll
+D:\finallproject\project1\BLL\obj\Debug\BLL.pdb
+D:\baty\4\project1\BLL\bin\Debug\BLL.dll.config
+D:\baty\4\project1\BLL\bin\Debug\BLL.dll
+D:\baty\4\project1\BLL\bin\Debug\BLL.pdb
+D:\baty\4\project1\BLL\bin\Debug\DAL.dll
+D:\baty\4\project1\BLL\bin\Debug\DTO.dll
+D:\baty\4\project1\BLL\bin\Debug\EntityFramework.dll
+D:\baty\4\project1\BLL\bin\Debug\EntityFramework.SqlServer.dll
+D:\baty\4\project1\BLL\bin\Debug\Newtonsoft.Json.dll
+D:\baty\4\project1\BLL\bin\Debug\System.Net.Http.Formatting.dll
+D:\baty\4\project1\BLL\bin\Debug\System.Web.Cors.dll
+D:\baty\4\project1\BLL\bin\Debug\System.Web.Http.Cors.dll
+D:\baty\4\project1\BLL\bin\Debug\System.Web.Http.dll
+D:\baty\4\project1\BLL\bin\Debug\DAL.pdb
+D:\baty\4\project1\BLL\bin\Debug\DAL.dll.config
+D:\baty\4\project1\BLL\bin\Debug\DTO.pdb
+D:\baty\4\project1\BLL\bin\Debug\DTO.dll.config
+D:\baty\4\project1\BLL\bin\Debug\EntityFramework.xml
+D:\baty\4\project1\BLL\bin\Debug\EntityFramework.SqlServer.xml
+D:\baty\4\project1\BLL\bin\Debug\Newtonsoft.Json.xml
+D:\baty\4\project1\BLL\bin\Debug\System.Net.Http.Formatting.xml
+D:\baty\4\project1\BLL\bin\Debug\System.Web.Http.xml
+D:\baty\4\project1\BLL\bin\Debug\System.Web.Http.Cors.xml
+D:\baty\4\project1\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+D:\baty\4\project1\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+D:\baty\4\project1\BLL\obj\Debug\BLL.dll
+D:\baty\4\project1\BLL\obj\Debug\BLL.pdb
+D:\baty\6\project1\BLL\bin\Debug\BLL.dll.config
+D:\baty\6\project1\BLL\bin\Debug\BLL.dll
+D:\baty\6\project1\BLL\bin\Debug\BLL.pdb
+D:\baty\6\project1\BLL\bin\Debug\DAL.dll
+D:\baty\6\project1\BLL\bin\Debug\DTO.dll
+D:\baty\6\project1\BLL\bin\Debug\EntityFramework.dll
+D:\baty\6\project1\BLL\bin\Debug\EntityFramework.SqlServer.dll
+D:\baty\6\project1\BLL\bin\Debug\Newtonsoft.Json.dll
+D:\baty\6\project1\BLL\bin\Debug\System.Net.Http.Formatting.dll
+D:\baty\6\project1\BLL\bin\Debug\System.Web.Cors.dll
+D:\baty\6\project1\BLL\bin\Debug\System.Web.Http.Cors.dll
+D:\baty\6\project1\BLL\bin\Debug\System.Web.Http.dll
+D:\baty\6\project1\BLL\bin\Debug\DAL.pdb
+D:\baty\6\project1\BLL\bin\Debug\DAL.dll.config
+D:\baty\6\project1\BLL\bin\Debug\DTO.pdb
+D:\baty\6\project1\BLL\bin\Debug\DTO.dll.config
+D:\baty\6\project1\BLL\bin\Debug\EntityFramework.xml
+D:\baty\6\project1\BLL\bin\Debug\EntityFramework.SqlServer.xml
+D:\baty\6\project1\BLL\bin\Debug\Newtonsoft.Json.xml
+D:\baty\6\project1\BLL\bin\Debug\System.Net.Http.Formatting.xml
+D:\baty\6\project1\BLL\bin\Debug\System.Web.Http.xml
+D:\baty\6\project1\BLL\bin\Debug\System.Web.Http.Cors.xml
+D:\baty\6\project1\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+D:\baty\6\project1\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+D:\baty\6\project1\BLL\obj\Debug\BLL.dll
+D:\baty\6\project1\BLL\obj\Debug\BLL.pdb
+D:\baty\7\project1\BLL\bin\Debug\BLL.dll.config
+D:\baty\7\project1\BLL\bin\Debug\BLL.dll
+D:\baty\7\project1\BLL\bin\Debug\BLL.pdb
+D:\baty\7\project1\BLL\bin\Debug\DAL.dll
+D:\baty\7\project1\BLL\bin\Debug\DTO.dll
+D:\baty\7\project1\BLL\bin\Debug\EntityFramework.dll
+D:\baty\7\project1\BLL\bin\Debug\EntityFramework.SqlServer.dll
+D:\baty\7\project1\BLL\bin\Debug\Newtonsoft.Json.dll
+D:\baty\7\project1\BLL\bin\Debug\System.Net.Http.Formatting.dll
+D:\baty\7\project1\BLL\bin\Debug\System.Web.Cors.dll
+D:\baty\7\project1\BLL\bin\Debug\System.Web.Http.Cors.dll
+D:\baty\7\project1\BLL\bin\Debug\System.Web.Http.dll
+D:\baty\7\project1\BLL\bin\Debug\DAL.pdb
+D:\baty\7\project1\BLL\bin\Debug\DAL.dll.config
+D:\baty\7\project1\BLL\bin\Debug\DTO.pdb
+D:\baty\7\project1\BLL\bin\Debug\DTO.dll.config
+D:\baty\7\project1\BLL\bin\Debug\EntityFramework.xml
+D:\baty\7\project1\BLL\bin\Debug\EntityFramework.SqlServer.xml
+D:\baty\7\project1\BLL\bin\Debug\Newtonsoft.Json.xml
+D:\baty\7\project1\BLL\bin\Debug\System.Net.Http.Formatting.xml
+D:\baty\7\project1\BLL\bin\Debug\System.Web.Http.xml
+D:\baty\7\project1\BLL\bin\Debug\System.Web.Http.Cors.xml
+D:\baty\7\project1\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+D:\baty\7\project1\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+D:\baty\7\project1\BLL\obj\Debug\BLL.dll
+D:\baty\7\project1\BLL\obj\Debug\BLL.pdb

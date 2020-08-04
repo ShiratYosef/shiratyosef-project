@@ -1,0 +1,103 @@
+Y:\group 1 תשעט\שווב יהודית\Project\DAL\bin\Debug\DAL.dll.config
+Y:\group 1 תשעט\שווב יהודית\Project\DAL\bin\Debug\DAL.dll
+Y:\group 1 תשעט\שווב יהודית\Project\DAL\bin\Debug\DAL.pdb
+Y:\group 1 תשעט\שווב יהודית\Project\DAL\bin\Debug\EntityFramework.dll
+Y:\group 1 תשעט\שווב יהודית\Project\DAL\bin\Debug\EntityFramework.SqlServer.dll
+Y:\group 1 תשעט\שווב יהודית\Project\DAL\bin\Debug\EntityFramework.xml
+Y:\group 1 תשעט\שווב יהודית\Project\DAL\bin\Debug\EntityFramework.SqlServer.xml
+Y:\group 1 תשעט\שווב יהודית\Project\DAL\obj\Debug\DAL.dll
+Y:\group 1 תשעט\שווב יהודית\Project\DAL\obj\Debug\DAL.pdb
+Y:\group 1 תשעט\שווב יהודית\project\DAL\bin\Debug\Newtonsoft.Json.dll
+Y:\group 1 תשעט\שווב יהודית\project\DAL\bin\Debug\System.Net.Http.Formatting.dll
+Y:\group 1 תשעט\שווב יהודית\project\DAL\bin\Debug\System.Web.Cors.dll
+Y:\group 1 תשעט\שווב יהודית\project\DAL\bin\Debug\System.Web.Http.Cors.dll
+Y:\group 1 תשעט\שווב יהודית\project\DAL\bin\Debug\System.Web.Http.dll
+Y:\group 1 תשעט\שווב יהודית\project\DAL\bin\Debug\Newtonsoft.Json.xml
+Y:\group 1 תשעט\שווב יהודית\project\DAL\bin\Debug\System.Net.Http.Formatting.xml
+Y:\group 1 תשעט\שווב יהודית\project\DAL\bin\Debug\System.Web.Http.xml
+Y:\group 1 תשעט\שווב יהודית\project\DAL\bin\Debug\System.Web.Http.Cors.xml
+Y:\group 1 תשעט\שווב יהודית\project\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+Y:\group 1 תשעט\שווב יהודית\project\DAL\obj\Debug\DAL.csproj.CopyComplete
+Y:\group 1 תשעט\שווב יהודית\project\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+Y:\group 1 תשעט\קרליץ בתי\project\DAL\bin\Debug\DAL.dll.config
+Y:\group 1 תשעט\קרליץ בתי\project\DAL\bin\Debug\DAL.dll
+Y:\group 1 תשעט\קרליץ בתי\project\DAL\bin\Debug\DAL.pdb
+Y:\group 1 תשעט\קרליץ בתי\project\DAL\bin\Debug\EntityFramework.dll
+Y:\group 1 תשעט\קרליץ בתי\project\DAL\bin\Debug\EntityFramework.SqlServer.dll
+Y:\group 1 תשעט\קרליץ בתי\project\DAL\bin\Debug\Newtonsoft.Json.dll
+Y:\group 1 תשעט\קרליץ בתי\project\DAL\bin\Debug\System.Net.Http.Formatting.dll
+Y:\group 1 תשעט\קרליץ בתי\project\DAL\bin\Debug\System.Web.Cors.dll
+Y:\group 1 תשעט\קרליץ בתי\project\DAL\bin\Debug\System.Web.Http.Cors.dll
+Y:\group 1 תשעט\קרליץ בתי\project\DAL\bin\Debug\System.Web.Http.dll
+Y:\group 1 תשעט\קרליץ בתי\project\DAL\bin\Debug\EntityFramework.xml
+Y:\group 1 תשעט\קרליץ בתי\project\DAL\bin\Debug\EntityFramework.SqlServer.xml
+Y:\group 1 תשעט\קרליץ בתי\project\DAL\bin\Debug\Newtonsoft.Json.xml
+Y:\group 1 תשעט\קרליץ בתי\project\DAL\bin\Debug\System.Net.Http.Formatting.xml
+Y:\group 1 תשעט\קרליץ בתי\project\DAL\bin\Debug\System.Web.Http.xml
+Y:\group 1 תשעט\קרליץ בתי\project\DAL\bin\Debug\System.Web.Http.Cors.xml
+Y:\group 1 תשעט\קרליץ בתי\project\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+Y:\group 1 תשעט\קרליץ בתי\project\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+Y:\group 1 תשעט\קרליץ בתי\project\DAL\obj\Debug\DAL.csproj.CopyComplete
+Y:\group 1 תשעט\קרליץ בתי\project\DAL\obj\Debug\DAL.dll
+Y:\group 1 תשעט\קרליץ בתי\project\DAL\obj\Debug\DAL.pdb
+Y:\group 1 תשעט\קרליץ בתי\‏‏Shirat Yosef\project\DAL\bin\Debug\DAL.dll.config
+Y:\group 1 תשעט\קרליץ בתי\‏‏Shirat Yosef\project\DAL\bin\Debug\DAL.dll
+Y:\group 1 תשעט\קרליץ בתי\‏‏Shirat Yosef\project\DAL\bin\Debug\DAL.pdb
+Y:\group 1 תשעט\קרליץ בתי\‏‏Shirat Yosef\project\DAL\bin\Debug\EntityFramework.dll
+Y:\group 1 תשעט\קרליץ בתי\‏‏Shirat Yosef\project\DAL\bin\Debug\EntityFramework.SqlServer.dll
+Y:\group 1 תשעט\קרליץ בתי\‏‏Shirat Yosef\project\DAL\bin\Debug\Newtonsoft.Json.dll
+Y:\group 1 תשעט\קרליץ בתי\‏‏Shirat Yosef\project\DAL\bin\Debug\System.Net.Http.Formatting.dll
+Y:\group 1 תשעט\קרליץ בתי\‏‏Shirat Yosef\project\DAL\bin\Debug\System.Web.Cors.dll
+Y:\group 1 תשעט\קרליץ בתי\‏‏Shirat Yosef\project\DAL\bin\Debug\System.Web.Http.Cors.dll
+Y:\group 1 תשעט\קרליץ בתי\‏‏Shirat Yosef\project\DAL\bin\Debug\System.Web.Http.dll
+Y:\group 1 תשעט\קרליץ בתי\‏‏Shirat Yosef\project\DAL\bin\Debug\EntityFramework.xml
+Y:\group 1 תשעט\קרליץ בתי\‏‏Shirat Yosef\project\DAL\bin\Debug\EntityFramework.SqlServer.xml
+Y:\group 1 תשעט\קרליץ בתי\‏‏Shirat Yosef\project\DAL\bin\Debug\Newtonsoft.Json.xml
+Y:\group 1 תשעט\קרליץ בתי\‏‏Shirat Yosef\project\DAL\bin\Debug\System.Net.Http.Formatting.xml
+Y:\group 1 תשעט\קרליץ בתי\‏‏Shirat Yosef\project\DAL\bin\Debug\System.Web.Http.xml
+Y:\group 1 תשעט\קרליץ בתי\‏‏Shirat Yosef\project\DAL\bin\Debug\System.Web.Http.Cors.xml
+Y:\group 1 תשעט\קרליץ בתי\‏‏Shirat Yosef\project\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+Y:\group 1 תשעט\קרליץ בתי\‏‏Shirat Yosef\project\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+Y:\group 1 תשעט\קרליץ בתי\‏‏Shirat Yosef\project\DAL\obj\Debug\DAL.csproj.CopyComplete
+Y:\group 1 תשעט\קרליץ בתי\‏‏Shirat Yosef\project\DAL\obj\Debug\DAL.dll
+Y:\group 1 תשעט\קרליץ בתי\‏‏Shirat Yosef\project\DAL\obj\Debug\DAL.pdb
+D:\baty\project\DAL\bin\Debug\DAL.dll.config
+D:\baty\project\DAL\bin\Debug\DAL.dll
+D:\baty\project\DAL\bin\Debug\DAL.pdb
+D:\baty\project\DAL\bin\Debug\EntityFramework.dll
+D:\baty\project\DAL\bin\Debug\EntityFramework.SqlServer.dll
+D:\baty\project\DAL\bin\Debug\Newtonsoft.Json.dll
+D:\baty\project\DAL\bin\Debug\System.Net.Http.Formatting.dll
+D:\baty\project\DAL\bin\Debug\System.Web.Cors.dll
+D:\baty\project\DAL\bin\Debug\System.Web.Http.Cors.dll
+D:\baty\project\DAL\bin\Debug\System.Web.Http.dll
+D:\baty\project\DAL\bin\Debug\EntityFramework.xml
+D:\baty\project\DAL\bin\Debug\EntityFramework.SqlServer.xml
+D:\baty\project\DAL\bin\Debug\Newtonsoft.Json.xml
+D:\baty\project\DAL\bin\Debug\System.Net.Http.Formatting.xml
+D:\baty\project\DAL\bin\Debug\System.Web.Http.xml
+D:\baty\project\DAL\bin\Debug\System.Web.Http.Cors.xml
+D:\baty\project\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+D:\baty\project\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+D:\baty\project\DAL\obj\Debug\DAL.dll
+D:\baty\project\DAL\obj\Debug\DAL.pdb
+D:\baty\ShiratYosef project\project1\DAL\bin\Debug\DAL.dll.config
+D:\baty\ShiratYosef project\project1\DAL\bin\Debug\DAL.dll
+D:\baty\ShiratYosef project\project1\DAL\bin\Debug\DAL.pdb
+D:\baty\ShiratYosef project\project1\DAL\bin\Debug\EntityFramework.dll
+D:\baty\ShiratYosef project\project1\DAL\bin\Debug\EntityFramework.SqlServer.dll
+D:\baty\ShiratYosef project\project1\DAL\bin\Debug\Newtonsoft.Json.dll
+D:\baty\ShiratYosef project\project1\DAL\bin\Debug\System.Net.Http.Formatting.dll
+D:\baty\ShiratYosef project\project1\DAL\bin\Debug\System.Web.Cors.dll
+D:\baty\ShiratYosef project\project1\DAL\bin\Debug\System.Web.Http.Cors.dll
+D:\baty\ShiratYosef project\project1\DAL\bin\Debug\System.Web.Http.dll
+D:\baty\ShiratYosef project\project1\DAL\bin\Debug\EntityFramework.xml
+D:\baty\ShiratYosef project\project1\DAL\bin\Debug\EntityFramework.SqlServer.xml
+D:\baty\ShiratYosef project\project1\DAL\bin\Debug\Newtonsoft.Json.xml
+D:\baty\ShiratYosef project\project1\DAL\bin\Debug\System.Net.Http.Formatting.xml
+D:\baty\ShiratYosef project\project1\DAL\bin\Debug\System.Web.Http.xml
+D:\baty\ShiratYosef project\project1\DAL\bin\Debug\System.Web.Http.Cors.xml
+D:\baty\ShiratYosef project\project1\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+D:\baty\ShiratYosef project\project1\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+D:\baty\ShiratYosef project\project1\DAL\obj\Debug\DAL.dll
+D:\baty\ShiratYosef project\project1\DAL\obj\Debug\DAL.pdb

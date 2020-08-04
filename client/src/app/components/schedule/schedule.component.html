@@ -1,0 +1,98 @@
+
+<mat-form-field class="example-full-width">
+    <input matInput  placeholder="searchByName" aria-label="State" [matAutocomplete]="auto" [formControl]="stateCtrl" (ngModelChange)="searchByName($event)">
+  </mat-form-field>
+  <mat-autocomplete #auto="matAutocomplete">
+    <mat-option *ngFor="let item of newChildren" [value]="item.FirstName+' '+item.FamilyName">
+      <div (click)="GetSchedule(item.IdentityNum)">{{item.FirstName}} {{item.FamilyName}}</div>  
+    </mat-option>
+  </mat-autocomplete>
+
+<div id="schedule" *ngFor="let day of lessonsForDays ; let i = index;">
+  <mat-card class="'card'+{{i}}" *ngIf="day !== null && day.length>0">
+   <div>
+     <p *ngIf="i=='1'" id="sanday" class="day">sanday</p>
+     <p *ngIf="i=='2'" class="day">monday</p>
+     <p *ngIf="i=='3'" id="thusady" class="day">thusady</p>
+     <p *ngIf="i=='4'" id="wednsday" class="day">wednsday</p>
+     <p *ngIf="i=='5'" id="therdsday" class="day">therdsday</p>
+     <p *ngIf="i=='6'" id="friday" class="day">friday</p>
+   </div>
+    <mat-table #table [dataSource]="day" matSort class="mat-cell">
+
+        <ng-container matColumnDef="TeacherName">
+          <mat-header-cell *matHeaderCellDef mat-sort-header> מורה</mat-header-cell>
+          <mat-cell *matCellDef="let row" >{{row.FirstName}} {{row.LastName}}</mat-cell>
+        </ng-container>
+        
+        <ng-container matColumnDef="StartsAt">
+          <mat-header-cell *matHeaderCellDef mat-sort-header>שעה</mat-header-cell>
+          <mat-cell *matCellDef="let row" >{{row.StartsAt}}</mat-cell>
+        </ng-container>
+
+        <ng-container matColumnDef="SubjectName">
+            <mat-header-cell *matHeaderCellDef mat-sort-header>מקצוע</mat-header-cell>
+            <mat-cell *matCellDef="let row" >{{row.SubjectName}}</mat-cell>
+          </ng-container>
+    
+        <mat-header-row *matHeaderRowDef="displayedColumns"></mat-header-row>
+        <mat-row *matRowDef="let row; columns: displayedColumns;"></mat-row>
+    
+      </mat-table>
+
+  </mat-card>
+</div>
+
+  
+<!-- <label>מספר זהות</label>
+<button (click)="GetSchedule(item.IdentityNum)">הצג מערכת לילד</button> -->
+
+
+<!-- <div *ngFor="let day of lessonsForDays">
+    <mat-accordion  *ngIf="day !== null && day !== []" >
+        <mat-expansion-panel>
+          <mat-expansion-panel-header>
+            <mat-panel-title>
+                {{day.IdentityNum}}
+            </mat-panel-title>
+            <mat-panel-description>
+              שעה
+            </mat-panel-description>
+          </mat-expansion-panel-header>
+      
+          <mat-form-field>
+            <input matInput placeholder="day.IdentityNum">
+          </mat-form-field>
+      
+          <mat-form-field>
+            <input matInput placeholder="Age">
+          </mat-form-field>
+        </mat-expansion-panel>
+        <mat-expansion-panel (opened)="panelOpenState = true"
+                             (closed)="panelOpenState = false">
+
+
+
+          <mat-expansion-panel-header>
+            <mat-panel-title>
+              Self aware panel
+            </mat-panel-title>
+            <mat-panel-description>
+              Currently I am {{panelOpenState ? 'open' : 'closed'}}
+            </mat-panel-description>
+          </mat-expansion-panel-header>
+          <p>I'm visible because I am open</p>
+
+
+
+
+        </mat-expansion-panel>
+      </mat-accordion>
+      <br>
+      <br>
+</div>
+
+    <div  *ngFor="let lesson of day">
+        {{lesson.ChildId}}
+        
+</div> -->

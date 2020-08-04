@@ -1,0 +1,141 @@
+<!-- <app-search-by-name-child [children]="children"></app-search-by-name-child> -->
+
+<div class="searchByName" dir="rtl">
+  <mat-form-field class="example-full-width">
+    <input matInput placeholder="חיפוש לפי שם" aria-label="State" [matAutocomplete]="auto2" [formControl]="stateCtrl"
+      (ngModelChange)="searchByName($event)">
+  </mat-form-field>
+  <mat-autocomplete #auto2="matAutocomplete">
+    <mat-option *ngFor="let item of newChildren" [value]="item.FirstName+' '+item.FamilyName"
+      (click)="selectedChild(item.IdentityNum)">
+      <div>{{item.FirstName}} {{item.FamilyName}}</div>
+    </mat-option>
+  </mat-autocomplete>
+</div>
+
+<section class="context">
+  <div class="text">
+    <h2>פרטי תשלום</h2>
+  </div>
+  <div class="details" dir="rtl">
+    <form>
+      <mat-form-field>
+        <mat-label>תאריך תשלום</mat-label>
+        <input matInput [matDatepicker]="picker" [value]="startDate" name="date" [(ngModel)]="payment.Date">
+        <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+        <mat-datepicker #picker startView="year" [startAt]="startDate"></mat-datepicker>
+      </mat-form-field>
+      <br>
+      <mat-form-field dir="rtl">
+        <input matInput placeholder="הסכום לתשלום" name="sum" [(ngModel)]="payment.Sum">
+      </mat-form-field>
+      <br>
+      <mat-form-field>
+        <mat-label>אופן התשלום</mat-label>
+        <mat-select>
+          <mat-option *ngFor="let type of types" [value]="type" (click)="openModal(type)">
+            {{type}}
+          </mat-option>
+        </mat-select>
+      </mat-form-field>
+      <br>
+      <mat-form-field dir="rtl">
+        <input matInput placeholder="לשנת הלימודים" value="תש'פ">
+      </mat-form-field>
+      <br>
+
+
+      <mat-form-field dir="rtl">
+        <input matInput placeholder="הסכום השנתי לתשלום" value="{{YearSum}}">
+      </mat-form-field>
+      <br>
+      <mat-form-field dir="rtl">
+        <input matInput placeholder="מספר השיעורים שרשום השנה" value="{{count}}">
+      </mat-form-field>
+      <br>
+      <mat-form-field dir="rtl">
+        <input matInput placeholder="מספר התשלומים ששולמו" value="{{CountOfPayments}}">
+      </mat-form-field>
+      <br>
+      <mat-form-field dir="rtl">
+        <input matInput placeholder="סך הכל שולם" value="{{paidSum}}">
+      </mat-form-field>
+      <br>
+      <mat-form-field dir="rtl">
+        <input matInput placeholder="סך הכל נותר לתשלום" value="{{unPaid}}">
+      </mat-form-field>
+      <br>
+
+      <!-- <mat-form-field dir="rtl">
+    <input matInput placeholder="חובות משנים קודמות">
+  </mat-form-field> -->
+      <br>
+      <button mat-raised-button (click)="savePayment()">שמירת תשלום</button>
+    </form>
+  </div>
+</section>
+
+
+<img class=img1 src="assets/img/תמונה על רקע שקוף.png">
+
+
+<img class="img2" src="assets/img/תמונה על רקע שקוף 1.png">
+<div class="warp">
+    <p class="pl">שיבוץ לשיעורים</p>
+  <div class="lessons">
+    
+    <mat-table #table [dataSource]="lessons" matSort class="mat-cell">
+
+      <!-- <ng-container matColumnDef="TeacherId">
+        <mat-header-cell *matHeaderCellDef mat-sort-header>שם מורה</mat-header-cell>
+        <mat-cell *matCellDef="let row">{{row.FirstName}}{{row.LastName}}</mat-cell>
+      </ng-container> -->
+
+      <ng-container matColumnDef="SubjectName">
+        <mat-header-cell *matHeaderCellDef mat-sort-header>מקצוע</mat-header-cell>
+        <mat-cell *matCellDef="let row">{{row.SubjectName}}</mat-cell>
+      </ng-container>
+
+      <ng-container matColumnDef="StartsAt">
+        <mat-header-cell *matHeaderCellDef mat-sort-header>החל משעה</mat-header-cell>
+        <mat-cell *matCellDef="let row">{{row.StartsAt}}</mat-cell>
+      </ng-container>
+
+      <ng-container matColumnDef="LessonDuration">
+        <mat-header-cell *matHeaderCellDef mat-sort-header>זמן השיעור</mat-header-cell>
+        <mat-cell *matCellDef="let row">{{row.LessonDuration}}</mat-cell>
+      </ng-container>
+
+
+      <mat-header-row *matHeaderRowDef="displayedColumns"></mat-header-row>
+      <mat-row [ngClass]="{'highlight': i%2 == 1}" *matRowDef="let row; let i=index; columns: displayedColumns;"></mat-row>
+    </mat-table>
+  </div>
+  <p class="pa">תשלומים קודמים</p>
+  <div class="payments">
+    
+    <mat-table #table1 [dataSource]="paymentsForChild" matSort class="mat-cell">
+
+      <ng-container matColumnDef="Date">
+        <mat-header-cell *matHeaderCellDef mat-sort-header>תאריך</mat-header-cell>
+        <mat-cell *matCellDef="let row">{{row.Date}}</mat-cell>
+      </ng-container>
+
+      <ng-container matColumnDef="Sum">
+        <mat-header-cell *matHeaderCellDef mat-sort-header>סכום</mat-header-cell>
+        <mat-cell *matCellDef="let row">{{row.Sum}}</mat-cell>
+      </ng-container>
+
+      <!-- <ng-container matColumnDef="PaymentForm">
+        <mat-header-cell *matHeaderCellDef mat-sort-header></mat-header-cell>
+        <mat-cell *matCellDef="let row">{{row.PaymentForm}}</mat-cell>
+      </ng-container> -->
+
+
+
+      <mat-header-row *matHeaderRowDef="displayedColumns1"></mat-header-row>
+      <mat-row [ngClass]="{'highlight': i%2 == 1}" *matRowDef="let row; let i=index; columns: displayedColumns1;"></mat-row>
+
+    </mat-table>
+  </div>
+</div>

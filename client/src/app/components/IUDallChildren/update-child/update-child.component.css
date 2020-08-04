@@ -1,0 +1,56 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    min-width: 450px;
+  }
+  
+  .container > * {
+    width: 100%;
+  }
+  
+  .form {
+    display: flex;
+    padding-top: 6px;
+  }
+  
+  .mat-form-field {
+    font-size: 16px;
+    flex-grow: 1;
+  }
+  h3{
+    color:rgba(34, 30, 30,0.6);
+font-family:Tahoma;
+}
+div{
+  color:rgba(34, 30, 30,0.6);
+  font-family:Tahoma;
+}
+
+  /* #line{
+    position: absolute;
+    top:19%;
+    width: 29%;
+    height: 1%;
+    background-color: #b8205b;
+  } */
+  .mat-dialog-title {
+    margin-top: 15px !important;
+    background-color:#b8205b ;
+    color:white;
+    text-align: center;
+    }
+    .family{
+      font-size: 65%;
+    }
+    /* .grade{
+      position: absolute;
+      width: 50%;
+    } */
+    input{
+      font-family:Tahoma;
+    }
+    mat-select{
+      font-family:Tahoma;
+      color:rgba(34, 30, 30,0.6);
+    }
+   

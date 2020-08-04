@@ -1,0 +1,80 @@
+<div dir="rtl">
+<mat-form-field id="search" class="example-full-width" color="accent">
+  <input dir="rtl" matInput  placeholder="חיפוש לפי שם מקצוע" aria-label="State" [formControl]="stateCtrl"
+   (ngModelChange)="searchBySubjectName($event)">
+</mat-form-field>
+</div>
+<mat-table id="datatable" #table [dataSource]="newSubjects" matSort class="mat-cell">
+
+  
+
+  <!-- ID Column -->
+  <ng-container matColumnDef="קוד מקצוע">
+    <mat-header-cell ngClass="pink" class="white" *matHeaderCellDef mat-sort-header>קוד מקצוע</mat-header-cell>
+    <mat-cell *matCellDef="let row" >{{row.SubjectId}}</mat-cell>
+  </ng-container>
+
+  <ng-container matColumnDef="שם מקצוע">
+    <mat-header-cell ngClass="blue" class="white" *matHeaderCellDef mat-sort-header>שם מקצוע</mat-header-cell>
+    <mat-cell *matCellDef="let row" >{{row.SubjectName}}</mat-cell>
+  </ng-container>
+
+  <ng-container matColumnDef="מינימום מפגשים">
+    <mat-header-cell ngClass="green" class="white" *matHeaderCellDef mat-sort-header>מינימום מפגשים</mat-header-cell>
+    <mat-cell *matCellDef="let row"> {{row.MinNumOfMeeting}}</mat-cell>
+  </ng-container>
+
+  <ng-container matColumnDef="ממוצע מפגשים">
+    <mat-header-cell ngClass="pink" class="white" *matHeaderCellDef mat-sort-header>ממוצע מפגשים</mat-header-cell>
+    <mat-cell *matCellDef="let row"> {{row.AvgNumOfMeeting}}</mat-cell>
+  </ng-container>
+
+  <ng-container matColumnDef="גיל מינימום">
+    <mat-header-cell ngClass="blue" class="white" *matHeaderCellDef mat-sort-header>גיל מינימום</mat-header-cell>
+    <mat-cell *matCellDef="let row"> {{row.MinAge}}</mat-cell>
+  </ng-container>
+  
+  <ng-container matColumnDef="גיל מקסימום">
+    <mat-header-cell ngClass="green" class="white" *matHeaderCellDef mat-sort-header>גיל מקסימום</mat-header-cell>
+    <mat-cell *matCellDef="let row"> {{row.MaxAge}}</mat-cell>
+  </ng-container>
+
+  <ng-container matColumnDef="משך זמן">
+    <mat-header-cell ngClass="pink" class="white" *matHeaderCellDef mat-sort-header>משך זמן</mat-header-cell>
+    <mat-cell *matCellDef="let row"> {{row.DurationInMinuts}}</mat-cell>
+  </ng-container>
+  
+  <!-- actions -->
+  <ng-container matColumnDef="actions">
+    <mat-header-cell ngClass="blue" *matHeaderCellDef>
+      <button mat-icon-button class="white" (click)="addNew()">
+        <mat-icon aria-label="Example icon-button with a heart icon">add</mat-icon>
+      </button>
+    </mat-header-cell>
+
+    <mat-cell *matCellDef="let row; let i=index;">
+      <button mat-icon-button ngClass="pinkc" (click)="startEdit(row.SubjectId, row.SubjectName, row.MinNumOfMeeting,row.AvgNumOfMeeting, row.MinAge,row.MaxAge,row.DurationInMinuts)">
+        <mat-icon aria-label="Edit">edit</mat-icon>
+      </button>
+
+      <button mat-icon-button ngClass="pinkc" (click)="deleteItem(row.SubjectId, row.SubjectName, row.MinNumOfMeeting, row.AvgNumOfMeeting, row.MinAge,row.MaxAge,row.DurationInMinuts)">
+        <mat-icon aria-label="Delete">delete</mat-icon>
+      </button>
+    </mat-cell>
+  </ng-container>
+
+  <mat-header-row *matHeaderRowDef="displayedColumns"></mat-header-row>
+  <mat-row [ngClass]="{'highlight': i%2 == 1}" *matRowDef="let row; let i=index; columns: displayedColumns;"></mat-row>
+</mat-table>
+<app-footer [countOfLines]=count></app-footer>
+<!-- <div class="no-results" [style.display]="dataSource.renderedData.length == 0 ? '' : 'none'">
+    No results
+  </div> -->
+
+  <!-- <mat-paginator #paginator
+                
+                 [pageIndex]="0"
+                 [pageSize]="10"
+                 [pageSizeOptions]="[5, 10, 25, 100]">
+  </mat-paginator> -->
+ <!-- [length]="dataSource.filteredData.length" -->

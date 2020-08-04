@@ -1,0 +1,21 @@
+#add{
+    color:rgba(34, 30, 30,0.6);
+font-family:Tahoma;
+  }
+  div{
+    color:rgba(34, 30, 30,0.6);
+    font-family:Tahoma;
+  }
+  #line{
+    position: absolute;
+    top:18%;
+    width: 13%;
+    height: 1%;
+    background-color: #b8205b;
+  }
+  .mat-dialog-title {
+    margin-top: 15px !important;
+    background-color:#b8205b ;
+    color:white;
+    text-align: center;
+    }

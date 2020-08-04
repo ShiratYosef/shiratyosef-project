@@ -1,0 +1,53 @@
+
+<div class="container">
+ <h3 mat-dialog-title id="update" dir="rtl">עדכון ילד</h3>
+
+  <form class="mat-dialog-content" (ngSubmit)="submit" #formControl="ngForm">
+
+
+    <!--Textarea for demo purposes-->
+
+    <div class="form" dir="rtl">
+      <mat-form-field ngClass="green"> 
+        <input matInput #input class="form-control" placeholder="שם מקצוע" [(ngModel)]="data.SubjectName" name="SubjectName" required >
+        <mat-error *ngIf="formControl.invalid">{{getErrorMessage()}}</mat-error>
+      </mat-form-field>
+    </div>
+
+    <!--Contains mat-hint for characters count and has maxLengt set-->
+    <div class="form" dir="rtl">
+      <mat-form-field ngClass="green">
+        <input matInput  class="form-control" placeholder="מינימום מפגשים" [(ngModel)]="data.MinNumOfMeeting" name="MinNumOfMeeting" >
+      </mat-form-field>
+    </div>
+
+    <div class="form" dir="rtl">
+        <mat-form-field ngClass="green">
+          <input matInput placeholder="ממוצע מפגשים" [(ngModel)]="data.AvgNumOfMeeting" name="AvgNumOfMeeting">
+        </mat-form-field>
+    </div>
+
+    <div class="form" dir="rtl">
+      <mat-form-field ngClass="green">
+        <input matInput placeholder="גיל מינימום" [(ngModel)]="data.MinAge" name="MinAge">
+      </mat-form-field>
+    </div>
+    
+    <div class="form" dir="rtl">
+      <mat-form-field ngClass="green">
+        <input matInput placeholder="גיל מקסימום" [(ngModel)]="data.MaxAge" name="MaxAge">
+      </mat-form-field>
+    </div>
+
+    <div class="form" dir="rtl">
+      <mat-form-field ngClass="green">
+        <input matInput placeholder="משך זמן" [(ngModel)]="data.DurationInMinuts" name="DurationInMinuts">
+      </mat-form-field>
+    </div>
+
+    <div mat-dialog-actions dir="rtl">
+      <button mat-button [type]="submit" [disabled]="!formControl.valid" [mat-dialog-close]="1" (click)="stopEdit()">שמירה</button>
+      <button mat-button (click)="onNoClick()" tabindex="-1">ביטול</button>
+    </div>
+  </form>
+</div>

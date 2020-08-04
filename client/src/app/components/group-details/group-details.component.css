@@ -1,0 +1,151 @@
+/* #childrenInGroup{
+position: absolute;
+ width:30%;
+height: 30%;
+
+}
+#selectChild{
+    position: absolute;
+    width:30%;
+    height: 30%;
+}
+#warp{
+    position: absolute;
+    width: 80%;
+    height: 80%;
+
+}
+#allPage{
+    position: absolute;
+    widows: 100%;
+    height: 100%;
+} */
+.container {
+    display: flex;
+    flex-direction: column;
+    min-width: 450px;
+  }
+  
+  .container > * {
+    width: 100%;
+  }
+  
+  .form {
+    display: flex;
+    padding-top: 6px;
+  }
+  
+  .mat-form-field {
+    font-size: 16px;
+    flex-grow: 1;
+  }
+  .details{
+    position: absolute;
+    width: 20%;
+    height: 60%;
+    right:25%;
+    top:30%;
+    background-color: #ebebeb;
+  }
+  .title{
+    position: absolute;
+    top:20%;
+    width: 50%;
+    height: 10%;
+    right:25%;
+    overflow: hidden;
+    background-color: #2770a5;
+  }
+ 
+  .table{
+    position: absolute;
+    width: 30%;
+    height: 60%;
+    top:30%;
+    right:45%;
+    background-color: #ebebeb;
+
+  }
+  mat-icon{
+    position: absolute;
+    width: 20%;
+    height: 20%;
+    right:0%;
+    top:25%;
+   padding: 0%;
+   margin: 0%;
+  }
+  .blue{
+    color: #2770a5;
+  }
+  mat-table{
+    position: absolute;
+    width: 95%;
+    top:5%;
+
+    background-color: #ebebeb;
+  }
+ 
+  mat-cell{
+   color: rgba(34, 30, 30,0.6);
+   font-family: tahoma;
+  }
+  mat-form-field{
+   font-family: tahoma;
+  }
+  mat-option{
+   color: rgba(34, 30, 30,0.6);
+   font-family: tahoma;
+  }
+  mat-header-cell{
+    font-size: 100%;
+    font-weight: bold;
+     font-family: tahoma;
+  } 
+  #in{
+    position: absolute;
+    width:80%;
+    height: 90%;
+    right:10%;
+    top:5%;
+    text-align: center;
+    color: rgba(34, 30, 30,0.6);
+    font-family: tahoma;
+  }
+  button{
+    font-family: tahoma;
+
+  }
+  .add{
+    position: absolute;
+    left:32%;
+    bottom: 20%;
+  }
+  ::ng-deep .mat-focused .mat-form-field-label {
+    /*change color of label*/
+    color: #2770a5 !important;
+    font-family: Tahoma;
+   }
+  ::ng-deep.mat-form-field-ripple {
+    /*change color of underline when focused*/
+    background-color: #2770a5 !important;
+    font-family: Tahoma;
+   }
+   .text{
+    position: absolute;
+    right:9%;
+    width:15%;
+    height:10%;
+    bottom: 25%;
+    font-size: 120%;
+    font-weight: bold;
+    color:white;
+   }
+   .titleTable{
+     position: absolute;
+     bottom: 7%;
+     left:25%;
+     color:white;
+     font-family: tahoma;
+   }
+  

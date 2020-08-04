@@ -1,0 +1,28 @@
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\DAL\bin\Debug\DAL.dll.config
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\DAL\bin\Debug\DAL.dll
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\DAL\bin\Debug\DAL.pdb
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\DAL\bin\Debug\Entities.dll
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\DAL\bin\Debug\EntityFramework.dll
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\DAL\bin\Debug\EntityFramework.SqlServer.dll
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\DAL\bin\Debug\Entities.pdb
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\DAL\bin\Debug\Entities.dll.config
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\DAL\bin\Debug\EntityFramework.xml
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\DAL\bin\Debug\EntityFramework.SqlServer.xml
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\DAL\obj\Debug\DAL.dll
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\DAL\obj\Debug\DAL.pdb
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\DAL\bin\Debug\DAL.dll.config
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\DAL\bin\Debug\DAL.dll
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\DAL\bin\Debug\DAL.pdb
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\DAL\bin\Debug\Entities.dll
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\DAL\bin\Debug\EntityFramework.dll
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\DAL\bin\Debug\Entities.pdb
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\DAL\bin\Debug\Entities.dll.config
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\DAL\bin\Debug\EntityFramework.xml
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\DAL\obj\Debug\DAL.csproj.CopyComplete
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\DAL\obj\Debug\DAL.dll
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\DAL\obj\Debug\DAL.pdb

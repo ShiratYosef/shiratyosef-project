@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="FinalProjectsSqlDbModelStoreContainer" CdmEntityContainer="FinalProjectsSqlDbEntities">
+    <EntitySetMapping Name="AssistanceMeetings">
+      <EntityTypeMapping TypeName="FinalProjectsSqlDbModel.AssistanceMeeting">
+        <MappingFragment StoreEntitySet="AssistanceMeetings">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="MeetingDate" ColumnName="MeetingDate" />
+          <ScalarProperty Name="ShortDescription" ColumnName="ShortDescription" />
+          <ScalarProperty Name="Content" ColumnName="Content" />
+          <ScalarProperty Name="ProjectId" ColumnName="ProjectId" />
+          <ScalarProperty Name="StudentId_1" ColumnName="StudentId_1" />
+          <ScalarProperty Name="StudentId_2" ColumnName="StudentId_2" />
+          <ScalarProperty Name="DurationInMinutes" ColumnName="DurationInMinutes" />
+          <ScalarProperty Name="FromTime" ColumnName="FromTime" />
+          <ScalarProperty Name="ToTime" ColumnName="ToTime" />
+          <ScalarProperty Name="שדה1" ColumnName="שדה1" />
+          <ScalarProperty Name="AssistanceId" ColumnName="AssistanceId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Assistances">
+      <EntityTypeMapping TypeName="FinalProjectsSqlDbModel.Assistance">
+        <MappingFragment StoreEntitySet="Assistances">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+          <ScalarProperty Name="Tel" ColumnName="Tel" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Comments" ColumnName="Comments" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

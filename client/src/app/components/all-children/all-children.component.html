@@ -1,0 +1,171 @@
+<div class="showSearch" *ngIf="!canSearch" dir="rtl">
+<button mat-raised-button ngClass="pink" (click)="showSearch()">חיפושים</button>
+</div>
+<div *ngIf="canSearch" id="search" dir="rtl">
+<!-- children -->
+<mat-form-field class="example-full-width" ngClass="pink">
+  <input matInput  placeholder="חיפוש לפי שם תלמיד" aria-label="State" [formControl]="stateCtrl"
+   (ngModelChange)="searchByName($event)">
+</mat-form-field>
+
+<!-- teachers -->
+<mat-form-field class="example-full-width" ngClass="pink">
+  <input matInput  placeholder="חיפוש לפי שם מורה" aria-label="State" [matAutocomplete]="auto1" [formControl]="stateCtrl" (ngModelChange)="searchByTeacherName($event)">
+</mat-form-field>
+<mat-autocomplete #auto1="matAutocomplete" ngClass="pink">
+  <mat-option *ngFor="let item of newTeacher" (click)="searchByTeacherId(item.Id)" [value]="item.FirstName">
+    <div>{{item.FirstName}} {{item.LastName}}</div>
+  </mat-option>
+</mat-autocomplete>
+
+<!-- schools -->
+<mat-form-field class="example-full-width" ngClass="pink">
+  <input matInput  placeholder="חיפוש לפי שם ביהס" aria-label="State" [matAutocomplete]="auto2" [formControl]="stateCtrl" (ngModelChange)="searchBySchoolName($event)">
+</mat-form-field>
+<mat-autocomplete #auto2="matAutocomplete" ngClass="pink">
+  <mat-option *ngFor="let item of newSchools" (click)="searchBySchoolId(item.SchoolId)" [value]="item.SchoolName">
+    <div>{{item.SchoolName}}</div>
+  </mat-option>
+</mat-autocomplete>
+
+
+<!-- from date to date -->
+<mat-form-field ngClass="pink">
+  <mat-label> מתאריך</mat-label>
+<input matInput [matDatepicker]="picker" #input value="startDate" [(ngModel)]="child.JoiningDate" (dateChange)="fromDate($event.value)">
+<mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+<mat-datepicker #picker startView="year" ngDefaultControl [startAt]="startDate" [(ngModel)]="child.JoiningDate"></mat-datepicker>
+</mat-form-field>
+
+<!-- (selectedChanged)="onDate($event)" -->
+<mat-form-field ngClass="pink">
+  <mat-label> עד תאריך</mat-label>
+<input matInput [matDatepicker]="picker1" value="startDate" [(ngModel)]="child1.JoiningDate" (dateChange)="toDate($event.value)">
+<mat-datepicker-toggle matSuffix [for]="picker1"></mat-datepicker-toggle>
+<mat-datepicker #picker1 startView="year" ngDefaultControl [startAt]="startDate" [(ngModel)]="child1.JoiningDate"></mat-datepicker>
+</mat-form-field>
+<button mat-raised-button (click)="filterByDate()" ngClass="pink">החל סינון לפי תאריך</button>
+
+<!-- waitings -->
+<button mat-raised-button (click)="getWaitingsOnClick()" ngClass="pink">הצג ממתינים בלבד</button>
+
+
+</div>
+<!-- table -->
+<mat-table #table [dataSource]="newchildrenWithDetails" matSort class="mat-cell">
+
+    <!--- Note that these columns can be defined in any order.
+          The actual rendered columns are set as a property on the row definition" -->
+  
+    <!-- ID Column -->
+
+
+    
+
+    <ng-container matColumnDef="Note">
+      <mat-header-cell *matHeaderCellDef mat-sort-header>הערות</mat-header-cell>
+      <mat-cell *matCellDef="let row"> {{row.Note}}</mat-cell>
+    </ng-container>
+
+    <ng-container matColumnDef="IsActive">
+      <mat-header-cell *matHeaderCellDef mat-sort-header>האם פעיל</mat-header-cell>
+      <mat-cell *matCellDef="let row"><p *ngIf="!row.IsActive">x</p>
+        <p *ngIf="row.IsActive">v</p>
+      </mat-cell>
+    </ng-container>
+
+    <ng-container matColumnDef="SchoolName">
+      <mat-header-cell *matHeaderCellDef mat-sort-header>שם בית ספר</mat-header-cell>
+      <mat-cell *matCellDef="let row"> {{row.SchoolName}}</mat-cell>
+    </ng-container>
+
+    <ng-container matColumnDef="Grade">
+      <mat-header-cell *matHeaderCellDef mat-sort-header>כיתה</mat-header-cell>
+      <mat-cell *matCellDef="let row"> {{grades[row.Grade-1]}}</mat-cell>
+    </ng-container>
+    
+    <ng-container matColumnDef="JoiningDate">
+      <mat-header-cell *matHeaderCellDef mat-sort-header>תאריך הצטרפות</mat-header-cell>
+      <mat-cell *matCellDef="let row"> {{row.JoiningDate}}</mat-cell>
+    </ng-container>
+
+    <ng-container matColumnDef="BirthDate">
+      <mat-header-cell *matHeaderCellDef mat-sort-header>תאריך לידה</mat-header-cell>
+      <mat-cell *matCellDef="let row"> {{row.BirthDate}}</mat-cell>
+    </ng-container>
+
+    <ng-container matColumnDef="Address">
+      <mat-header-cell *matHeaderCellDef mat-sort-header>כתובת</mat-header-cell>
+      <mat-cell *matCellDef="let row"> {{row.Address}}</mat-cell>
+    </ng-container>
+     
+    <ng-container matColumnDef="Cellular2">
+      <mat-header-cell *matHeaderCellDef mat-sort-header>פלאפון2</mat-header-cell>
+      <mat-cell *matCellDef="let row"> {{row.Cellular2}}</mat-cell>
+    </ng-container>
+
+    <ng-container matColumnDef="Cellular1">
+      <mat-header-cell *matHeaderCellDef mat-sort-header>פלאפון1</mat-header-cell>
+      <mat-cell *matCellDef="let row"> {{row.Cellular1}}</mat-cell>
+    </ng-container>
+
+    <!-- <ng-container matColumnDef="Telephon">
+      <mat-header-cell *matHeaderCellDef mat-sort-header>טלפון</mat-header-cell>
+      <mat-cell *matCellDef="let row"> {{row.Telephon}}</mat-cell>
+    </ng-container> -->
+
+
+    <ng-container matColumnDef="FirstName">
+      <mat-header-cell *matHeaderCellDef mat-sort-header>שם פרטי</mat-header-cell>
+      <mat-cell *matCellDef="let row"> {{row.FirstName}}</mat-cell>
+    </ng-container>
+    
+    <ng-container matColumnDef="FamilyName">
+      <mat-header-cell *matHeaderCellDef mat-sort-header>שם משפחה</mat-header-cell>
+      <mat-cell *matCellDef="let row" >{{row.FamilyName}}</mat-cell>
+    </ng-container> 
+
+    <ng-container matColumnDef="IdentityNum">
+      <mat-header-cell *matHeaderCellDef mat-sort-header>תעודת זהות</mat-header-cell>
+      <mat-cell *matCellDef="let row" >{{row.IdentityNum}}</mat-cell>
+    </ng-container>
+
+   <!-- actions -->
+
+    <ng-container matColumnDef="actions">
+      <mat-header-cell *matHeaderCellDef>
+        <button mat-icon-button ngClass="white" (click)="addNew()">
+          <mat-icon aria-label="Example icon-button with a heart icon">add</mat-icon>
+        </button>
+      </mat-header-cell>
+   
+   
+  
+      <mat-cell *matCellDef="let row; let i=index;">
+        <button mat-icon-button ngClass="pink" (click)="startEdit(row.IdentityNum,row.FamilyName,row.FirstName, 
+        row.BirthDate,row.Grade,row.SchoolName,row.IsActive,row.Note)">
+          <mat-icon aria-label="Edit">edit</mat-icon>
+        </button>
+  
+        <button mat-icon-button ngClass="pink" (click)="deleteItem(row.IdentityNum,row.FamilyName,row.FirstName,row.Telephon,row.Cellular1, 
+        row.Cellular2,row.Address,row.BirthDate,row.Grade,row.SchoolName,row.IsActive,row.Note)">
+          <mat-icon aria-label="Delete">delete</mat-icon>
+        </button>
+      </mat-cell>
+    </ng-container>
+  
+    <mat-header-row *matHeaderRowDef="displayedColumns"></mat-header-row>
+    <mat-row [ngClass]="{'highlight': i%2 == 1}" *matRowDef="let row; let i=index;columns: displayedColumns;"></mat-row>
+  </mat-table>
+  <app-footer [countOfLines]=count></app-footer>
+  <!-- <div class="no-results" [style.display]="dataSource.renderedData.length == 0 ? '' : 'none'">
+      No results
+    </div> -->
+  
+    <!-- <mat-paginator #paginator
+                  
+                   [pageIndex]="0"
+                   [pageSize]="10"
+                   [pageSizeOptions]="[5, 10, 25, 100]">
+    </mat-paginator> -->
+   <!-- [length]="dataSource.filteredData.length" -->

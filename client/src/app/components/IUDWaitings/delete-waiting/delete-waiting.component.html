@@ -1,0 +1,14 @@
+<h3 mat-dialog-title dir="rtl">מחיקת ממתין</h3>
+<div class="container">
+  <h3>? האם אתה בטוח שברצונך למחוק ממתין זה</h3>
+  <div mat-dialog-content dir="rtl">
+      {{data.FirstName}}
+    <p></p>
+    <div mat-dialog-content dir="rtl">
+      {{data.FamilyName}}
+          <p></p>
+  <div mat-dialog-actions>
+    <button mat-button [mat-dialog-close]="1" (click)="confirmDelete()">מחיקה</button>
+    <button mat-button (click)="onNoClick()" tabindex="-1">ביטול</button>
+  </div>
+</div>

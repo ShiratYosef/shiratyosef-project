@@ -1,0 +1,140 @@
+.context{
+    position: absolute;
+    width: 25%;
+    height: 70%;
+    right:18%;
+    top:28%;
+    background-color: #ebebeb;
+}
+.searchByName{
+    position: absolute;
+    top:22%;
+    right:5%;
+    direction: rtl;
+}
+.img1{
+    position: absolute;
+    width: 35%;
+    height:40%;
+    left:15%;
+    top:22%;
+}
+.img2{
+    position: absolute;
+    width: 35%;
+    height:40%;
+    left:15%; 
+    top:62%; 
+}
+.details{
+    position: absolute;
+    overflow: auto;
+    width: 90%;
+    height: 80%;
+    right:5%;
+    top:14%;
+    text-align: center;
+}
+.text{
+    position: absolute;
+    width: 100%;
+    height: 12%;
+    top:1.5%;
+    background-color: #92ba3d;
+    color: white;
+    text-align: center;
+
+}
+button{
+    background-color: #b6b6b6;
+    color:rgba(34, 30, 30,0.6);
+}
+input{
+    color:rgba(34, 30, 30,0.6);
+}
+mat-select{
+    color:rgba(34, 30, 30,0.6) ;
+    font-family: Tahoma;
+}
+mat-option{
+    color:rgba(34, 30, 30,0.6) ;
+    font-family: Tahoma;
+}
+
+::ng-deep .mat-focused .mat-form-field-label {
+    /*change color of label*/
+    color: #92ba3d !important;
+   }
+  ::ng-deep.mat-form-field-ripple {
+    /*change color of underline when focused*/
+    background-color: #92ba3d !important;;
+   }
+   mat-datepicker-toggle {
+    color: #92ba3d !important;
+   }
+   mat-form-field{
+       color:rgba(34, 30, 30,0.6)
+   }
+   mat-option{
+    color:rgba(34, 30, 30,0.6)
+
+   }
+   .warp{
+       position: absolute;
+       top:100%;
+       width: 90%;
+       height: 50%;
+   }
+   .lessons{
+       position: absolute;
+       width: 45%;
+       height: 100%;
+       right: 5%;
+       top:20%;
+   }
+   .payments{
+    position: absolute;
+    width: 45%;
+    height: 100%;
+    left: 5%;
+    top:20%;
+}
+.pa{
+position: absolute;
+right: 27.5%;
+color:rgba(34, 30, 30,0.6);
+font-family: Tahoma;
+top:10%;
+
+}
+.pl{
+    position: absolute;
+    left: 27.5%;
+    color:rgba(34, 30, 30,0.6);
+    font-family: Tahoma;
+    top:10%;
+}
+mat-table{
+    top:10%;
+    color:rgba(34, 30, 30,0.6);
+    font-family: Tahoma;
+}
+::ng-deep .mat-focused .mat-form-field-label {
+    /*change color of label*/
+    color: #92b83e !important;
+   }
+  ::ng-deep.mat-form-field-ripple {
+    /*change color of underline when focused*/
+    background-color: #92b83e !important;;
+   }
+   
+  mat-header-cell{
+    font-size: 100%;
+    color:white;
+    background-color:#92b83e ;
+    font-family: Tahoma;
+  }
+  .highlight {
+    background: #e7e7e7; /* green */
+  }
+  

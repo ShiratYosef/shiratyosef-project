@@ -1,0 +1,97 @@
+<div dir="rtl">
+  <mat-form-field id="select" ngClass="green">
+    <mat-label>בחר מקצוע</mat-label>
+    <mat-select>
+      <mat-option (click)="getWaitings(subject.SubjectId)" *ngFor="let subject of subjects" [value]="subject.SubjectId">
+        {{subject.SubjectName}}
+      </mat-option>
+    </mat-select>
+  </mat-form-field>
+</div>
+<div ngClass="maxWaitings">
+  <button mat-raised-button (click)="maxWitingsForSubject()">הצג מקצועות בהם מספר הממתינים הגדול ביותר</button>
+</div>
+<div class="sub" *ngFor="let subject of subjectsWithMaxWaitings">{{subject.SubjectName}}</div>
+
+
+<mat-table id="datatable" #table [dataSource]="children" matSort class="mat-cell">
+
+  <ng-container matColumnDef="IdentityNum">
+    <mat-header-cell *matHeaderCellDef mat-sort-header>תעודת זהות</mat-header-cell>
+    <mat-cell *matCellDef="let row">{{row.IdentityNum}}</mat-cell>
+  </ng-container>
+
+  <!-- ID Column -->
+  <ng-container matColumnDef="FamilyName">
+    <mat-header-cell *matHeaderCellDef mat-sort-header>שם משפחה</mat-header-cell>
+    <mat-cell *matCellDef="let row">{{row.FamilyName}}</mat-cell>
+  </ng-container>
+
+  <ng-container matColumnDef="FirstName">
+    <mat-header-cell *matHeaderCellDef mat-sort-header>שם פרטי</mat-header-cell>
+    <mat-cell *matCellDef="let row">{{row.FirstName}}</mat-cell>
+  </ng-container>
+
+
+  <ng-container matColumnDef="BirthDate">
+    <mat-header-cell *matHeaderCellDef mat-sort-header>תאריך לידה</mat-header-cell>
+    <mat-cell *matCellDef="let row"> {{row.BirthDate}}</mat-cell>
+  </ng-container>
+
+  <ng-container matColumnDef="SchoolName">
+    <mat-header-cell *matHeaderCellDef mat-sort-header>שם בי"הס</mat-header-cell>
+    <mat-cell *matCellDef="let row"> {{row.SchoolName}}</mat-cell>
+  </ng-container>
+
+  <ng-container matColumnDef="Grade">
+    <mat-header-cell *matHeaderCellDef mat-sort-header>כיתה</mat-header-cell>
+    <mat-cell *matCellDef="let row"> {{row.Grade}}</mat-cell>
+  </ng-container>
+
+  <ng-container matColumnDef="JoiningDate">
+    <mat-header-cell *matHeaderCellDef mat-sort-header>תאריך הצטרפות</mat-header-cell>
+    <mat-cell *matCellDef="let row"> {{row.JoiningDate}}</mat-cell>
+  </ng-container>
+
+  <ng-container matColumnDef="Note">
+    <mat-header-cell *matHeaderCellDef mat-sort-header>הערות</mat-header-cell>
+    <mat-cell *matCellDef="let row"> {{row.Note}}</mat-cell>
+  </ng-container>
+
+
+  <!-- actions -->
+  <ng-container matColumnDef="actions">
+    <mat-header-cell *matHeaderCellDef>
+      <button mat-icon-button ngClass="white" (click)="addNew()">
+        <mat-icon aria-label="Example icon-button with a heart icon">add</mat-icon>
+      </button>
+    </mat-header-cell>
+
+    <!-- <mat-cell *matCellDef="let row; let i=index;">
+      <button mat-icon-button color="accent" (click)="startEdit(row.IdentityNum, row.FamilyName, row.FirstName,
+      row.BirthDate, row.SchoolName,row.Grade,row.JoiningDate,row.Note)">
+        <mat-icon aria-label="Edit">edit</mat-icon>
+      </button> -->
+    <mat-cell *matCellDef="let row; let i=index;">
+      <button mat-icon-button ngClass="green" (click)="deleteItem(row.IdentityNum, row.FamilyName, row.FirstName,
+      row.BirthDate, row.SchoolName,row.Grade,row.JoiningDate,row.Note)">
+        <mat-icon aria-label="Delete">delete</mat-icon>
+      </button>
+    </mat-cell>
+  </ng-container>
+
+  <mat-header-row *matHeaderRowDef="displayedColumns"></mat-header-row>
+  <mat-row [ngClass]="{'highlight': i%2 == 1}" *matRowDef="let row; let i=index; columns: displayedColumns;"></mat-row>
+</mat-table>
+<app-footer [countOfLines]=count></app-footer>
+<!-- <div class="no-results" [style.display]="dataSource.renderedData.length == 0 ? '' : 'none'">
+    No results
+  </div> -->
+
+<!-- <mat-paginator #paginator
+                
+                 [pageIndex]="0"
+                 [pageSize]="10"
+                 [pageSizeOptions]="[5, 10, 25, 100]">
+  </mat-paginator> -->
+<!-- [length]="dataSource.filteredData.length" -->

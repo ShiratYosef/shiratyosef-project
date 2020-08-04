@@ -1,0 +1,75 @@
+<!-- <nav>
+        <img id="logo" src="assets/img/לוגו על דף קטן.jpg">
+        <div class="header" id="children" (mouseover)="onMouseOver()" (mouseout)="onMouseOut()">
+          <mat-icon>account_circle</mat-icon>
+          <p>ילדים</p>
+        </div>
+        <div mat-button class="header" id="payments">
+          <mat-icon>attach_money</mat-icon>
+          <p>תשלומים</p>
+        </div>
+        <div mat-button class="header" id="groups">
+          <mat-icon>group</mat-icon>
+          <p>קבוצות</p>
+        </div>
+        <div mat-button class="header" id="lists">
+          <mat-icon>list_alt</mat-icon>
+          <p>רשימות</p>
+        </div>
+      </nav>
+      <nav id="navchild" *ngIf="isActive||navIsActive" (mouseout)="navOnMouseOut()"> 
+          <a id="allchildren" routerLink="/all-children">כל הילדים<mat-icon>supervised_user_circle</mat-icon></a>  
+          <a id="childdetails" routerLink="/children-page">פרטי ילד<mat-icon>face</mat-icon></a>  
+          <a id="schedule" routerLink="/schedule">מערכת לילד<mat-icon>schedule</mat-icon></a>
+      </nav>
+      <nav id="navpayments" *ngIf="isActive||navIsActive" (mouseout)="navOnMouseOut()">
+          <a routerLink="/payments">תשלומים<mat-icon>attach_money</mat-icon></a>
+      </nav>
+      <nav id="navgroups" *ngIf="isActive||navIsA ctive" (mouseout)="navOnMouseOut()">
+          <a routerLink="/groups">קבוצות<mat-icon>group</mat-icon></a>
+      </nav>
+      <nav id="navlists" *ngIf="isActive||navIsActive" (mouseout)="navOnMouseOut()">
+          <a id="waitings" routerLink="/waitings">ממתינים<mat-icon>pan_tool</mat-icon></a>
+          <a id="schools" routerLink="/schools">בתי ספר<mat-icon>card_travel</mat-icon></a>
+          <a id="cities" routerLink="/cities">ערים<mat-icon>emoji_flags</mat-icon></a>
+          <a id="subjects" routerLink="/subjects">מקצועות<mat-icon>menu_book</mat-icon></a>
+      </nav> -->
+
+      <nav>
+        <img id="logo" src="assets/img/לוגו על דף קטן.jpg">
+        <div class="header" id="children" (mouseenter)="onMouseOverchild(0)" >
+          <mat-icon class="icon">account_circle</mat-icon>
+          <p class="text">ילדים</p>
+        </div>
+        <div mat-button class="header" id="payments" (mouseenter)="onMouseOverchild(1)" (mouseleave)="onMouseOut(0)">
+          <mat-icon class="icon">attach_money</mat-icon>
+          <p class="text">תשלומים</p>
+        </div>
+        <div mat-button class="header" id="groups" (mouseenter)="onMouseOverchild(2)">
+          <mat-icon class="icon">group</mat-icon>
+          <p class="text">קבוצות</p>
+        </div>
+        <div mat-button class="header" id="lists" (mouseenter)="onMouseOverchild(3)">
+          <mat-icon class="icon">list_alt</mat-icon>
+          <p class="text">רשימות</p>
+        </div>
+      </nav>
+      <nav id="navchild" *ngIf="isNavActive[0]" (mouseleave)="onMouseOut(0)" > 
+          <a id="allchildren" routerLink="/all-children">כל הילדים<mat-icon>supervised_user_circle</mat-icon></a>  
+          <a id="childdetails" routerLink="/children-page">פרטי ילד<mat-icon>face</mat-icon></a>  
+          <a id="schedule" routerLink="/schedule">מערכת לילד<mat-icon>schedule</mat-icon></a>
+      </nav>
+      <nav id="navpayments" *ngIf="isNavActive[1]" (mouseleave)="onMouseOut(1)">
+          <a routerLink="/payments">תשלומים<mat-icon>attach_money</mat-icon></a>
+      </nav>
+      <nav id="navgroups" *ngIf="isNavActive[2]" (mouseleave)="onMouseOut(2)">
+          <a routerLink="/groups">קבוצות<mat-icon>group</mat-icon></a>
+      </nav>
+      <nav id="navlists" *ngIf="isNavActive[3]" (mouseleave)="onMouseOut(3)">
+          <a id="waitings" routerLink="/waitings">ממתינים<mat-icon>pan_tool</mat-icon></a>
+          <a id="schools" routerLink="/schools">בתי ספר<mat-icon>card_travel</mat-icon></a>
+          <a id="cities" routerLink="/cities">ערים<mat-icon>emoji_flags</mat-icon></a>
+          <a id="subjects" routerLink="/subjects">מקצועות<mat-icon>menu_book</mat-icon></a>
+      </nav>
+
+

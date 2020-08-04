@@ -1,0 +1,248 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="TimeTableDevModelStoreContainer" CdmEntityContainer="TimeTableDevEntities">
+    <EntitySetMapping Name="sysdiagrams">
+      <EntityTypeMapping TypeName="TimeTableDevModel.sysdiagram">
+        <MappingFragment StoreEntitySet="sysdiagrams">
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+          <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="definition" ColumnName="definition" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="sp_alterdiagram" FunctionName="TimeTableDevModel.Store.sp_alterdiagram" />
+    <FunctionImportMapping FunctionImportName="sp_creatediagram" FunctionName="TimeTableDevModel.Store.sp_creatediagram" />
+    <FunctionImportMapping FunctionImportName="sp_dropdiagram" FunctionName="TimeTableDevModel.Store.sp_dropdiagram" />
+    <FunctionImportMapping FunctionImportName="sp_helpdiagramdefinition" FunctionName="TimeTableDevModel.Store.sp_helpdiagramdefinition">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="TimeTableDevModel.sp_helpdiagramdefinition_Result">
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="definition" ColumnName="definition" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_helpdiagrams" FunctionName="TimeTableDevModel.Store.sp_helpdiagrams">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="TimeTableDevModel.sp_helpdiagrams_Result">
+          <ScalarProperty Name="Database" ColumnName="Database" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Owner" ColumnName="Owner" />
+          <ScalarProperty Name="OwnerID" ColumnName="OwnerID" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_renamediagram" FunctionName="TimeTableDevModel.Store.sp_renamediagram" />
+    <FunctionImportMapping FunctionImportName="sp_upgraddiagrams" FunctionName="TimeTableDevModel.Store.sp_upgraddiagrams" />
+    <EntitySetMapping Name="Banks">
+      <EntityTypeMapping TypeName="TimeTableDevModel.Bank">
+        <MappingFragment StoreEntitySet="Banks">
+          <ScalarProperty Name="BankName" ColumnName="BankName" />
+          <ScalarProperty Name="BankId" ColumnName="BankId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CheckDetails">
+      <EntityTypeMapping TypeName="TimeTableDevModel.CheckDetail">
+        <MappingFragment StoreEntitySet="CheckDetails">
+          <ScalarProperty Name="Comments" ColumnName="Comments" />
+          <ScalarProperty Name="Sum" ColumnName="Sum" />
+          <ScalarProperty Name="RepaymentDate" ColumnName="RepaymentDate" />
+          <ScalarProperty Name="BranchNumber" ColumnName="BranchNumber" />
+          <ScalarProperty Name="BranchName" ColumnName="BranchName" />
+          <ScalarProperty Name="BankId" ColumnName="BankId" />
+          <ScalarProperty Name="AccountNumber" ColumnName="AccountNumber" />
+          <ScalarProperty Name="AccountOwnerName" ColumnName="AccountOwnerName" />
+          <ScalarProperty Name="PaymentId" ColumnName="PaymentId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Childs">
+      <EntityTypeMapping TypeName="TimeTableDevModel.Child">
+        <MappingFragment StoreEntitySet="Childs">
+          <ScalarProperty Name="sumAfterDiscount" ColumnName="sumAfterDiscount" />
+          <ScalarProperty Name="IsMunicipality" ColumnName="IsMunicipality" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="Note" ColumnName="Note" />
+          <ScalarProperty Name="PreviousCare" ColumnName="PreviousCare" />
+          <ScalarProperty Name="ViturSodiutFrom" ColumnName="ViturSodiutFrom" />
+          <ScalarProperty Name="JoiningDate" ColumnName="JoiningDate" />
+          <ScalarProperty Name="Grade" ColumnName="Grade" />
+          <ScalarProperty Name="SchoolId" ColumnName="SchoolId" />
+          <ScalarProperty Name="PlaceInFamily" ColumnName="PlaceInFamily" />
+          <ScalarProperty Name="BirthDate" ColumnName="BirthDate" />
+          <ScalarProperty Name="Kind" ColumnName="Kind" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="FamilyId" ColumnName="FamilyId" />
+          <ScalarProperty Name="IdentityNum" ColumnName="IdentityNum" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ChildsRegistrationToSubjects">
+      <EntityTypeMapping TypeName="TimeTableDevModel.ChildsRegistrationToSubject">
+        <MappingFragment StoreEntitySet="ChildsRegistrationToSubjects">
+          <ScalarProperty Name="Comments" ColumnName="Comments" />
+          <ScalarProperty Name="WaitMode" ColumnName="WaitMode" />
+          <ScalarProperty Name="RegisterDate" ColumnName="RegisterDate" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="ChildId" ColumnName="ChildId" />
+          <ScalarProperty Name="SubjectId" ColumnName="SubjectId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Cities">
+      <EntityTypeMapping TypeName="TimeTableDevModel.City">
+        <MappingFragment StoreEntitySet="Cities">
+          <ScalarProperty Name="CityName" ColumnName="CityName" />
+          <ScalarProperty Name="CityId" ColumnName="CityId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CreditDetails">
+      <EntityTypeMapping TypeName="TimeTableDevModel.CreditDetail">
+        <MappingFragment StoreEntitySet="CreditDetails">
+          <ScalarProperty Name="Comments" ColumnName="Comments" />
+          <ScalarProperty Name="FirstRepaymentDate" ColumnName="FirstRepaymentDate" />
+          <ScalarProperty Name="NumberOfPayments" ColumnName="NumberOfPayments" />
+          <ScalarProperty Name="ThreeLastDigits" ColumnName="ThreeLastDigits" />
+          <ScalarProperty Name="CardExpirationDate" ColumnName="CardExpirationDate" />
+          <ScalarProperty Name="CreditNumber" ColumnName="CreditNumber" />
+          <ScalarProperty Name="OwnerIdentityNumber" ColumnName="OwnerIdentityNumber" />
+          <ScalarProperty Name="OwnerName" ColumnName="OwnerName" />
+          <ScalarProperty Name="PayerName" ColumnName="PayerName" />
+          <ScalarProperty Name="PaymentId" ColumnName="PaymentId" />
+          <ScalarProperty Name="CreditDetailsId" ColumnName="CreditDetailsId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Families">
+      <EntityTypeMapping TypeName="TimeTableDevModel.Family">
+        <MappingFragment StoreEntitySet="Families">
+          <ScalarProperty Name="Cellular2" ColumnName="Cellular2" />
+          <ScalarProperty Name="Cellular1" ColumnName="Cellular1" />
+          <ScalarProperty Name="Telephone" ColumnName="Telephone" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="CityId" ColumnName="CityId" />
+          <ScalarProperty Name="NumOfChildren" ColumnName="NumOfChildren" />
+          <ScalarProperty Name="MotherFirstName" ColumnName="MotherFirstName" />
+          <ScalarProperty Name="FatherFirstName" ColumnName="FatherFirstName" />
+          <ScalarProperty Name="FamilyName" ColumnName="FamilyName" />
+          <ScalarProperty Name="FamilyId" ColumnName="FamilyId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Groups">
+      <EntityTypeMapping TypeName="TimeTableDevModel.Group">
+        <MappingFragment StoreEntitySet="Groups">
+          <ScalarProperty Name="GroupName" ColumnName="GroupName" />
+          <ScalarProperty Name="TreatmentType" ColumnName="TreatmentType" />
+          <ScalarProperty Name="grade2" ColumnName="grade2" />
+          <ScalarProperty Name="grade1" ColumnName="grade1" />
+          <ScalarProperty Name="SchoolId" ColumnName="SchoolId" />
+          <ScalarProperty Name="code" ColumnName="code" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <AssociationSetMapping Name="ChildsToGroups" TypeName="TimeTableDevModel.ChildsToGroups" StoreEntitySet="ChildsToGroups">
+      <EndProperty Name="Group">
+        <ScalarProperty Name="code" ColumnName="Groups_code" />
+      </EndProperty>
+      <EndProperty Name="Child">
+        <ScalarProperty Name="IdentityNum" ColumnName="Childs_IdentityNum" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <EntitySetMapping Name="Lessons">
+      <EntityTypeMapping TypeName="TimeTableDevModel.Lesson">
+        <MappingFragment StoreEntitySet="Lessons">
+          <ScalarProperty Name="Day" ColumnName="Day" />
+          <ScalarProperty Name="TeacherId" ColumnName="TeacherId" />
+          <ScalarProperty Name="LessonDuration" ColumnName="LessonDuration" />
+          <ScalarProperty Name="Subject" ColumnName="Subject" />
+          <ScalarProperty Name="GroupId" ColumnName="GroupId" />
+          <ScalarProperty Name="StartsAt" ColumnName="StartsAt" />
+          <ScalarProperty Name="ChildId" ColumnName="ChildId" />
+          <ScalarProperty Name="EndDate" ColumnName="EndDate" />
+          <ScalarProperty Name="FromDate" ColumnName="FromDate" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Payments">
+      <EntityTypeMapping TypeName="TimeTableDevModel.Payment">
+        <MappingFragment StoreEntitySet="Payment">
+          <ScalarProperty Name="Sum" ColumnName="Sum" />
+          <ScalarProperty Name="PaymentForm" ColumnName="PaymentForm" />
+          <ScalarProperty Name="Date" ColumnName="Date" />
+          <ScalarProperty Name="ChildIdentityNumber" ColumnName="ChildIdentityNumber" />
+          <ScalarProperty Name="PaymentId" ColumnName="PaymentId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Schools">
+      <EntityTypeMapping TypeName="TimeTableDevModel.School">
+        <MappingFragment StoreEntitySet="Schools">
+          <ScalarProperty Name="Telephon" ColumnName="Telephon" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="City" ColumnName="City" />
+          <ScalarProperty Name="SchoolName" ColumnName="SchoolName" />
+          <ScalarProperty Name="SchoolId" ColumnName="SchoolId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Subjects">
+      <EntityTypeMapping TypeName="TimeTableDevModel.Subject">
+        <MappingFragment StoreEntitySet="Subjects">
+          <ScalarProperty Name="DurationInMinuts" ColumnName="DurationInMinuts" />
+          <ScalarProperty Name="MaxAge" ColumnName="MaxAge" />
+          <ScalarProperty Name="MinAge" ColumnName="MinAge" />
+          <ScalarProperty Name="AvgNumOfMeeting" ColumnName="AvgNumOfMeeting" />
+          <ScalarProperty Name="MinNumOfMeeting" ColumnName="MinNumOfMeeting" />
+          <ScalarProperty Name="SubjectName" ColumnName="SubjectName" />
+          <ScalarProperty Name="SubjectId" ColumnName="SubjectId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TammyValues">
+      <EntityTypeMapping TypeName="TimeTableDevModel.TammyValue">
+        <MappingFragment StoreEntitySet="TammyValues">
+          <ScalarProperty Name="CurrentValue" ColumnName="CurrentValue" />
+          <ScalarProperty Name="TammyDate" ColumnName="TammyDate" />
+          <ScalarProperty Name="Child" ColumnName="Child" />
+          <ScalarProperty Name="TammyValueId" ColumnName="TammyValueId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Workers">
+      <EntityTypeMapping TypeName="TimeTableDevModel.Worker">
+        <MappingFragment StoreEntitySet="Workers">
+          <ScalarProperty Name="RateForNextYear" ColumnName="RateForNextYear" />
+          <ScalarProperty Name="RateForFirstYear" ColumnName="RateForFirstYear" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+          <ScalarProperty Name="BirthDate" ColumnName="BirthDate" />
+          <ScalarProperty Name="HouseNumber" ColumnName="HouseNumber" />
+          <ScalarProperty Name="Street" ColumnName="Street" />
+          <ScalarProperty Name="City" ColumnName="City" />
+          <ScalarProperty Name="CellPhone" ColumnName="CellPhone" />
+          <ScalarProperty Name="Tel" ColumnName="Tel" />
+          <ScalarProperty Name="DutyCode" ColumnName="DutyCode" />
+          <ScalarProperty Name="Kind" ColumnName="Kind" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="IdentityNum" ColumnName="IdentityNum" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="WorkingDays">
+      <EntityTypeMapping TypeName="TimeTableDevModel.WorkingDay">
+        <MappingFragment StoreEntitySet="WorkingDays">
+          <ScalarProperty Name="WeekDay" ColumnName="WeekDay" />
+          <ScalarProperty Name="WorkerId" ColumnName="WorkerId" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

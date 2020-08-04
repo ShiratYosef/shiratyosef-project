@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="FinalProjectsSqlDbModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="AssistanceMeetings">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" />
+    <Property Name="MeetingDate" Type="datetime" />
+    <Property Name="ShortDescription" Type="nvarchar" MaxLength="255" />
+    <Property Name="Content" Type="nvarchar(max)" />
+    <Property Name="ProjectId" Type="int" />
+    <Property Name="StudentId_1" Type="int" />
+    <Property Name="StudentId_2" Type="int" />
+    <Property Name="DurationInMinutes" Type="int" />
+    <Property Name="FromTime" Type="datetime" />
+    <Property Name="ToTime" Type="datetime" />
+    <Property Name="שדה1" Type="nvarchar" MaxLength="255" />
+    <Property Name="AssistanceId" Type="int" />
+  </EntityType>
+  <EntityType Name="Assistances">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" />
+    <Property Name="FirstName" Type="nvarchar" MaxLength="255" />
+    <Property Name="LastName" Type="nvarchar" MaxLength="255" />
+    <Property Name="Tel" Type="nvarchar" MaxLength="255" />
+    <Property Name="Email" Type="nvarchar" MaxLength="255" />
+    <Property Name="Comments" Type="nvarchar(max)" />
+    <Property Name="Password" Type="nvarchar" MaxLength="20" />
+  </EntityType>
+  <Association Name="FK_AssistanceMeetings_Assistances">
+    <End Role="Assistances" Type="Self.Assistances" Multiplicity="0..1" />
+    <End Role="AssistanceMeetings" Type="Self.AssistanceMeetings" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Assistances">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="AssistanceMeetings">
+        <PropertyRef Name="AssistanceId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="FinalProjectsSqlDbModelStoreContainer">
+    <EntitySet Name="AssistanceMeetings" EntityType="Self.AssistanceMeetings" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Assistances" EntityType="Self.Assistances" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_AssistanceMeetings_Assistances" Association="Self.FK_AssistanceMeetings_Assistances">
+      <End Role="Assistances" EntitySet="Assistances" />
+      <End Role="AssistanceMeetings" EntitySet="AssistanceMeetings" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

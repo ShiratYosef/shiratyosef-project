@@ -1,0 +1,60 @@
+<div dir="rtl">
+<mat-form-field dir="rtl" class="example-full-width" id="search">
+  <input  matInput  placeholder="חיפוש שם עיר" aria-label="State" [formControl]="stateCtrl"
+   (ngModelChange)="searchByCityName($event)">
+</mat-form-field>
+</div>
+
+<mat-table #table [dataSource]="newCities" matSort class="mat-cell">
+
+<!--- Note that these columns can be defined in any order.
+      The actual rendered columns are set as a property on the row definition" -->
+
+<!-- ID Column -->
+<ng-container matColumnDef="CityId">
+  <mat-header-cell ngClass="pink" class="white" *matHeaderCellDef mat-sort-header>קוד עיר</mat-header-cell>
+  <mat-cell *matCellDef="let row" >{{row.CityId}}</mat-cell>
+</ng-container>
+
+<ng-container matColumnDef="CityName">
+  <mat-header-cell ngClass="blue" class="white" *matHeaderCellDef mat-sort-header>שם עיר</mat-header-cell>
+  <mat-cell *matCellDef="let row" >{{row.CityName}}</mat-cell>
+</ng-container>
+
+
+<!-- actions -->
+<ng-container matColumnDef="actions">
+  <mat-header-cell ngClass="green" *matHeaderCellDef>
+    <button mat-icon-button ngClass="white" (click)="addNew()">
+      <mat-icon aria-label="Example icon-button with a heart icon">add</mat-icon>
+    </button>
+  </mat-header-cell>
+
+  <mat-cell *matCellDef="let row; let i=index;">
+    <button mat-icon-button ngClass="pinkc" (click)="startEdit(row.CityId, row.CityName)">
+      <mat-icon aria-label="Edit">edit</mat-icon>
+    </button>
+
+    <button mat-icon-button ngClass="pinkc" (click)="deleteItem(row.CityId, row.CityName)">
+      <mat-icon aria-label="Delete">delete</mat-icon>
+    </button>
+  </mat-cell>
+</ng-container>
+
+<mat-header-row *matHeaderRowDef="displayedColumns"></mat-header-row>
+<mat-row [ngClass]="{'highlight': i%2 == 1}" *matRowDef="let row; let i=index; columns: displayedColumns;"></mat-row>
+</mat-table>
+
+ <app-footer [countOfLines]=count></app-footer>
+
+<!-- <div class="no-results" [style.display]="dataSource.renderedData.length == 0 ? '' : 'none'">
+  No results
+</div> -->
+
+<!-- <mat-paginator #paginator
+              
+               [pageIndex]="0"
+               [pageSize]="10"
+               [pageSizeOptions]="[5, 10, 25, 100]">
+</mat-paginator> -->
+<!-- [length]="dataSource.filteredData.length" -->

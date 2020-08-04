@@ -1,0 +1,54 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    min-width: 450px;
+  }
+  
+  .container > * {
+    width: 100%;
+  }
+  
+  .form {
+    display: flex;
+    padding-top: 6px;
+  }
+  
+  .mat-form-field {
+    font-size: 16px;
+    flex-grow: 1;
+  }
+ 
+  div{
+    color:rgba(34, 30, 30,0.6);
+    font-family:Tahoma;
+    /* color:white; */
+  }
+  #line{
+    position: absolute;
+    top:11.5%;
+    right:37%;
+    width: 26%;
+    height: 8%;
+   z-index: 1;
+    background-color: #b8205b;
+  }
+  h3{
+    /* color:white; */
+font-family:Tahoma;
+z-index: 2;
+  }
+  label{
+    font-family:Tahoma ;
+    color:rgba(34, 30, 30,0.6);
+
+  }
+  mat-select{
+    font-family:Tahoma ;
+    color:rgba(34, 30, 30,0.6) !important;
+  }
+  .mat-dialog-title {
+    margin-top: 15px !important;
+    background-color:#b8205b ;
+    color:white;
+    text-align: center;
+    }

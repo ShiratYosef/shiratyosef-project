@@ -1,0 +1,87 @@
+Y:\group 1 תשעט\שווב יהודית\Project\DTO\bin\Debug\DTO.dll
+Y:\group 1 תשעט\שווב יהודית\Project\DTO\bin\Debug\DTO.pdb
+Y:\group 1 תשעט\שווב יהודית\Project\DTO\obj\Debug\DTO.dll
+Y:\group 1 תשעט\שווב יהודית\Project\DTO\obj\Debug\DTO.pdb
+Y:\group 1 תשעט\שווב יהודית\Project\DTO\bin\Debug\DTO.dll.config
+Y:\group 1 תשעט\שווב יהודית\Project\DTO\bin\Debug\EntityFramework.dll
+Y:\group 1 תשעט\שווב יהודית\Project\DTO\bin\Debug\EntityFramework.SqlServer.dll
+Y:\group 1 תשעט\שווב יהודית\Project\DTO\bin\Debug\EntityFramework.xml
+Y:\group 1 תשעט\שווב יהודית\Project\DTO\bin\Debug\EntityFramework.SqlServer.xml
+Y:\group 1 תשעט\שווב יהודית\project\DTO\bin\Debug\DAL.dll
+Y:\group 1 תשעט\שווב יהודית\project\DTO\bin\Debug\DAL.pdb
+Y:\group 1 תשעט\שווב יהודית\project\DTO\bin\Debug\DAL.dll.config
+Y:\group 1 תשעט\שווב יהודית\project\DTO\obj\Debug\DTO.csprojAssemblyReference.cache
+Y:\group 1 תשעט\שווב יהודית\project\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+Y:\group 1 תשעט\שווב יהודית\project\DTO\obj\Debug\DTO.csproj.CopyComplete
+Y:\group 1 תשעט\קרליץ בתי\project\DTO\bin\Debug\DTO.dll.config
+Y:\group 1 תשעט\קרליץ בתי\project\DTO\bin\Debug\DTO.dll
+Y:\group 1 תשעט\קרליץ בתי\project\DTO\bin\Debug\DTO.pdb
+Y:\group 1 תשעט\קרליץ בתי\project\DTO\bin\Debug\DAL.dll
+Y:\group 1 תשעט\קרליץ בתי\project\DTO\bin\Debug\EntityFramework.dll
+Y:\group 1 תשעט\קרליץ בתי\project\DTO\bin\Debug\EntityFramework.SqlServer.dll
+Y:\group 1 תשעט\קרליץ בתי\project\DTO\bin\Debug\DAL.pdb
+Y:\group 1 תשעט\קרליץ בתי\project\DTO\bin\Debug\DAL.dll.config
+Y:\group 1 תשעט\קרליץ בתי\project\DTO\bin\Debug\EntityFramework.xml
+Y:\group 1 תשעט\קרליץ בתי\project\DTO\bin\Debug\EntityFramework.SqlServer.xml
+Y:\group 1 תשעט\קרליץ בתי\project\DTO\obj\Debug\DTO.csprojAssemblyReference.cache
+Y:\group 1 תשעט\קרליץ בתי\project\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+Y:\group 1 תשעט\קרליץ בתי\project\DTO\obj\Debug\DTO.csproj.CopyComplete
+Y:\group 1 תשעט\קרליץ בתי\project\DTO\obj\Debug\DTO.dll
+Y:\group 1 תשעט\קרליץ בתי\project\DTO\obj\Debug\DTO.pdb
+Y:\group 1 תשעט\קרליץ בתי\‏‏Shirat Yosef\project\DTO\bin\Debug\DTO.dll.config
+Y:\group 1 תשעט\קרליץ בתי\‏‏Shirat Yosef\project\DTO\bin\Debug\DTO.dll
+Y:\group 1 תשעט\קרליץ בתי\‏‏Shirat Yosef\project\DTO\bin\Debug\DTO.pdb
+Y:\group 1 תשעט\קרליץ בתי\‏‏Shirat Yosef\project\DTO\bin\Debug\DAL.dll
+Y:\group 1 תשעט\קרליץ בתי\‏‏Shirat Yosef\project\DTO\bin\Debug\EntityFramework.dll
+Y:\group 1 תשעט\קרליץ בתי\‏‏Shirat Yosef\project\DTO\bin\Debug\EntityFramework.SqlServer.dll
+Y:\group 1 תשעט\קרליץ בתי\‏‏Shirat Yosef\project\DTO\bin\Debug\DAL.pdb
+Y:\group 1 תשעט\קרליץ בתי\‏‏Shirat Yosef\project\DTO\bin\Debug\DAL.dll.config
+Y:\group 1 תשעט\קרליץ בתי\‏‏Shirat Yosef\project\DTO\bin\Debug\EntityFramework.xml
+Y:\group 1 תשעט\קרליץ בתי\‏‏Shirat Yosef\project\DTO\bin\Debug\EntityFramework.SqlServer.xml
+Y:\group 1 תשעט\קרליץ בתי\‏‏Shirat Yosef\project\DTO\obj\Debug\DTO.csprojAssemblyReference.cache
+Y:\group 1 תשעט\קרליץ בתי\‏‏Shirat Yosef\project\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+Y:\group 1 תשעט\קרליץ בתי\‏‏Shirat Yosef\project\DTO\obj\Debug\DTO.csproj.CopyComplete
+Y:\group 1 תשעט\קרליץ בתי\‏‏Shirat Yosef\project\DTO\obj\Debug\DTO.dll
+Y:\group 1 תשעט\קרליץ בתי\‏‏Shirat Yosef\project\DTO\obj\Debug\DTO.pdb
+D:\baty\project\DTO\bin\Debug\DTO.dll.config
+D:\baty\project\DTO\bin\Debug\DTO.dll
+D:\baty\project\DTO\bin\Debug\DTO.pdb
+D:\baty\project\DTO\bin\Debug\DAL.dll
+D:\baty\project\DTO\bin\Debug\EntityFramework.dll
+D:\baty\project\DTO\bin\Debug\EntityFramework.SqlServer.dll
+D:\baty\project\DTO\bin\Debug\DAL.pdb
+D:\baty\project\DTO\bin\Debug\DAL.dll.config
+D:\baty\project\DTO\bin\Debug\EntityFramework.xml
+D:\baty\project\DTO\bin\Debug\EntityFramework.SqlServer.xml
+D:\baty\project\DTO\obj\Debug\DTO.csprojResolveAssemblyReference.cache
+D:\baty\project\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+D:\baty\project\DTO\obj\Debug\DTO.dll
+D:\baty\project\DTO\obj\Debug\DTO.pdb
+D:\baty\project1\DTO\bin\Debug\DTO.dll.config
+D:\baty\project1\DTO\bin\Debug\DTO.dll
+D:\baty\project1\DTO\bin\Debug\DTO.pdb
+D:\baty\project1\DTO\bin\Debug\DAL.dll
+D:\baty\project1\DTO\bin\Debug\EntityFramework.dll
+D:\baty\project1\DTO\bin\Debug\EntityFramework.SqlServer.dll
+D:\baty\project1\DTO\bin\Debug\DAL.pdb
+D:\baty\project1\DTO\bin\Debug\DAL.dll.config
+D:\baty\project1\DTO\bin\Debug\EntityFramework.xml
+D:\baty\project1\DTO\bin\Debug\EntityFramework.SqlServer.xml
+D:\baty\project1\DTO\obj\Debug\DTO.csprojResolveAssemblyReference.cache
+D:\baty\project1\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+D:\baty\project1\DTO\obj\Debug\DTO.dll
+D:\baty\project1\DTO\obj\Debug\DTO.pdb
+D:\baty\ShiratYosef project\project1\DTO\bin\Debug\DTO.dll.config
+D:\baty\ShiratYosef project\project1\DTO\bin\Debug\DTO.dll
+D:\baty\ShiratYosef project\project1\DTO\bin\Debug\DTO.pdb
+D:\baty\ShiratYosef project\project1\DTO\bin\Debug\DAL.dll
+D:\baty\ShiratYosef project\project1\DTO\bin\Debug\EntityFramework.dll
+D:\baty\ShiratYosef project\project1\DTO\bin\Debug\EntityFramework.SqlServer.dll
+D:\baty\ShiratYosef project\project1\DTO\bin\Debug\DAL.pdb
+D:\baty\ShiratYosef project\project1\DTO\bin\Debug\DAL.dll.config
+D:\baty\ShiratYosef project\project1\DTO\bin\Debug\EntityFramework.xml
+D:\baty\ShiratYosef project\project1\DTO\bin\Debug\EntityFramework.SqlServer.xml
+D:\baty\ShiratYosef project\project1\DTO\obj\Debug\DTO.csprojResolveAssemblyReference.cache
+D:\baty\ShiratYosef project\project1\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+D:\baty\ShiratYosef project\project1\DTO\obj\Debug\DTO.dll
+D:\baty\ShiratYosef project\project1\DTO\obj\Debug\DTO.pdb

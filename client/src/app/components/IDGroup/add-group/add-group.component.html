@@ -1,0 +1,45 @@
+<div class="container">
+  <h3 mat-dialog-title dir="rtl">הוספת קבוצה</h3>
+  <form class="mat-dialog-content" (ngSubmit)="submit" #formControl="ngForm">
+
+    <div class="form" dir="rtl">
+      <mat-form-field ngClass="blue">
+        <textarea matInput #input class="form-control" placeholder="שם קבוצה" [(ngModel)]="data.GroupName"
+          name="GroupName" required></textarea>
+        <mat-error *ngIf="formControl.invalid">{{getErrorMessage()}}</mat-error>
+      </mat-form-field>
+    </div>
+
+    <div dir="rtl">
+      <mat-form-field class="example-full-width" ngClass="blue">
+        <input matInput placeholder="חיפוש לפי שם ביהס" aria-label="State" [matAutocomplete]="auto1"
+          [formControl]="stateCtrl" (ngModelChange)="searchBySchoolName($event)">
+      </mat-form-field>
+      <mat-autocomplete #auto1="matAutocomplete" ngClass="blue">
+        <mat-option *ngFor="let item of newschools" (click)="updateSchoolNameOfNgModel(item.SchoolId)"
+          [value]="item.SchoolName">
+          <div>{{item.SchoolName}}</div>
+        </mat-option>
+      </mat-autocomplete>
+    </div>
+    <div class="grade" dir="rtl">
+      <mat-select placeholder="החל מכיתה">
+        <mat-option *ngFor="let item of grades" (click)="updategrade1NgModel(item)" [value]="item">
+          <div>{{item}}</div>
+        </mat-option>
+      </mat-select>
+    </div>
+    <div class="grade" dir="rtl">
+      <mat-select placeholder="עד כיתה">
+        <mat-option *ngFor="let item of grades" (click)="updategrade2NgModel(item)" [value]="item">
+          <div>{{item}}</div>
+        </mat-option>
+      </mat-select>
+    </div>
+    <div mat-dialog-actions dir="rtl">
+      <button mat-button [type]="submit" [disabled]="!formControl.valid" [mat-dialog-close]="1"
+        (click)="confirmAdd()">שמירה</button>
+      <button mat-button (click)="onNoClick()" tabindex="-1">ביטול</button>
+    </div>
+  </form>
+</div>

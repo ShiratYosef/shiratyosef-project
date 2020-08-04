@@ -1,0 +1,175 @@
+<div mat-dialog-title>
+  <p class="childDetails">פרטי ילד</p>
+  <mat-icon class="icon" style="font-size:xxx-large">person</mat-icon>
+  <p class="lesson">ממתין לשיבוץ</p>
+  <p class="waitings">שיעורים</p>
+</div>
+<div mat-dialog-content class="example-container" dir="rtl">
+  <div class="context">
+    <div id="in">
+      <br>
+      <mat-form-field dir="rtl">
+        <input matInput [(ngModel)]="child.IdentityNum" placeholder="מספר זהות">
+      </mat-form-field>
+
+      <mat-form-field>
+        <input matInput [(ngModel)]="child.FirstName" placeholder="שם פרטי">
+      </mat-form-field>
+
+      <mat-form-field>
+        <input matInput [(ngModel)]="child.FamilyName" placeholder="שם משפחה">
+      </mat-form-field>
+
+      <mat-form-field>
+        <input matInput [(ngModel)]="child.Address" placeholder="כתובת מגורים">
+      </mat-form-field>
+
+      <mat-form-field class="example-full-width">
+        <input matInput placeholder="עיר" aria-label="State" [matAutocomplete]="auto1" [formControl]="stateCtrl"
+          (ngModelChange)="searchByCityName($event)">
+      </mat-form-field>
+      <mat-autocomplete #auto1="matAutocomplete">
+        <mat-option *ngFor="let item of newCities" (click)="updateNgModelCity(item.CityName)" [value]="item.CityName">
+          <div>{{item.CityName}}</div>
+        </mat-option>
+      </mat-autocomplete>
+
+
+      <mat-form-field>
+        <input matInput [(ngModel)]="child.Telephone" placeholder="טלפון בבית">
+      </mat-form-field>
+
+      <mat-form-field>
+        <input matInput [(ngModel)]="child.MotherFirstName" placeholder="שם האמא">
+      </mat-form-field>
+
+      <mat-form-field>
+        <input matInput [(ngModel)]="child.Cellular1" placeholder="נייד האמא">
+      </mat-form-field>
+
+      <mat-form-field>
+        <input matInput [(ngModel)]="child.FatherFirstName" placeholder="שם האבא">
+      </mat-form-field>
+
+      <mat-form-field>
+        <input matInput [(ngModel)]="child.Cellular2" placeholder="נייד האבא">
+      </mat-form-field>
+
+      <mat-form-field>
+        <input matInput [(ngModel)]="child.BirthDate" placeholder="תאריך לידה">
+      </mat-form-field>
+
+      <mat-form-field>
+        <input matInput [(ngModel)]="child.JoiningDate" placeholder="תאריך  רישום">
+      </mat-form-field>
+
+      <mat-form-field>
+        <input matInput placeholder="גיל">
+        {{age}}
+      </mat-form-field>
+
+      <mat-form-field class="example-full-width">
+        <input matInput placeholder="בית ספר" aria-label="State" [matAutocomplete]="auto3" [formControl]="stateCtrl"
+          (ngModelChange)="searchBySchoolName($event)">
+      </mat-form-field>
+      <mat-autocomplete #auto3="matAutocomplete">
+        <mat-option *ngFor="let item of newSchools" (click)="updateNgModelSchool(item.SchoolName)"
+          [value]="item.SchoolName">
+          <div>{{item.SchoolName}}</div>
+        </mat-option>
+      </mat-autocomplete>
+      <br>
+      <label>כיתה</label>
+      <mat-select placeholder="{{grade[data.Grade+1]}}">
+        <mat-option *ngFor="let item of grade" (click)="updataNgModel(item)" [value]="item">
+          <div>{{item}}</div>
+        </mat-option>
+      </mat-select>
+
+      <mat-form-field>
+        <input matInput [(ngModel)]="child.Note" placeholder=" הערות">
+      </mat-form-field>
+      <br>
+      <button mat-button [mat-dialog-close]="1" (click)="updateChild()">שמירה</button>
+      <button mat-button (click)="close()" tabindex="-1">יציאה</button>
+      <br>
+    </div>
+  </div>
+  <div class="tables">
+
+
+    <section class="waiting">
+      <!-- waiting -->
+      <mat-table #table1 [dataSource]="waitings" matSort class="mat-cell">
+
+        <ng-container matColumnDef="SubjectId">
+          <mat-header-cell *matHeaderCellDef mat-sort-header>קוד מקצוע</mat-header-cell>
+          <mat-cell *matCellDef="let row">{{row.SubjectId}}</mat-cell>
+        </ng-container>
+
+        <ng-container matColumnDef="SubjectName">
+          <mat-header-cell *matHeaderCellDef mat-sort-header>שם מקצוע</mat-header-cell>
+          <mat-cell *matCellDef="let row">{{row.SubjectName}}</mat-cell>
+        </ng-container>
+
+        <ng-container matColumnDef="Comments">
+          <mat-header-cell *matHeaderCellDef mat-sort-header>הערה</mat-header-cell>
+          <mat-cell *matCellDef="let row">{{row.Comments}}</mat-cell>
+        </ng-container>
+
+
+
+        <ng-container matColumnDef="actions">
+          <mat-header-cell *matHeaderCellDef>
+            <!-- <button mat-icon-button color="accent">
+        </button> -->
+          </mat-header-cell>
+
+          <mat-cell *matCellDef="let row; let i=index;">
+            <button mat-icon-button color="accent" (click)="deleteWaiting(row.SubjectId)">
+              <mat-icon class="blue">delete</mat-icon>
+            </button>
+          </mat-cell>
+        </ng-container>
+        <mat-header-row *matHeaderRowDef="displayedColumns1"></mat-header-row>
+        <mat-row *matRowDef="let row; columns: displayedColumns1;"></mat-row>
+      </mat-table>
+    </section>
+
+    <!-- lessons -->
+    <section class="lessons">
+      <mat-table #table [dataSource]="lessons" matSort class="mat-cell">
+
+        <ng-container matColumnDef="TeacherId">
+          <mat-header-cell *matHeaderCellDef mat-sort-header>שם מורה</mat-header-cell>
+          <mat-cell *matCellDef="let row">{{row.FirstName}}{{row.LastName}}</mat-cell>
+        </ng-container>
+
+        <ng-container matColumnDef="SubjectName">
+          <mat-header-cell *matHeaderCellDef mat-sort-header>מקצוע</mat-header-cell>
+          <mat-cell *matCellDef="let row">{{row.SubjectName}}</mat-cell>
+        </ng-container>
+
+        <ng-container matColumnDef="GroupName">
+          <mat-header-cell *matHeaderCellDef mat-sort-header>קבוצה</mat-header-cell>
+          <mat-cell *matCellDef="let row">{{row.GroupName}}</mat-cell>
+        </ng-container>
+
+        <mat-header-row *matHeaderRowDef="displayedColumns"></mat-header-row>
+        <mat-row *matRowDef="let row; columns: displayedColumns;"></mat-row>
+
+      </mat-table>
+    </section>
+    <div class="addWaiting">
+      <mat-form-field class="example-full-width">
+        <input matInput placeholder="הוספת המתנה למקצוע" aria-label="State" [matAutocomplete]="auto2"
+          [formControl]="stateCtrl" (ngModelChange)="searchBySubjectName($event)">
+      </mat-form-field>
+      <mat-autocomplete #auto2="matAutocomplete">
+        <mat-option *ngFor="let item of newSubjects" (click)="addWaiting(item.SubjectId)" [value]="item.SubjectName">
+          <div>{{item.SubjectName}}</div>
+        </mat-option>
+      </mat-autocomplete>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,161 @@
+body{
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+nav{
+    position: fixed;
+    top:0%;
+    z-index: 999;
+    width: 100%;
+    height: 15%;
+    background-color: white;
+    border-bottom: 1.1px grey solid;
+}
+a{
+    display: inline-block;
+    position: absolute;
+
+}
+#logo{
+    position: absolute;
+    left: 2%;
+    top: 0%;
+    display: inline-block;
+    width:19%;
+    height: 100%;
+}
+.header{
+    position: absolute;
+    top:0%;
+    display: inline-block;
+    height: 100%;
+    width: 15%;
+    color: gray;
+    font-size: 140%;
+    font-family: Tahoma;
+    /* border-bottom: gray 1px solid; */
+    text-align: center;
+}
+.header:hover{
+    color: #b8205b;
+    background-color:#f5f5f5; 
+    border-bottom:#b8205b 1px solid;
+    /* color:#b01852; */
+}
+#children{
+    right:5%;
+}
+#payments{
+    right: 20%;
+}
+#groups{
+    right: 35%;
+}
+#lists{
+    right: 50%;
+}
+
+#child{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+#navchild{
+    position: absolute;
+    right: 5%;
+    top: 15%;
+    width: 15%;
+    height: 20%;
+    background-color: white;
+    z-index: 1;
+}
+#navpayments{
+    position: absolute;
+    right:20%;
+    top: 15%;
+    width: 15%;
+    background-color: white;
+    z-index: 1;
+}
+#navgroups{
+    position: absolute;
+    right:35%;
+    top: 15%;
+    width: 15%;
+    background-color: white;
+    z-index: 1;
+}
+#navlists{
+    position: absolute;
+    right:50%;
+    top: 15%;
+    width: 15%;
+    height: 20%;
+    background-color: white;
+    z-index: 1;
+}
+.underdiv{
+    position: absolute;
+    width: 100%;
+    height: 33%;
+    display:list-item;
+}
+#allchildren{
+    position: absolute;
+    top:0%;
+}
+#childdetails{
+    position: absolute;
+    top:33%;
+}
+#schedule{
+    position: absolute;
+    top:66%;
+}
+a{
+    position: absolute;
+    width: 100%;
+    height: 33%;
+    background-color: white;
+    text-decoration: unset;
+    font-family:Tahoma;
+    text-align: center;
+    margin-top: 2%;
+    color:gray;
+}
+a:hover{
+    background-color: #f5f5f5;
+    color: #b8205b;
+}
+#waitings{
+    position: absolute;
+    top:0%;
+}
+#schools{
+    position: absolute;
+    top:25%;
+}
+#cities{
+    position: absolute;
+    top:50%;
+}
+#subjects{
+    position: absolute;
+    top:75%;
+}
+.icon{
+    position: absolute;
+    top:33%;
+    padding: 0%;
+    margin: 0%;
+}
+nav{
+    color:rgba(34, 30, 30,0.6);
+    font-family:Tahoma;
+}
+.text{
+    position: absolute;
+    top:38%;
+    right:32%;  
+}

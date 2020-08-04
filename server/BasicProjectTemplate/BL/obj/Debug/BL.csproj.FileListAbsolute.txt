@@ -1,0 +1,34 @@
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\BL\bin\Debug\BL.dll.config
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\BL\bin\Debug\BL.dll
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\BL\bin\Debug\BL.pdb
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\BL\bin\Debug\DAL.dll
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\BL\bin\Debug\Entities.dll
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\BL\bin\Debug\EntityFramework.dll
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\BL\bin\Debug\EntityFramework.SqlServer.dll
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\BL\bin\Debug\DAL.pdb
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\BL\bin\Debug\DAL.dll.config
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\BL\bin\Debug\Entities.pdb
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\BL\bin\Debug\Entities.dll.config
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\BL\bin\Debug\EntityFramework.xml
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\BL\bin\Debug\EntityFramework.SqlServer.xml
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\BL\obj\Debug\BL.csprojResolveAssemblyReference.cache
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\BL\obj\Debug\BL.dll
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\BL\obj\Debug\BL.pdb
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\BL\bin\Debug\BL.dll.config
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\BL\bin\Debug\BL.dll
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\BL\bin\Debug\BL.pdb
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\BL\bin\Debug\DAL.dll
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\BL\bin\Debug\Entities.dll
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\BL\bin\Debug\EntityFramework.dll
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\BL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\BL\bin\Debug\DAL.pdb
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\BL\bin\Debug\DAL.dll.config
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\BL\bin\Debug\Entities.pdb
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\BL\bin\Debug\Entities.dll.config
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\BL\bin\Debug\EntityFramework.xml
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\BL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\BL\obj\Debug\BL.csprojAssemblyReference.cache
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\BL\obj\Debug\BL.csproj.CoreCompileInputs.cache
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\BL\obj\Debug\BL.csproj.CopyComplete
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\BL\obj\Debug\BL.dll
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\BL\obj\Debug\BL.pdb

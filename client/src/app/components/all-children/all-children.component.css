@@ -1,0 +1,120 @@
+
+  .mat-form-field {
+    font-size: 14px;
+    flex-grow: 1;
+    margin-top: 8px;
+  }
+  
+  /* Mat table */
+  .no-results {
+    display: flex;
+    justify-content: center;
+    padding: 14px;
+    font-size: 14px;
+    font-style: italic;
+  }
+/*   
+  .mat-cell:nth-child(1),
+  .mat-header-cell:nth-child(1){
+    flex: 0 0 6%;
+  }
+  
+  .mat-cell:nth-child(2),
+  .mat-header-cell:nth-child(2){
+    flex: 0 0 30%;
+  }
+  
+  .mat-cell:nth-child(3),
+  .mat-header-cell:nth-child(3){
+    flex: 0 0 6%;
+  }
+  
+  .mat-cell:nth-child(7),
+  .mat-header-cell:nth-child(7){
+    flex: 0 0 7%;
+  } */
+  /* .mat-column-courtFolderId {
+    flex: 0 0 35%;
+} */
+
+  div{
+    position: absolute;
+    top:25%;
+    direction: rtl;
+   width: 100%;
+   color:rgba(34, 30, 30,0.6);
+   font-family:Tahoma;
+  }
+  mat-cell{
+    color:rgba(34, 30, 30,0.6);
+    font-family:Tahoma;
+  }
+  mat-table{
+    position: absolute;
+    top:40%;
+    width: 100%;
+    color:rgba(34, 30, 30,0.6);
+    font-family:Tahoma;
+  }
+ 
+  button{
+    color:rgba(34, 30, 30,0.6);
+    font-family:Tahoma;
+  }
+  /* mat-table:nth-child(even){
+   background: #CCC;
+  }
+  mat-table:nth-child(odd) {
+  background: #FFF;
+} */
+/* .mat-cell:nth-child(n) {background: #CCC}
+.mat-cell:nth-child(5) {background: white} */
+
+mat-header-cell{
+  font-size: 100%;
+  color:white;
+  background-color:#b8205b ;
+  /* font-weight: bold; */
+}
+
+.highlight {
+  background: #e7e7e7; /* green */
+}
+.pink{
+  color:#b8205b;
+  
+}
+/* ::ng-deep.mat-form-field-underline {
+  background-color: #b8205b !important;
+}  */
+::ng-deep .mat-focused .mat-form-field-label {
+  /*change color of label*/
+  color: #b8205b !important;
+  font-family: Tahoma;
+ }
+::ng-deep.mat-form-field-ripple {
+  /*change color of underline when focused*/
+  background-color: #b8205b !important;
+  font-family: Tahoma;
+ }
+ mat-datepicker-toggle {
+  color: #b8205b !important;
+ }
+.white{
+  color:white;
+}
+mat-header-cell{
+  text-align: center !important;
+  /* font-weight: bold; */
+  font-size: 100%;
+}
+ng-container{
+  text-align: center !important;
+}
+.showSearch{
+  position: absolute;
+  top:30%;
+  right:10%;
+  color: #b8205b !important;
+
+}

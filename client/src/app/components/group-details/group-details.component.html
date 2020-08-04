@@ -1,0 +1,109 @@
+<div id="allPage">
+  <div class="title">
+    <div class="text">פרטי קבוצה</div>
+    <mat-icon style="font-size:xx-large; color:white;">group</mat-icon>
+    <div class="titleTable">ילדים רשומים בקבוצה</div>
+
+  </div>
+  <div class="details" dir="rtl">
+    <!-- <mat-form-field dir="rtl">
+  <input matInput [(ngModel)]="group.code"  placeholder="קוד">
+</mat-form-field> -->
+    <div id="in">
+      <mat-form-field dir="rtl">
+        <input matInput [(ngModel)]="group.GroupName" placeholder="שם">
+      </mat-form-field>
+
+      <!-- <mat-form-field class="example-full-width" color="accent">
+  <input matInput   placeholder="החל מכיתה" aria-label="State" [matAutocomplete]="auto1" [formControl]="stateCtrl" [(ngModel)]="data.grade1" (ngModelChange)="searchByCityName($event)">
+</mat-form-field>
+<mat-autocomplete #auto1="matAutocomplete" color="accent">
+  <mat-option *ngFor="let item of grades" (click)="updategrade1NgModel(item)" [value]="item">
+    <div>{{item}}</div>
+  </mat-option>
+</mat-autocomplete> -->
+      <br>
+      <label>החל מכיתה</label>
+      <mat-select style="width: 40%;" placeholder={{grades[group.grade1-1]}}>
+        <mat-option *ngFor="let item of grades" (click)="updategrade1NgModel(item)" [value]="item">
+          <div>{{item}}</div>
+        </mat-option>
+      </mat-select>
+      <br>
+      <br>
+      <!-- <mat-form-field dir="rtl">
+  <input matInput [(ngModel)]="group.grade1"  placeholder="החל מכיתה">
+</mat-form-field> -->
+      <label>עד כיתה</label>
+      <mat-select style="width: 40%;" placeholder={{grades[group.grade2-1]}}>
+        <mat-option *ngFor="let item of grades" (click)="updategrade2NgModel(item)" [value]="item">
+          <div>{{item}}</div>
+        </mat-option>
+      </mat-select>
+      <br>
+      <br>
+      <!-- <mat-form-field dir="rtl">
+  <input matInput [(ngModel)]="group.grade2"  placeholder="עד כיתה">
+</mat-form-field> -->
+      <!-- <mat-form-field dir="rtl">
+  <input matInput [(ngModel)]="school.SchoolName"  placeholder="שם בית הספר">
+</mat-form-field> -->
+      <mat-form-field class="example-full-width" ngClass="blue">
+        <input matInput placeholder="חיפוש לפי שם ביהס" [value]="data.SchoolName" name="school" aria-label="State"
+          [matAutocomplete]="auto1" [formControl]="stateCtrl" [(ngModel)]="data.SchoolName"
+          (ngModelChange)="searchBySchoolName($event)">
+      </mat-form-field>
+      <mat-autocomplete #auto1="matAutocomplete" color="accent">
+        <mat-option *ngFor="let item of newschools" (click)="updateSchoolNameOfNgModel(item.SchoolId)"
+          [value]="item.SchoolName" #schoolId>
+          <div>{{item.SchoolName}}</div>
+        </mat-option>
+      </mat-autocomplete>
+
+      <button mat-button [mat-dialog-close]="1" (click)="confirmAdd()">שמירה</button>
+    </div>
+  </div>
+ 
+  <div class="table">
+    <mat-table #table1 [dataSource]="children" matSort class="mat-cell">
+
+      <ng-container matColumnDef="IdentityNum">
+        <mat-header-cell *matHeaderCellDef mat-sort-header>מספר זהות</mat-header-cell>
+        <mat-cell *matCellDef="let row">{{row.IdentityNum}}</mat-cell>
+      </ng-container>
+
+      <ng-container matColumnDef="FirstName">
+        <mat-header-cell *matHeaderCellDef mat-sort-header>שם</mat-header-cell>
+        <mat-cell *matCellDef="let row">{{row.FirstName}}</mat-cell>
+      </ng-container>
+
+
+      <ng-container matColumnDef="actions">
+        <mat-header-cell *matHeaderCellDef>
+          <!-- <button mat-icon-button color="accent">
+      </button> -->
+        </mat-header-cell>
+
+        <mat-cell *matCellDef="let row; let i=index;">
+          <button mat-icon-button ngClass="blue" (click)="deleteChildFromGroup(row.IdentityNum)">
+            <mat-icon aria-label="Delete">delete</mat-icon>
+          </button>
+        </mat-cell>
+      </ng-container>
+      <mat-header-row *matHeaderRowDef="displayedColumns"></mat-header-row>
+      <mat-row *matRowDef="let row; columns: displayedColumns;"></mat-row>
+    </mat-table>
+  </div>
+  <div class="add" dir="rtl">
+      <mat-form-field class="example-full-width" ngClass="blue">
+        <input matInput placeholder="חפש ילד להוספה" name="child" aria-label="State" [matAutocomplete]="auto2"
+          [formControl]="stateCtrl1" (ngModelChange)="searchByChildName($event)">
+      </mat-form-field>
+      <mat-autocomplete #auto2="matAutocomplete" ngClass="blue">
+        <mat-option *ngFor="let item of newchildrenWithDetails" (click)="addChildTGroup(item.IdentityNum)"
+          [value]="item.FirstName+' '+ item.FamilyName">
+          <div>{{item.FirstName}} {{item.FamilyName}}</div>
+        </mat-option>
+      </mat-autocomplete>
+    </div>
+</div>

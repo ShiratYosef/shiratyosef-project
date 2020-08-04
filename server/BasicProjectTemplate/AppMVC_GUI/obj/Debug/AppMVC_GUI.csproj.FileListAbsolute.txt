@@ -1,0 +1,167 @@
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\AppMVC_GUI\bin\roslyn\csc.exe
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\AppMVC_GUI\bin\roslyn\csc.exe.config
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\AppMVC_GUI\bin\roslyn\csc.rsp
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\AppMVC_GUI\bin\roslyn\csi.exe
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\AppMVC_GUI\bin\roslyn\csi.rsp
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\AppMVC_GUI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\AppMVC_GUI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\AppMVC_GUI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\AppMVC_GUI\bin\roslyn\Microsoft.CodeAnalysis.dll
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\AppMVC_GUI\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\AppMVC_GUI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\AppMVC_GUI\bin\roslyn\Microsoft.CSharp.Core.targets
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\AppMVC_GUI\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\AppMVC_GUI\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\AppMVC_GUI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\AppMVC_GUI\bin\roslyn\System.AppContext.dll
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\AppMVC_GUI\bin\roslyn\System.Collections.Immutable.dll
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\AppMVC_GUI\bin\roslyn\System.Diagnostics.StackTrace.dll
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\AppMVC_GUI\bin\roslyn\System.IO.FileSystem.dll
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\AppMVC_GUI\bin\roslyn\System.IO.FileSystem.Primitives.dll
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\AppMVC_GUI\bin\roslyn\System.Reflection.Metadata.dll
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\AppMVC_GUI\bin\roslyn\vbc.exe
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\AppMVC_GUI\bin\roslyn\vbc.exe.config
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\AppMVC_GUI\bin\roslyn\vbc.rsp
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\AppMVC_GUI\bin\roslyn\VBCSCompiler.exe
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\AppMVC_GUI\bin\roslyn\VBCSCompiler.exe.config
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\AppMVC_GUI\bin\AppMVC_GUI.dll.config
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\AppMVC_GUI\bin\AppMVC_GUI.dll
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\AppMVC_GUI\bin\AppMVC_GUI.pdb
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\AppMVC_GUI\bin\Antlr3.Runtime.dll
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\AppMVC_GUI\bin\BL.dll
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\AppMVC_GUI\bin\DAL_DBFirst.dll
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\AppMVC_GUI\bin\Entities.dll
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\AppMVC_GUI\bin\Microsoft.AI.Agent.Intercept.dll
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\AppMVC_GUI\bin\Microsoft.AI.DependencyCollector.dll
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\AppMVC_GUI\bin\Microsoft.AI.PerfCounterCollector.dll
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\AppMVC_GUI\bin\Microsoft.AI.ServerTelemetryChannel.dll
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\AppMVC_GUI\bin\Microsoft.AI.Web.dll
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\AppMVC_GUI\bin\Microsoft.AI.WindowsServer.dll
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\AppMVC_GUI\bin\Microsoft.ApplicationInsights.dll
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\AppMVC_GUI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\AppMVC_GUI\bin\Microsoft.Web.Infrastructure.dll
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\AppMVC_GUI\bin\Newtonsoft.Json.dll
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\AppMVC_GUI\bin\System.Web.Helpers.dll
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\AppMVC_GUI\bin\System.Web.Mvc.dll
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\AppMVC_GUI\bin\System.Web.Optimization.dll
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\AppMVC_GUI\bin\System.Web.Razor.dll
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\AppMVC_GUI\bin\System.Web.WebPages.Deployment.dll
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\AppMVC_GUI\bin\System.Web.WebPages.dll
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\AppMVC_GUI\bin\System.Web.WebPages.Razor.dll
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\AppMVC_GUI\bin\WebGrease.dll
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\AppMVC_GUI\bin\EntityFramework.dll
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\AppMVC_GUI\bin\BL.pdb
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\AppMVC_GUI\bin\BL.dll.config
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\AppMVC_GUI\bin\DAL_DBFirst.pdb
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\AppMVC_GUI\bin\DAL_DBFirst.dll.config
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\AppMVC_GUI\bin\Entities.pdb
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\AppMVC_GUI\bin\Entities.dll.config
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\AppMVC_GUI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\AppMVC_GUI\bin\System.Web.Helpers.xml
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\AppMVC_GUI\bin\System.Web.Mvc.xml
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\AppMVC_GUI\bin\System.Web.Optimization.xml
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\AppMVC_GUI\bin\System.Web.Razor.xml
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\AppMVC_GUI\bin\System.Web.WebPages.xml
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\AppMVC_GUI\bin\System.Web.WebPages.Deployment.xml
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\AppMVC_GUI\bin\System.Web.WebPages.Razor.xml
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\AppMVC_GUI\bin\Antlr3.Runtime.pdb
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\AppMVC_GUI\bin\Newtonsoft.Json.xml
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\AppMVC_GUI\bin\Microsoft.ApplicationInsights.xml
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\AppMVC_GUI\bin\Microsoft.AI.DependencyCollector.xml
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\AppMVC_GUI\bin\Microsoft.AI.ServerTelemetryChannel.xml
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\AppMVC_GUI\bin\Microsoft.AI.WindowsServer.xml
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\AppMVC_GUI\bin\Microsoft.AI.Web.xml
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\AppMVC_GUI\bin\EntityFramework.xml
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\AppMVC_GUI\obj\Debug\AppMVC_GUI.csprojResolveAssemblyReference.cache
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\AppMVC_GUI\obj\Debug\AppMVC_GUI.dll
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\AppMVC_GUI\obj\Debug\AppMVC_GUI.pdb
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\AppMVC_GUI\bin\roslyn\csc.exe
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\AppMVC_GUI\bin\roslyn\csc.exe.config
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\AppMVC_GUI\bin\roslyn\csc.rsp
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\AppMVC_GUI\bin\roslyn\csi.exe
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\AppMVC_GUI\bin\roslyn\csi.rsp
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\AppMVC_GUI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\AppMVC_GUI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\AppMVC_GUI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\AppMVC_GUI\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\AppMVC_GUI\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\AppMVC_GUI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\AppMVC_GUI\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\AppMVC_GUI\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\AppMVC_GUI\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\AppMVC_GUI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\AppMVC_GUI\bin\roslyn\System.AppContext.dll
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\AppMVC_GUI\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\AppMVC_GUI\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\AppMVC_GUI\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\AppMVC_GUI\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\AppMVC_GUI\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\AppMVC_GUI\bin\roslyn\vbc.exe
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\AppMVC_GUI\bin\roslyn\vbc.exe.config
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\AppMVC_GUI\bin\roslyn\vbc.rsp
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\AppMVC_GUI\bin\roslyn\VBCSCompiler.exe
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\AppMVC_GUI\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\AppMVC_GUI\bin\AppMVC_GUI.dll.config
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\AppMVC_GUI\bin\AppMVC_GUI.dll
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\AppMVC_GUI\bin\AppMVC_GUI.pdb
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\AppMVC_GUI\bin\Antlr3.Runtime.dll
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\AppMVC_GUI\bin\BL.dll
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\AppMVC_GUI\bin\DAL_DBFirst.dll
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\AppMVC_GUI\bin\Entities.dll
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\AppMVC_GUI\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\AppMVC_GUI\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\AppMVC_GUI\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\AppMVC_GUI\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\AppMVC_GUI\bin\Microsoft.AI.Web.dll
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\AppMVC_GUI\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\AppMVC_GUI\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\AppMVC_GUI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\AppMVC_GUI\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\AppMVC_GUI\bin\Newtonsoft.Json.dll
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\AppMVC_GUI\bin\System.Web.Helpers.dll
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\AppMVC_GUI\bin\System.Web.Mvc.dll
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\AppMVC_GUI\bin\System.Web.Optimization.dll
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\AppMVC_GUI\bin\System.Web.Razor.dll
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\AppMVC_GUI\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\AppMVC_GUI\bin\System.Web.WebPages.dll
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\AppMVC_GUI\bin\System.Web.WebPages.Razor.dll
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\AppMVC_GUI\bin\WebGrease.dll
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\AppMVC_GUI\bin\BL.pdb
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\AppMVC_GUI\bin\BL.dll.config
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\AppMVC_GUI\bin\DAL_DBFirst.pdb
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\AppMVC_GUI\bin\DAL_DBFirst.dll.config
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\AppMVC_GUI\bin\Entities.pdb
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\AppMVC_GUI\bin\Entities.dll.config
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\AppMVC_GUI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\AppMVC_GUI\bin\System.Web.Helpers.xml
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\AppMVC_GUI\bin\System.Web.Mvc.xml
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\AppMVC_GUI\bin\System.Web.Optimization.xml
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\AppMVC_GUI\bin\System.Web.Razor.xml
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\AppMVC_GUI\bin\System.Web.WebPages.xml
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\AppMVC_GUI\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\AppMVC_GUI\bin\System.Web.WebPages.Razor.xml
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\AppMVC_GUI\bin\Antlr3.Runtime.pdb
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\AppMVC_GUI\bin\Newtonsoft.Json.xml
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\AppMVC_GUI\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\AppMVC_GUI\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\AppMVC_GUI\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\AppMVC_GUI\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\AppMVC_GUI\bin\Microsoft.AI.Web.xml
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\AppMVC_GUI\obj\Debug\AppMVC_GUI.csprojAssemblyReference.cache
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\AppMVC_GUI\obj\Debug\AppMVC_GUI.csproj.CoreCompileInputs.cache
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\AppMVC_GUI\obj\Debug\AppMVC_GUI.csproj.CopyComplete
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\AppMVC_GUI\obj\Debug\AppMVC_GUI.dll
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\AppMVC_GUI\obj\Debug\AppMVC_GUI.pdb
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\AppMVC_GUI\bin\EntityFramework.dll
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\AppMVC_GUI\bin\EntityFramework.SqlServer.dll
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\AppMVC_GUI\bin\EntityFramework.xml
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\AppMVC_GUI\bin\EntityFramework.SqlServer.xml
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\AppMVC_GUI\bin\System.Net.Http.Formatting.dll
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\AppMVC_GUI\bin\System.Web.Cors.dll
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\AppMVC_GUI\bin\System.Web.Http.Cors.dll
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\AppMVC_GUI\bin\System.Web.Http.dll
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\AppMVC_GUI\bin\System.Net.Http.Formatting.xml
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\AppMVC_GUI\bin\System.Web.Http.xml
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\AppMVC_GUI\bin\System.Web.Http.Cors.xml
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\AppMVC_GUI\bin\System.Web.Http.WebHost.dll
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\AppMVC_GUI\bin\System.Web.Http.WebHost.xml

@@ -1,0 +1,263 @@
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\API\bin\roslyn\csc.exe
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\API\bin\roslyn\csc.exe.config
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\API\bin\roslyn\csc.rsp
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\API\bin\roslyn\csi.exe
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\API\bin\roslyn\csi.rsp
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\API\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\API\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\API\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\API\bin\roslyn\Microsoft.CodeAnalysis.dll
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\API\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\API\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\API\bin\roslyn\Microsoft.CSharp.Core.targets
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\API\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\API\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\API\bin\roslyn\Microsoft.VisualBasic.Core.targets
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\API\bin\roslyn\System.AppContext.dll
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\API\bin\roslyn\System.Collections.Immutable.dll
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\API\bin\roslyn\System.Diagnostics.StackTrace.dll
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\API\bin\roslyn\System.IO.FileSystem.dll
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\API\bin\roslyn\System.IO.FileSystem.Primitives.dll
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\API\bin\roslyn\System.Reflection.Metadata.dll
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\API\bin\roslyn\vbc.exe
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\API\bin\roslyn\vbc.exe.config
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\API\bin\roslyn\vbc.rsp
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\API\bin\roslyn\VBCSCompiler.exe
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\API\bin\roslyn\VBCSCompiler.exe.config
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\API\bin\API.dll.config
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\API\bin\API.dll
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\API\bin\API.pdb
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\API\bin\Antlr3.Runtime.dll
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\API\bin\BL.dll
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\API\bin\DAL_DBFirst.dll
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\API\bin\Entities.dll
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\API\bin\EntityFramework.dll
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\API\bin\EntityFramework.SqlServer.dll
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\API\bin\Microsoft.AI.Agent.Intercept.dll
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\API\bin\Microsoft.AI.DependencyCollector.dll
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\API\bin\Microsoft.AI.PerfCounterCollector.dll
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\API\bin\Microsoft.AI.ServerTelemetryChannel.dll
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\API\bin\Microsoft.AI.Web.dll
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\API\bin\Microsoft.AI.WindowsServer.dll
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\API\bin\Microsoft.ApplicationInsights.dll
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\API\bin\Microsoft.Web.Infrastructure.dll
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\API\bin\Newtonsoft.Json.dll
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\API\bin\System.Net.Http.Formatting.dll
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\API\bin\System.Web.Helpers.dll
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\API\bin\System.Web.Http.dll
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\API\bin\System.Web.Http.WebHost.dll
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\API\bin\System.Web.Mvc.dll
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\API\bin\System.Web.Optimization.dll
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\API\bin\System.Web.Razor.dll
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\API\bin\System.Web.WebPages.Deployment.dll
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\API\bin\System.Web.WebPages.dll
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\API\bin\System.Web.WebPages.Razor.dll
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\API\bin\WebGrease.dll
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\API\bin\BL.pdb
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\API\bin\BL.dll.config
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\API\bin\DAL_DBFirst.pdb
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\API\bin\DAL_DBFirst.dll.config
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\API\bin\Entities.pdb
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\API\bin\Entities.dll.config
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\API\bin\EntityFramework.xml
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\API\bin\EntityFramework.SqlServer.xml
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\API\bin\Newtonsoft.Json.xml
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\API\bin\System.Net.Http.Formatting.xml
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\API\bin\System.Web.Helpers.xml
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\API\bin\System.Web.Http.xml
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\API\bin\System.Web.Http.WebHost.xml
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\API\bin\System.Web.Mvc.xml
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\API\bin\System.Web.Optimization.xml
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\API\bin\System.Web.Razor.xml
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\API\bin\System.Web.WebPages.xml
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\API\bin\System.Web.WebPages.Deployment.xml
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\API\bin\System.Web.WebPages.Razor.xml
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\API\bin\Antlr3.Runtime.pdb
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\API\bin\Microsoft.ApplicationInsights.xml
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\API\bin\Microsoft.AI.DependencyCollector.xml
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\API\bin\Microsoft.AI.ServerTelemetryChannel.xml
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\API\bin\Microsoft.AI.WindowsServer.xml
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\API\bin\Microsoft.AI.Web.xml
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\API\obj\Debug\API.csprojResolveAssemblyReference.cache
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\API\obj\Debug\API.dll
+Y:\0000הנדסאיות תשעט\שנה ג\פרויקטים\תבנית שכבות בסיסית\BL\API\obj\Debug\API.pdb
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\API\bin\roslyn\csc.exe
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\API\bin\roslyn\csc.exe.config
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\API\bin\roslyn\csc.rsp
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\API\bin\roslyn\csi.exe
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\API\bin\roslyn\csi.rsp
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\API\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\API\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\API\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\API\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\API\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\API\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\API\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\API\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\API\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\API\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\API\bin\roslyn\System.AppContext.dll
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\API\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\API\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\API\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\API\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\API\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\API\bin\roslyn\vbc.exe
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\API\bin\roslyn\vbc.exe.config
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\API\bin\roslyn\vbc.rsp
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\API\bin\roslyn\VBCSCompiler.exe
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\API\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\API\bin\API.dll.config
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\API\bin\API.dll
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\API\bin\API.pdb
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\API\bin\Antlr3.Runtime.dll
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\API\bin\BL.dll
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\API\bin\DAL_DBFirst.dll
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\API\bin\Entities.dll
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\API\bin\EntityFramework.dll
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\API\bin\EntityFramework.SqlServer.dll
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\API\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\API\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\API\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\API\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\API\bin\Microsoft.AI.Web.dll
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\API\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\API\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\API\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\API\bin\Newtonsoft.Json.dll
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\API\bin\System.Net.Http.Formatting.dll
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\API\bin\System.Web.Helpers.dll
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\API\bin\System.Web.Http.dll
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\API\bin\System.Web.Http.WebHost.dll
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\API\bin\System.Web.Mvc.dll
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\API\bin\System.Web.Optimization.dll
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\API\bin\System.Web.Razor.dll
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\API\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\API\bin\System.Web.WebPages.dll
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\API\bin\System.Web.WebPages.Razor.dll
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\API\bin\WebGrease.dll
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\API\bin\BL.pdb
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\API\bin\BL.dll.config
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\API\bin\DAL_DBFirst.pdb
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\API\bin\DAL_DBFirst.dll.config
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\API\bin\Entities.pdb
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\API\bin\Entities.dll.config
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\API\bin\EntityFramework.xml
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\API\bin\EntityFramework.SqlServer.xml
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\API\bin\Newtonsoft.Json.xml
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\API\bin\System.Net.Http.Formatting.xml
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\API\bin\System.Web.Helpers.xml
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\API\bin\System.Web.Http.xml
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\API\bin\System.Web.Http.WebHost.xml
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\API\bin\System.Web.Mvc.xml
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\API\bin\System.Web.Optimization.xml
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\API\bin\System.Web.Razor.xml
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\API\bin\System.Web.WebPages.xml
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\API\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\API\bin\System.Web.WebPages.Razor.xml
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\API\bin\Antlr3.Runtime.pdb
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\API\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\API\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\API\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\API\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\API\bin\Microsoft.AI.Web.xml
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\API\obj\Debug\API.csprojAssemblyReference.cache
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\API\obj\Debug\API.csproj.CoreCompileInputs.cache
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\API\obj\Debug\API.csproj.CopyComplete
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\API\obj\Debug\API.dll
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\API\obj\Debug\API.pdb
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\API\bin\System.Web.Cors.dll
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\API\bin\System.Web.Http.Cors.dll
+C:\Users\Miriam\Documents\_My own\פרויקטים\BasicProjectTemplate\API\bin\System.Web.Http.Cors.xml
+D:\BasicProjectTemplate\API\bin\roslyn\csc.exe
+D:\BasicProjectTemplate\API\bin\roslyn\csc.exe.config
+D:\BasicProjectTemplate\API\bin\roslyn\csc.rsp
+D:\BasicProjectTemplate\API\bin\roslyn\csi.exe
+D:\BasicProjectTemplate\API\bin\roslyn\csi.rsp
+D:\BasicProjectTemplate\API\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\BasicProjectTemplate\API\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\BasicProjectTemplate\API\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\BasicProjectTemplate\API\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\BasicProjectTemplate\API\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\BasicProjectTemplate\API\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\BasicProjectTemplate\API\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\BasicProjectTemplate\API\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\BasicProjectTemplate\API\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\BasicProjectTemplate\API\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\BasicProjectTemplate\API\bin\roslyn\System.AppContext.dll
+D:\BasicProjectTemplate\API\bin\roslyn\System.Collections.Immutable.dll
+D:\BasicProjectTemplate\API\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\BasicProjectTemplate\API\bin\roslyn\System.IO.FileSystem.dll
+D:\BasicProjectTemplate\API\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\BasicProjectTemplate\API\bin\roslyn\System.Reflection.Metadata.dll
+D:\BasicProjectTemplate\API\bin\roslyn\vbc.exe
+D:\BasicProjectTemplate\API\bin\roslyn\vbc.exe.config
+D:\BasicProjectTemplate\API\bin\roslyn\vbc.rsp
+D:\BasicProjectTemplate\API\bin\roslyn\VBCSCompiler.exe
+D:\BasicProjectTemplate\API\bin\roslyn\VBCSCompiler.exe.config
+D:\BasicProjectTemplate\API\bin\API.dll.config
+D:\BasicProjectTemplate\API\bin\API.dll
+D:\BasicProjectTemplate\API\bin\API.pdb
+D:\BasicProjectTemplate\API\bin\Antlr3.Runtime.dll
+D:\BasicProjectTemplate\API\bin\BL.dll
+D:\BasicProjectTemplate\API\bin\DAL_DBFirst.dll
+D:\BasicProjectTemplate\API\bin\Entities.dll
+D:\BasicProjectTemplate\API\bin\EntityFramework.dll
+D:\BasicProjectTemplate\API\bin\EntityFramework.SqlServer.dll
+D:\BasicProjectTemplate\API\bin\Microsoft.AI.Agent.Intercept.dll
+D:\BasicProjectTemplate\API\bin\Microsoft.AI.DependencyCollector.dll
+D:\BasicProjectTemplate\API\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\BasicProjectTemplate\API\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\BasicProjectTemplate\API\bin\Microsoft.AI.Web.dll
+D:\BasicProjectTemplate\API\bin\Microsoft.AI.WindowsServer.dll
+D:\BasicProjectTemplate\API\bin\Microsoft.ApplicationInsights.dll
+D:\BasicProjectTemplate\API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\BasicProjectTemplate\API\bin\Microsoft.Web.Infrastructure.dll
+D:\BasicProjectTemplate\API\bin\Newtonsoft.Json.dll
+D:\BasicProjectTemplate\API\bin\System.Net.Http.Formatting.dll
+D:\BasicProjectTemplate\API\bin\System.Web.Cors.dll
+D:\BasicProjectTemplate\API\bin\System.Web.Helpers.dll
+D:\BasicProjectTemplate\API\bin\System.Web.Http.Cors.dll
+D:\BasicProjectTemplate\API\bin\System.Web.Http.dll
+D:\BasicProjectTemplate\API\bin\System.Web.Http.WebHost.dll
+D:\BasicProjectTemplate\API\bin\System.Web.Mvc.dll
+D:\BasicProjectTemplate\API\bin\System.Web.Optimization.dll
+D:\BasicProjectTemplate\API\bin\System.Web.Razor.dll
+D:\BasicProjectTemplate\API\bin\System.Web.WebPages.Deployment.dll
+D:\BasicProjectTemplate\API\bin\System.Web.WebPages.dll
+D:\BasicProjectTemplate\API\bin\System.Web.WebPages.Razor.dll
+D:\BasicProjectTemplate\API\bin\WebGrease.dll
+D:\BasicProjectTemplate\API\bin\BL.pdb
+D:\BasicProjectTemplate\API\bin\BL.dll.config
+D:\BasicProjectTemplate\API\bin\DAL_DBFirst.pdb
+D:\BasicProjectTemplate\API\bin\DAL_DBFirst.dll.config
+D:\BasicProjectTemplate\API\bin\Entities.pdb
+D:\BasicProjectTemplate\API\bin\Entities.dll.config
+D:\BasicProjectTemplate\API\bin\EntityFramework.xml
+D:\BasicProjectTemplate\API\bin\EntityFramework.SqlServer.xml
+D:\BasicProjectTemplate\API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\BasicProjectTemplate\API\bin\System.Net.Http.Formatting.xml
+D:\BasicProjectTemplate\API\bin\System.Web.Http.xml
+D:\BasicProjectTemplate\API\bin\System.Web.Http.Cors.xml
+D:\BasicProjectTemplate\API\bin\Newtonsoft.Json.xml
+D:\BasicProjectTemplate\API\bin\System.Web.Helpers.xml
+D:\BasicProjectTemplate\API\bin\System.Web.Http.WebHost.xml
+D:\BasicProjectTemplate\API\bin\System.Web.Mvc.xml
+D:\BasicProjectTemplate\API\bin\System.Web.Optimization.xml
+D:\BasicProjectTemplate\API\bin\System.Web.Razor.xml
+D:\BasicProjectTemplate\API\bin\System.Web.WebPages.xml
+D:\BasicProjectTemplate\API\bin\System.Web.WebPages.Deployment.xml
+D:\BasicProjectTemplate\API\bin\System.Web.WebPages.Razor.xml
+D:\BasicProjectTemplate\API\bin\Antlr3.Runtime.pdb
+D:\BasicProjectTemplate\API\bin\Microsoft.ApplicationInsights.xml
+D:\BasicProjectTemplate\API\bin\Microsoft.AI.DependencyCollector.xml
+D:\BasicProjectTemplate\API\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\BasicProjectTemplate\API\bin\Microsoft.AI.WindowsServer.xml
+D:\BasicProjectTemplate\API\bin\Microsoft.AI.Web.xml
+D:\BasicProjectTemplate\API\obj\Debug\API.csprojResolveAssemblyReference.cache
+D:\BasicProjectTemplate\API\obj\Debug\API.dll
+D:\BasicProjectTemplate\API\obj\Debug\API.pdb

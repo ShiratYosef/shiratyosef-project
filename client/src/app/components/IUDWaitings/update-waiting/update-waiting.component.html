@@ -1,0 +1,62 @@
+<h3 mat-dialog-title id="update" dir="rtl">עדכון ממתין</h3>
+<div id="line"></div>
+<form class="mat-dialog-content" (ngSubmit)="submit" #formControl="ngForm">
+
+
+  <!--Textarea for demo purposes-->
+  
+  <div class="form" dir="rtl">
+    <mat-form-field color="accent"> 
+      <input matInput #input class="form-control" placeholder="תעודת זהות" [(ngModel)]="data.IdentityNum" name="IdentityNum" required >
+      <mat-error *ngIf="formControl.invalid">{{getErrorMessage()}}</mat-error>
+    </mat-form-field>
+  </div>
+
+  <!--Contains mat-hint for characters count and has maxLengt set-->
+  <div class="form" dir="rtl">
+    <mat-form-field color="accent">
+      <input matInput  class="form-control" placeholder="שם משפחה" [(ngModel)]="data.FamilyName" name="FamilyName" >
+    </mat-form-field>
+  </div>
+
+  <div class="form" dir="rtl">
+      <mat-form-field color="accent">
+        <input matInput placeholder="שם פרטי" [(ngModel)]="data.FirstName" name="FirstName">
+      </mat-form-field>
+  </div>
+
+  <div class="form" dir="rtl">
+    <mat-form-field color="accent">
+      <input matInput placeholder="תאריך לידה" [(ngModel)]="data.BirthDate" name="BirthDate">
+    </mat-form-field>
+  </div>
+  
+  <div class="form" dir="rtl">
+    <mat-form-field color="accent">
+      <input matInput placeholder="שם בית הספר" [(ngModel)]="data.SchoolName" name="SchoolName">
+    </mat-form-field>
+  </div>
+
+  <div class="form" dir="rtl">
+    <mat-form-field color="accent">
+      <input matInput placeholder="כיתה" [(ngModel)]="data.Grade" name="Grade">
+    </mat-form-field>
+  </div>
+  
+  <div class="form" dir="rtl">
+    <mat-form-field color="accent">
+      <input matInput placeholder="תאריך הצטרפות" [(ngModel)]="data.JoiningDate" name="JoiningDate">
+    </mat-form-field>
+  </div>
+
+  <div class="form" dir="rtl">
+    <mat-form-field color="accent">
+      <input matInput placeholder="הערות" [(ngModel)]="data.Note" name="Note">
+    </mat-form-field>
+  </div>
+  <div mat-dialog-actions dir="rtl">
+    <button mat-button [type]="submit" [disabled]="!formControl.valid" [mat-dialog-close]="1" (click)="stopEdit()">שמירה</button>
+    <button mat-button (click)="onNoClick()" tabindex="-1">ביטול</button>
+  </div>
+</form>
+

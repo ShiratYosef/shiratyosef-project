@@ -1,0 +1,88 @@
+<div dir="rtl">
+<mat-form-field class="example-full-width" ngClass="div">
+  <input matInput placeholder="חיפוש על פי תעודת זהות" aria-label="State" [formControl]="stateCtrl"
+    (ngModelChange)="searchByIdNum($event)">
+</mat-form-field>
+</div>
+
+
+<!-- <table mat-table
+       [dataSource]="newChildren" multiTemplateDataRows
+       class="mat-elevation-z8">
+  <ng-container matColumnDef="{{column}}" *ngFor="let column of columnsToDisplay">
+    <th mat-header-cell ngClass="header" *matHeaderCellDef> {{column}} </th>
+    <td mat-cell *matCellDef="let element"> {{element[column]}} </td>
+  </ng-container>
+
+  <ng-container matColumnDef="expandedDetail">
+    <td   mat-cell *matCellDef="let element" [attr.colspan]="columnsToDisplay.length">
+      <div class="example-element-detail"
+           [@detailExpand]="element == expandedElement ? 'expanded' : 'collapsed'">
+        <div class="example-element-diagram">
+          <div class="example-element-position"> {{element.IdentityNum}} </div>
+          <div class="example-element-symbol"> {{element.FirstName}} </div>
+          <div class="example-element-name"> {{element.FamilyName}} </div>
+          <div class="example-element-weight"> {{element.BirthDate}} </div>
+          <div class="example-element-weight"> {{element.JoiningDate}} </div>
+          <div class="example-element-weight"> {{element.IsActive}} </div>
+        </div>
+      </div>
+    </td>
+  </ng-container>
+
+  <tr  mat-header-row *matHeaderRowDef="columnsToDisplay"></tr>
+  <tr mat-row [ngClass]="{'highlight': i%2 == 1}" *matRowDef="let element; let i=index; columns: columnsToDisplay;"
+      class="example-element-row"
+      [class.example-expanded-row]="expandedElement === element"
+      (click)="expandedElement = expandedElement === element ? null : element"
+      (click)="ShowChildDetails($event)"
+      >
+  </tr>
+</table> -->
+<mat-table #table [dataSource]="newChildren" matSort class="mat-cell">
+
+
+  <!-- ID Column -->
+
+  <ng-container matColumnDef="IsActive">
+    <mat-header-cell ngClass="header" *matHeaderCellDef mat-sort-header>האם פעיל</mat-header-cell>
+    <mat-cell *matCellDef="let row">
+      <p *ngIf="!row.IsActive">x</p>
+      <p *ngIf="row.IsActive">v</p>
+    </mat-cell>
+  </ng-container>
+  <!-- <ng-container matColumnDef="IsActive">
+    <mat-header-cell ngClass="header" *matHeaderCellDef mat-sort-header>האם פעיל</mat-header-cell>
+    <mat-cell *matCellDef="let row" >{{row.IsActive}}</mat-cell>
+  </ng-container> -->
+
+  <ng-container matColumnDef="JoiningDate">
+    <mat-header-cell ngClass="header" *matHeaderCellDef mat-sort-header>תאריך הצטרפות</mat-header-cell>
+    <mat-cell *matCellDef="let row">{{row.JoiningDate}}</mat-cell>
+  </ng-container>
+
+  <ng-container matColumnDef="BirthDate">
+    <mat-header-cell ngClass="header" *matHeaderCellDef mat-sort-header>תאריך לידה</mat-header-cell>
+    <mat-cell *matCellDef="let row">{{row.BirthDate}}</mat-cell>
+  </ng-container>
+
+  <ng-container matColumnDef="FamilyName">
+    <mat-header-cell ngClass="header" *matHeaderCellDef mat-sort-header>שם משפחה</mat-header-cell>
+    <mat-cell *matCellDef="let row">{{row.FamilyName}}</mat-cell>
+  </ng-container>
+
+  <ng-container matColumnDef="FirstName">
+    <mat-header-cell ngClass="header" *matHeaderCellDef mat-sort-header>שם פרטי</mat-header-cell>
+    <mat-cell *matCellDef="let row">{{row.FirstName}}</mat-cell>
+  </ng-container>
+
+  <ng-container matColumnDef="IdentityNum">
+    <mat-header-cell ngClass="header" *matHeaderCellDef mat-sort-header>תעודת זהות</mat-header-cell>
+    <mat-cell *matCellDef="let row">{{row.IdentityNum}}</mat-cell>
+  </ng-container>
+
+  <mat-header-row *matHeaderRowDef="displayedColumns"></mat-header-row>
+  <mat-row [ngClass]="{'highlight': i%2 == 1}" *matRowDef="let row; let i=index; columns: displayedColumns;"
+    (click)="ShowChildDetails(row)"></mat-row>
+</mat-table>
+<app-footer [countOfLines]=count></app-footer>

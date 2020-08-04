@@ -1,0 +1,70 @@
+
+<div class="container" dir="rtl">
+  <div>
+  <h3 mat-dialog-title>הוספת מקצוע</h3>
+</div>
+  <form class="mat-dialog-content" (ngSubmit)="submit" [formGroup]="addSubjectForm" #formControl="ngForm">
+
+  
+    <!--Textarea for demo purposes-->
+    <div class="form" dir="rtl">
+      <mat-form-field ngClass="pink">
+        <textarea formControlName="SubjectName" matInput #input class="form-control" placeholder="שם מקצוע" [(ngModel)]="data.SubjectName" name="SubjectName" required ></textarea>
+        <!-- <mat-error *ngIf="formControl.invalid">{{getErrorMessage()}}</mat-error> -->
+      </mat-form-field>
+    </div>
+ 
+    <div class="form" dir="rtl">
+      <mat-form-field ngClass="pink">
+        <input formControlName="MinNumOfMeeting" matInput #inputstate class="form-control" placeholder="מינימום מפגשים" [(ngModel)]="data.MinNumOfMeeting" name="MinNumOfMeeting">
+        <mat-error *ngIf="submitted && f.MinNumOfMeeting.errors" class="invalid-feedback">
+          <div *ngIf="f.MinNumOfMeeting.errors.pattern">מספרים בלבד</div>
+          <div *ngIf="f.MinNumOfMeeting.errors?.maxLength">עד 5 מספרים</div>
+      </mat-error>
+      </mat-form-field>
+    </div>
+
+    <div class="form" dir="rtl">
+      <mat-form-field ngClass="pink">
+        <input formControlName="AvgNumOfMeeting" matInput placeholder="ממוצע מפגשים" [(ngModel)]="data.AvgNumOfMeeting" name="AvgNumOfMeeting">
+        <div *ngIf="submitted && f.AvgNumOfMeeting.errors" class="invalid-feedback">
+          <div *ngIf="f.AvgNumOfMeeting.errors.pattern">מספרים בלבד</div>
+          <div *ngIf="f.AvgNumOfMeeting.errors?.maxLength">עד 5 מספרים</div>
+      </div>
+      </mat-form-field>
+    </div>
+
+    <div class="form" dir="rtl">
+      <mat-form-field ngClass="pink">
+        <input formControlName="MinAge" matInput placeholder="גיל מינימום" [(ngModel)]="data.MinAge" name="MinAge">
+        <div *ngIf="submitted && f.MinAge.errors" class="invalid-feedback">
+          <div *ngIf="f.MinAge.errors?.minLength">מינימום סיפרה אחת</div>
+          <div *ngIf="f.MinAge.errors?.maxLength">עד 3 מספרים</div>
+      </div>
+      </mat-form-field>
+    </div>
+    
+    <div class="form" dir="rtl">
+      <mat-form-field ngClass="pink">
+        <input formControlName="MaxAge" matInput placeholder="גיל מקסימום" [(ngModel)]="data.MaxAge" name="MaxAge">
+        <div *ngIf="submitted && f.MaxAge.errors" class="invalid-feedback">
+          <div *ngIf="f.MaxAge.errors?.minLength">מינימום סיפרה אחת</div>
+          <div *ngIf="f.MaxAge.errors?.maxLength">עד 3 מספרים</div>
+      </div>
+      </mat-form-field>
+    </div>
+
+
+    <div class="form" dir="rtl">
+      <mat-form-field ngClass="pink">
+        <input formControlName="DurationInMinuts" matInput placeholder="משך זמן" [(ngModel)]="data.DurationInMinuts" name="DurationInMinuts">
+      </mat-form-field>
+    </div>
+
+
+    <div mat-dialog-actions>
+      <button mat-button [type]="submit" [disabled]="!addSubjectForm.valid" [mat-dialog-close]="1" (click)="confirmAdd()">שמירה</button>
+      <button mat-button (click)="onNoClick()" tabindex="-1">ביטול</button>
+    </div>
+  </form>
+</div>

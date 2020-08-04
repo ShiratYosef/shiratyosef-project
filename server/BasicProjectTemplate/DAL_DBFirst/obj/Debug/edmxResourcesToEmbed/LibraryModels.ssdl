@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="BOOKEEPERModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <!--Errors Found During Generation:
+warning 6013: The table/view 'BOOKEEPER.dbo.Companies' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+        <EntityType Name="Companies">
+          <Property Name="ID" Type="nchar" MaxLength="10" />
+          <Property Name="email" Type="nchar" MaxLength="10" />
+          <Property Name="link" Type="nchar" MaxLength="10" />
+        </EntityType>-->
+  <EntityType Name="Invoice">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="nchar" MaxLength="10" Nullable="false" />
+    <Property Name="companyID" Type="nchar" MaxLength="10" />
+    <Property Name="sum" Type="nchar" MaxLength="10" />
+    <Property Name="invoiceID" Type="nchar" MaxLength="10" />
+    <Property Name="date" Type="datetime2" Precision="7" />
+    <Property Name="paymentDate" Type="datetime2" Precision="7" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6013: The table/view 'BOOKEEPER.dbo.Users' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+        <EntityType Name="Users">
+          <Property Name="ID" Type="nchar" MaxLength="10" />
+          <Property Name="name" Type="nchar" MaxLength="10" />
+          <Property Name="address" Type="nchar" MaxLength="10" />
+          <Property Name="email" Type="nchar" MaxLength="10" />
+          <Property Name="phone" Type="nchar" MaxLength="10" />
+        </EntityType>-->
+  <EntityContainer Name="BOOKEEPERModelStoreContainer">
+    <EntitySet Name="Invoice" EntityType="Self.Invoice" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

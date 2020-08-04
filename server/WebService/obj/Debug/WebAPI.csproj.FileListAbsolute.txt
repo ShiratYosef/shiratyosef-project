@@ -1,0 +1,1003 @@
+Y:\group 1 תשעט\שווב יהודית\project\WebService\obj\Debug\WebService.dll
+Y:\group 1 תשעט\שווב יהודית\project\WebService\obj\Debug\WebService.pdb
+Y:\group 1 תשעט\שווב יהודית\project\WebService\bin\WebService.dll.config
+Y:\group 1 תשעט\שווב יהודית\project\WebService\bin\WebService.dll
+Y:\group 1 תשעט\שווב יהודית\project\WebService\bin\WebService.pdb
+Y:\group 1 תשעט\שווב יהודית\project\WebService\bin\roslyn\csc.exe
+Y:\group 1 תשעט\שווב יהודית\project\WebService\bin\roslyn\csc.exe.config
+Y:\group 1 תשעט\שווב יהודית\project\WebService\bin\roslyn\csc.rsp
+Y:\group 1 תשעט\שווב יהודית\project\WebService\bin\roslyn\csi.exe
+Y:\group 1 תשעט\שווב יהודית\project\WebService\bin\roslyn\csi.exe.config
+Y:\group 1 תשעט\שווב יהודית\project\WebService\bin\roslyn\csi.rsp
+Y:\group 1 תשעט\שווב יהודית\project\WebService\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+Y:\group 1 תשעט\שווב יהודית\project\WebService\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+Y:\group 1 תשעט\שווב יהודית\project\WebService\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+Y:\group 1 תשעט\שווב יהודית\project\WebService\bin\roslyn\Microsoft.CodeAnalysis.dll
+Y:\group 1 תשעט\שווב יהודית\project\WebService\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+Y:\group 1 תשעט\שווב יהודית\project\WebService\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+Y:\group 1 תשעט\שווב יהודית\project\WebService\bin\roslyn\Microsoft.CSharp.Core.targets
+Y:\group 1 תשעט\שווב יהודית\project\WebService\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+Y:\group 1 תשעט\שווב יהודית\project\WebService\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+Y:\group 1 תשעט\שווב יהודית\project\WebService\bin\roslyn\Microsoft.Managed.Core.targets
+Y:\group 1 תשעט\שווב יהודית\project\WebService\bin\roslyn\Microsoft.VisualBasic.Core.targets
+Y:\group 1 תשעט\שווב יהודית\project\WebService\bin\roslyn\System.AppContext.dll
+Y:\group 1 תשעט\שווב יהודית\project\WebService\bin\roslyn\System.Collections.Immutable.dll
+Y:\group 1 תשעט\שווב יהודית\project\WebService\bin\roslyn\System.Console.dll
+Y:\group 1 תשעט\שווב יהודית\project\WebService\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+Y:\group 1 תשעט\שווב יהודית\project\WebService\bin\roslyn\System.Diagnostics.StackTrace.dll
+Y:\group 1 תשעט\שווב יהודית\project\WebService\bin\roslyn\System.IO.Compression.dll
+Y:\group 1 תשעט\שווב יהודית\project\WebService\bin\roslyn\System.IO.FileSystem.dll
+Y:\group 1 תשעט\שווב יהודית\project\WebService\bin\roslyn\System.IO.FileSystem.Primitives.dll
+Y:\group 1 תשעט\שווב יהודית\project\WebService\bin\roslyn\System.IO.Pipes.AccessControl.dll
+Y:\group 1 תשעט\שווב יהודית\project\WebService\bin\roslyn\System.IO.Pipes.dll
+Y:\group 1 תשעט\שווב יהודית\project\WebService\bin\roslyn\System.Reflection.Metadata.dll
+Y:\group 1 תשעט\שווב יהודית\project\WebService\bin\roslyn\System.Security.AccessControl.dll
+Y:\group 1 תשעט\שווב יהודית\project\WebService\bin\roslyn\System.Security.Claims.dll
+Y:\group 1 תשעט\שווב יהודית\project\WebService\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+Y:\group 1 תשעט\שווב יהודית\project\WebService\bin\roslyn\System.Security.Cryptography.Encoding.dll
+Y:\group 1 תשעט\שווב יהודית\project\WebService\bin\roslyn\System.Security.Cryptography.Primitives.dll
+Y:\group 1 תשעט\שווב יהודית\project\WebService\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+Y:\group 1 תשעט\שווב יהודית\project\WebService\bin\roslyn\System.Security.Principal.Windows.dll
+Y:\group 1 תשעט\שווב יהודית\project\WebService\bin\roslyn\System.Text.Encoding.CodePages.dll
+Y:\group 1 תשעט\שווב יהודית\project\WebService\bin\roslyn\System.ValueTuple.dll
+Y:\group 1 תשעט\שווב יהודית\project\WebService\bin\roslyn\System.Xml.ReaderWriter.dll
+Y:\group 1 תשעט\שווב יהודית\project\WebService\bin\roslyn\System.Xml.XmlDocument.dll
+Y:\group 1 תשעט\שווב יהודית\project\WebService\bin\roslyn\System.Xml.XPath.dll
+Y:\group 1 תשעט\שווב יהודית\project\WebService\bin\roslyn\System.Xml.XPath.XDocument.dll
+Y:\group 1 תשעט\שווב יהודית\project\WebService\bin\roslyn\vbc.exe
+Y:\group 1 תשעט\שווב יהודית\project\WebService\bin\roslyn\vbc.exe.config
+Y:\group 1 תשעט\שווב יהודית\project\WebService\bin\roslyn\vbc.rsp
+Y:\group 1 תשעט\שווב יהודית\project\WebService\bin\roslyn\VBCSCompiler.exe
+Y:\group 1 תשעט\שווב יהודית\project\WebService\bin\roslyn\VBCSCompiler.exe.config
+Y:\group 1 תשעט\שווב יהודית\project\WebService\bin\Antlr3.Runtime.dll
+Y:\group 1 תשעט\שווב יהודית\project\WebService\bin\BLL.dll
+Y:\group 1 תשעט\שווב יהודית\project\WebService\bin\DAL.dll
+Y:\group 1 תשעט\שווב יהודית\project\WebService\bin\DTO.dll
+Y:\group 1 תשעט\שווב יהודית\project\WebService\bin\EntityFramework.dll
+Y:\group 1 תשעט\שווב יהודית\project\WebService\bin\EntityFramework.SqlServer.dll
+Y:\group 1 תשעט\שווב יהודית\project\WebService\bin\Microsoft.AI.Agent.Intercept.dll
+Y:\group 1 תשעט\שווב יהודית\project\WebService\bin\Microsoft.AI.DependencyCollector.dll
+Y:\group 1 תשעט\שווב יהודית\project\WebService\bin\Microsoft.AI.PerfCounterCollector.dll
+Y:\group 1 תשעט\שווב יהודית\project\WebService\bin\Microsoft.AI.ServerTelemetryChannel.dll
+Y:\group 1 תשעט\שווב יהודית\project\WebService\bin\Microsoft.AI.Web.dll
+Y:\group 1 תשעט\שווב יהודית\project\WebService\bin\Microsoft.AI.WindowsServer.dll
+Y:\group 1 תשעט\שווב יהודית\project\WebService\bin\Microsoft.ApplicationInsights.dll
+Y:\group 1 תשעט\שווב יהודית\project\WebService\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+Y:\group 1 תשעט\שווב יהודית\project\WebService\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+Y:\group 1 תשעט\שווב יהודית\project\WebService\bin\Microsoft.Web.Infrastructure.dll
+Y:\group 1 תשעט\שווב יהודית\project\WebService\bin\Newtonsoft.Json.dll
+Y:\group 1 תשעט\שווב יהודית\project\WebService\bin\System.Diagnostics.DiagnosticSource.dll
+Y:\group 1 תשעט\שווב יהודית\project\WebService\bin\System.Net.Http.Formatting.dll
+Y:\group 1 תשעט\שווב יהודית\project\WebService\bin\System.Web.Cors.dll
+Y:\group 1 תשעט\שווב יהודית\project\WebService\bin\System.Web.Helpers.dll
+Y:\group 1 תשעט\שווב יהודית\project\WebService\bin\System.Web.Http.Cors.dll
+Y:\group 1 תשעט\שווב יהודית\project\WebService\bin\System.Web.Http.dll
+Y:\group 1 תשעט\שווב יהודית\project\WebService\bin\System.Web.Http.WebHost.dll
+Y:\group 1 תשעט\שווב יהודית\project\WebService\bin\System.Web.Mvc.dll
+Y:\group 1 תשעט\שווב יהודית\project\WebService\bin\System.Web.Optimization.dll
+Y:\group 1 תשעט\שווב יהודית\project\WebService\bin\System.Web.Razor.dll
+Y:\group 1 תשעט\שווב יהודית\project\WebService\bin\System.Web.WebPages.Deployment.dll
+Y:\group 1 תשעט\שווב יהודית\project\WebService\bin\System.Web.WebPages.dll
+Y:\group 1 תשעט\שווב יהודית\project\WebService\bin\System.Web.WebPages.Razor.dll
+Y:\group 1 תשעט\שווב יהודית\project\WebService\bin\WebGrease.dll
+Y:\group 1 תשעט\שווב יהודית\project\WebService\bin\BLL.pdb
+Y:\group 1 תשעט\שווב יהודית\project\WebService\bin\BLL.dll.config
+Y:\group 1 תשעט\שווב יהודית\project\WebService\bin\DAL.pdb
+Y:\group 1 תשעט\שווב יהודית\project\WebService\bin\DAL.dll.config
+Y:\group 1 תשעט\שווב יהודית\project\WebService\bin\DTO.pdb
+Y:\group 1 תשעט\שווב יהודית\project\WebService\bin\DTO.dll.config
+Y:\group 1 תשעט\שווב יהודית\project\WebService\bin\EntityFramework.xml
+Y:\group 1 תשעט\שווב יהודית\project\WebService\bin\EntityFramework.SqlServer.xml
+Y:\group 1 תשעט\שווב יהודית\project\WebService\bin\System.Net.Http.Formatting.xml
+Y:\group 1 תשעט\שווב יהודית\project\WebService\bin\System.Web.Http.xml
+Y:\group 1 תשעט\שווב יהודית\project\WebService\bin\System.Web.Http.Cors.xml
+Y:\group 1 תשעט\שווב יהודית\project\WebService\bin\System.Web.Helpers.xml
+Y:\group 1 תשעט\שווב יהודית\project\WebService\bin\System.Web.Mvc.xml
+Y:\group 1 תשעט\שווב יהודית\project\WebService\bin\System.Web.Optimization.xml
+Y:\group 1 תשעט\שווב יהודית\project\WebService\bin\System.Web.Razor.xml
+Y:\group 1 תשעט\שווב יהודית\project\WebService\bin\System.Web.WebPages.xml
+Y:\group 1 תשעט\שווב יהודית\project\WebService\bin\System.Web.WebPages.Deployment.xml
+Y:\group 1 תשעט\שווב יהודית\project\WebService\bin\System.Web.WebPages.Razor.xml
+Y:\group 1 תשעט\שווב יהודית\project\WebService\bin\Newtonsoft.Json.xml
+Y:\group 1 תשעט\שווב יהודית\project\WebService\bin\Antlr3.Runtime.pdb
+Y:\group 1 תשעט\שווב יהודית\project\WebService\bin\System.Web.Http.WebHost.xml
+Y:\group 1 תשעט\שווב יהודית\project\WebService\bin\System.Diagnostics.DiagnosticSource.xml
+Y:\group 1 תשעט\שווב יהודית\project\WebService\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+Y:\group 1 תשעט\שווב יהודית\project\WebService\bin\Microsoft.AI.DependencyCollector.xml
+Y:\group 1 תשעט\שווב יהודית\project\WebService\bin\Microsoft.AI.WindowsServer.xml
+Y:\group 1 תשעט\שווב יהודית\project\WebService\bin\Microsoft.AI.Web.xml
+Y:\group 1 תשעט\שווב יהודית\project\WebService\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+Y:\group 1 תשעט\שווב יהודית\project\WebService\obj\Debug\WebAPI.csprojAssemblyReference.cache
+Y:\group 1 תשעט\שווב יהודית\project\WebService\obj\Debug\WebAPI.csproj.CoreCompileInputs.cache
+Y:\group 1 תשעט\שווב יהודית\project\WebService\obj\Debug\WebAPI.csproj.CopyComplete
+Y:\group 1 תשעט\קרליץ בתי\project\WebService\bin\WebService.dll.config
+Y:\group 1 תשעט\קרליץ בתי\project\WebService\bin\WebService.dll
+Y:\group 1 תשעט\קרליץ בתי\project\WebService\bin\WebService.pdb
+Y:\group 1 תשעט\קרליץ בתי\project\WebService\bin\roslyn\csc.exe
+Y:\group 1 תשעט\קרליץ בתי\project\WebService\bin\roslyn\csc.exe.config
+Y:\group 1 תשעט\קרליץ בתי\project\WebService\bin\roslyn\csc.rsp
+Y:\group 1 תשעט\קרליץ בתי\project\WebService\bin\roslyn\csi.exe
+Y:\group 1 תשעט\קרליץ בתי\project\WebService\bin\roslyn\csi.exe.config
+Y:\group 1 תשעט\קרליץ בתי\project\WebService\bin\roslyn\csi.rsp
+Y:\group 1 תשעט\קרליץ בתי\project\WebService\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+Y:\group 1 תשעט\קרליץ בתי\project\WebService\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+Y:\group 1 תשעט\קרליץ בתי\project\WebService\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+Y:\group 1 תשעט\קרליץ בתי\project\WebService\bin\roslyn\Microsoft.CodeAnalysis.dll
+Y:\group 1 תשעט\קרליץ בתי\project\WebService\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+Y:\group 1 תשעט\קרליץ בתי\project\WebService\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+Y:\group 1 תשעט\קרליץ בתי\project\WebService\bin\roslyn\Microsoft.CSharp.Core.targets
+Y:\group 1 תשעט\קרליץ בתי\project\WebService\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+Y:\group 1 תשעט\קרליץ בתי\project\WebService\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+Y:\group 1 תשעט\קרליץ בתי\project\WebService\bin\roslyn\Microsoft.Managed.Core.targets
+Y:\group 1 תשעט\קרליץ בתי\project\WebService\bin\roslyn\Microsoft.VisualBasic.Core.targets
+Y:\group 1 תשעט\קרליץ בתי\project\WebService\bin\roslyn\System.AppContext.dll
+Y:\group 1 תשעט\קרליץ בתי\project\WebService\bin\roslyn\System.Collections.Immutable.dll
+Y:\group 1 תשעט\קרליץ בתי\project\WebService\bin\roslyn\System.Console.dll
+Y:\group 1 תשעט\קרליץ בתי\project\WebService\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+Y:\group 1 תשעט\קרליץ בתי\project\WebService\bin\roslyn\System.Diagnostics.StackTrace.dll
+Y:\group 1 תשעט\קרליץ בתי\project\WebService\bin\roslyn\System.IO.Compression.dll
+Y:\group 1 תשעט\קרליץ בתי\project\WebService\bin\roslyn\System.IO.FileSystem.dll
+Y:\group 1 תשעט\קרליץ בתי\project\WebService\bin\roslyn\System.IO.FileSystem.Primitives.dll
+Y:\group 1 תשעט\קרליץ בתי\project\WebService\bin\roslyn\System.IO.Pipes.AccessControl.dll
+Y:\group 1 תשעט\קרליץ בתי\project\WebService\bin\roslyn\System.IO.Pipes.dll
+Y:\group 1 תשעט\קרליץ בתי\project\WebService\bin\roslyn\System.Reflection.Metadata.dll
+Y:\group 1 תשעט\קרליץ בתי\project\WebService\bin\roslyn\System.Security.AccessControl.dll
+Y:\group 1 תשעט\קרליץ בתי\project\WebService\bin\roslyn\System.Security.Claims.dll
+Y:\group 1 תשעט\קרליץ בתי\project\WebService\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+Y:\group 1 תשעט\קרליץ בתי\project\WebService\bin\roslyn\System.Security.Cryptography.Encoding.dll
+Y:\group 1 תשעט\קרליץ בתי\project\WebService\bin\roslyn\System.Security.Cryptography.Primitives.dll
+Y:\group 1 תשעט\קרליץ בתי\project\WebService\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+Y:\group 1 תשעט\קרליץ בתי\project\WebService\bin\roslyn\System.Security.Principal.Windows.dll
+Y:\group 1 תשעט\קרליץ בתי\project\WebService\bin\roslyn\System.Text.Encoding.CodePages.dll
+Y:\group 1 תשעט\קרליץ בתי\project\WebService\bin\roslyn\System.ValueTuple.dll
+Y:\group 1 תשעט\קרליץ בתי\project\WebService\bin\roslyn\System.Xml.ReaderWriter.dll
+Y:\group 1 תשעט\קרליץ בתי\project\WebService\bin\roslyn\System.Xml.XmlDocument.dll
+Y:\group 1 תשעט\קרליץ בתי\project\WebService\bin\roslyn\System.Xml.XPath.dll
+Y:\group 1 תשעט\קרליץ בתי\project\WebService\bin\roslyn\System.Xml.XPath.XDocument.dll
+Y:\group 1 תשעט\קרליץ בתי\project\WebService\bin\roslyn\vbc.exe
+Y:\group 1 תשעט\קרליץ בתי\project\WebService\bin\roslyn\vbc.exe.config
+Y:\group 1 תשעט\קרליץ בתי\project\WebService\bin\roslyn\vbc.rsp
+Y:\group 1 תשעט\קרליץ בתי\project\WebService\bin\roslyn\VBCSCompiler.exe
+Y:\group 1 תשעט\קרליץ בתי\project\WebService\bin\roslyn\VBCSCompiler.exe.config
+Y:\group 1 תשעט\קרליץ בתי\project\WebService\bin\Antlr3.Runtime.dll
+Y:\group 1 תשעט\קרליץ בתי\project\WebService\bin\BLL.dll
+Y:\group 1 תשעט\קרליץ בתי\project\WebService\bin\DAL.dll
+Y:\group 1 תשעט\קרליץ בתי\project\WebService\bin\DTO.dll
+Y:\group 1 תשעט\קרליץ בתי\project\WebService\bin\EntityFramework.dll
+Y:\group 1 תשעט\קרליץ בתי\project\WebService\bin\EntityFramework.SqlServer.dll
+Y:\group 1 תשעט\קרליץ בתי\project\WebService\bin\Microsoft.AI.Agent.Intercept.dll
+Y:\group 1 תשעט\קרליץ בתי\project\WebService\bin\Microsoft.AI.DependencyCollector.dll
+Y:\group 1 תשעט\קרליץ בתי\project\WebService\bin\Microsoft.AI.PerfCounterCollector.dll
+Y:\group 1 תשעט\קרליץ בתי\project\WebService\bin\Microsoft.AI.ServerTelemetryChannel.dll
+Y:\group 1 תשעט\קרליץ בתי\project\WebService\bin\Microsoft.AI.Web.dll
+Y:\group 1 תשעט\קרליץ בתי\project\WebService\bin\Microsoft.AI.WindowsServer.dll
+Y:\group 1 תשעט\קרליץ בתי\project\WebService\bin\Microsoft.ApplicationInsights.dll
+Y:\group 1 תשעט\קרליץ בתי\project\WebService\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+Y:\group 1 תשעט\קרליץ בתי\project\WebService\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+Y:\group 1 תשעט\קרליץ בתי\project\WebService\bin\Microsoft.Web.Infrastructure.dll
+Y:\group 1 תשעט\קרליץ בתי\project\WebService\bin\Newtonsoft.Json.dll
+Y:\group 1 תשעט\קרליץ בתי\project\WebService\bin\System.Diagnostics.DiagnosticSource.dll
+Y:\group 1 תשעט\קרליץ בתי\project\WebService\bin\System.Net.Http.Formatting.dll
+Y:\group 1 תשעט\קרליץ בתי\project\WebService\bin\System.Web.Cors.dll
+Y:\group 1 תשעט\קרליץ בתי\project\WebService\bin\System.Web.Helpers.dll
+Y:\group 1 תשעט\קרליץ בתי\project\WebService\bin\System.Web.Http.Cors.dll
+Y:\group 1 תשעט\קרליץ בתי\project\WebService\bin\System.Web.Http.dll
+Y:\group 1 תשעט\קרליץ בתי\project\WebService\bin\System.Web.Http.WebHost.dll
+Y:\group 1 תשעט\קרליץ בתי\project\WebService\bin\System.Web.Mvc.dll
+Y:\group 1 תשעט\קרליץ בתי\project\WebService\bin\System.Web.Optimization.dll
+Y:\group 1 תשעט\קרליץ בתי\project\WebService\bin\System.Web.Razor.dll
+Y:\group 1 תשעט\קרליץ בתי\project\WebService\bin\System.Web.WebPages.Deployment.dll
+Y:\group 1 תשעט\קרליץ בתי\project\WebService\bin\System.Web.WebPages.dll
+Y:\group 1 תשעט\קרליץ בתי\project\WebService\bin\System.Web.WebPages.Razor.dll
+Y:\group 1 תשעט\קרליץ בתי\project\WebService\bin\WebGrease.dll
+Y:\group 1 תשעט\קרליץ בתי\project\WebService\bin\BLL.pdb
+Y:\group 1 תשעט\קרליץ בתי\project\WebService\bin\BLL.dll.config
+Y:\group 1 תשעט\קרליץ בתי\project\WebService\bin\DAL.pdb
+Y:\group 1 תשעט\קרליץ בתי\project\WebService\bin\DAL.dll.config
+Y:\group 1 תשעט\קרליץ בתי\project\WebService\bin\DTO.pdb
+Y:\group 1 תשעט\קרליץ בתי\project\WebService\bin\DTO.dll.config
+Y:\group 1 תשעט\קרליץ בתי\project\WebService\bin\EntityFramework.xml
+Y:\group 1 תשעט\קרליץ בתי\project\WebService\bin\EntityFramework.SqlServer.xml
+Y:\group 1 תשעט\קרליץ בתי\project\WebService\bin\System.Net.Http.Formatting.xml
+Y:\group 1 תשעט\קרליץ בתי\project\WebService\bin\System.Web.Http.xml
+Y:\group 1 תשעט\קרליץ בתי\project\WebService\bin\System.Web.Http.Cors.xml
+Y:\group 1 תשעט\קרליץ בתי\project\WebService\bin\System.Web.Helpers.xml
+Y:\group 1 תשעט\קרליץ בתי\project\WebService\bin\System.Web.Mvc.xml
+Y:\group 1 תשעט\קרליץ בתי\project\WebService\bin\System.Web.Optimization.xml
+Y:\group 1 תשעט\קרליץ בתי\project\WebService\bin\System.Web.Razor.xml
+Y:\group 1 תשעט\קרליץ בתי\project\WebService\bin\System.Web.WebPages.xml
+Y:\group 1 תשעט\קרליץ בתי\project\WebService\bin\System.Web.WebPages.Deployment.xml
+Y:\group 1 תשעט\קרליץ בתי\project\WebService\bin\System.Web.WebPages.Razor.xml
+Y:\group 1 תשעט\קרליץ בתי\project\WebService\bin\Newtonsoft.Json.xml
+Y:\group 1 תשעט\קרליץ בתי\project\WebService\bin\Antlr3.Runtime.pdb
+Y:\group 1 תשעט\קרליץ בתי\project\WebService\bin\System.Web.Http.WebHost.xml
+Y:\group 1 תשעט\קרליץ בתי\project\WebService\bin\System.Diagnostics.DiagnosticSource.xml
+Y:\group 1 תשעט\קרליץ בתי\project\WebService\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+Y:\group 1 תשעט\קרליץ בתי\project\WebService\bin\Microsoft.AI.DependencyCollector.xml
+Y:\group 1 תשעט\קרליץ בתי\project\WebService\bin\Microsoft.AI.WindowsServer.xml
+Y:\group 1 תשעט\קרליץ בתי\project\WebService\bin\Microsoft.AI.Web.xml
+Y:\group 1 תשעט\קרליץ בתי\project\WebService\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+Y:\group 1 תשעט\קרליץ בתי\project\WebService\obj\Debug\WebAPI.csprojAssemblyReference.cache
+Y:\group 1 תשעט\קרליץ בתי\project\WebService\obj\Debug\WebAPI.csproj.CoreCompileInputs.cache
+Y:\group 1 תשעט\קרליץ בתי\project\WebService\obj\Debug\WebAPI.csproj.CopyComplete
+Y:\group 1 תשעט\קרליץ בתי\project\WebService\obj\Debug\WebService.dll
+Y:\group 1 תשעט\קרליץ בתי\project\WebService\obj\Debug\WebService.pdb
+Y:\group 1 תשעט\קרליץ בתי\‏‏Shirat Yosef\project\WebService\obj\Debug\WebService.dll
+Y:\group 1 תשעט\קרליץ בתי\‏‏Shirat Yosef\project\WebService\obj\Debug\WebService.pdb
+D:\baty\project\WebService\bin\WebService.dll.config
+D:\baty\project\WebService\bin\WebService.dll
+D:\baty\project\WebService\bin\WebService.pdb
+D:\baty\project\WebService\bin\roslyn\csc.exe
+D:\baty\project\WebService\bin\roslyn\csc.exe.config
+D:\baty\project\WebService\bin\roslyn\csc.rsp
+D:\baty\project\WebService\bin\roslyn\csi.exe
+D:\baty\project\WebService\bin\roslyn\csi.exe.config
+D:\baty\project\WebService\bin\roslyn\csi.rsp
+D:\baty\project\WebService\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\baty\project\WebService\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\baty\project\WebService\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\baty\project\WebService\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\baty\project\WebService\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\baty\project\WebService\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\baty\project\WebService\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\baty\project\WebService\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\baty\project\WebService\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\baty\project\WebService\bin\roslyn\Microsoft.Managed.Core.targets
+D:\baty\project\WebService\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\baty\project\WebService\bin\roslyn\System.AppContext.dll
+D:\baty\project\WebService\bin\roslyn\System.Collections.Immutable.dll
+D:\baty\project\WebService\bin\roslyn\System.Console.dll
+D:\baty\project\WebService\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\baty\project\WebService\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\baty\project\WebService\bin\roslyn\System.IO.Compression.dll
+D:\baty\project\WebService\bin\roslyn\System.IO.FileSystem.dll
+D:\baty\project\WebService\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\baty\project\WebService\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\baty\project\WebService\bin\roslyn\System.IO.Pipes.dll
+D:\baty\project\WebService\bin\roslyn\System.Reflection.Metadata.dll
+D:\baty\project\WebService\bin\roslyn\System.Security.AccessControl.dll
+D:\baty\project\WebService\bin\roslyn\System.Security.Claims.dll
+D:\baty\project\WebService\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\baty\project\WebService\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\baty\project\WebService\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\baty\project\WebService\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\baty\project\WebService\bin\roslyn\System.Security.Principal.Windows.dll
+D:\baty\project\WebService\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\baty\project\WebService\bin\roslyn\System.ValueTuple.dll
+D:\baty\project\WebService\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\baty\project\WebService\bin\roslyn\System.Xml.XmlDocument.dll
+D:\baty\project\WebService\bin\roslyn\System.Xml.XPath.dll
+D:\baty\project\WebService\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\baty\project\WebService\bin\roslyn\vbc.exe
+D:\baty\project\WebService\bin\roslyn\vbc.exe.config
+D:\baty\project\WebService\bin\roslyn\vbc.rsp
+D:\baty\project\WebService\bin\roslyn\VBCSCompiler.exe
+D:\baty\project\WebService\bin\roslyn\VBCSCompiler.exe.config
+D:\baty\project\WebService\bin\Antlr3.Runtime.dll
+D:\baty\project\WebService\bin\BLL.dll
+D:\baty\project\WebService\bin\DAL.dll
+D:\baty\project\WebService\bin\DTO.dll
+D:\baty\project\WebService\bin\EntityFramework.dll
+D:\baty\project\WebService\bin\EntityFramework.SqlServer.dll
+D:\baty\project\WebService\bin\Microsoft.AI.Agent.Intercept.dll
+D:\baty\project\WebService\bin\Microsoft.AI.DependencyCollector.dll
+D:\baty\project\WebService\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\baty\project\WebService\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\baty\project\WebService\bin\Microsoft.AI.Web.dll
+D:\baty\project\WebService\bin\Microsoft.AI.WindowsServer.dll
+D:\baty\project\WebService\bin\Microsoft.ApplicationInsights.dll
+D:\baty\project\WebService\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+D:\baty\project\WebService\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\baty\project\WebService\bin\Microsoft.Web.Infrastructure.dll
+D:\baty\project\WebService\bin\Newtonsoft.Json.dll
+D:\baty\project\WebService\bin\System.Diagnostics.DiagnosticSource.dll
+D:\baty\project\WebService\bin\System.Net.Http.Formatting.dll
+D:\baty\project\WebService\bin\System.Web.Cors.dll
+D:\baty\project\WebService\bin\System.Web.Helpers.dll
+D:\baty\project\WebService\bin\System.Web.Http.Cors.dll
+D:\baty\project\WebService\bin\System.Web.Http.dll
+D:\baty\project\WebService\bin\System.Web.Http.WebHost.dll
+D:\baty\project\WebService\bin\System.Web.Mvc.dll
+D:\baty\project\WebService\bin\System.Web.Optimization.dll
+D:\baty\project\WebService\bin\System.Web.Razor.dll
+D:\baty\project\WebService\bin\System.Web.WebPages.Deployment.dll
+D:\baty\project\WebService\bin\System.Web.WebPages.dll
+D:\baty\project\WebService\bin\System.Web.WebPages.Razor.dll
+D:\baty\project\WebService\bin\WebGrease.dll
+D:\baty\project\WebService\bin\BLL.pdb
+D:\baty\project\WebService\bin\BLL.dll.config
+D:\baty\project\WebService\bin\DAL.pdb
+D:\baty\project\WebService\bin\DAL.dll.config
+D:\baty\project\WebService\bin\DTO.pdb
+D:\baty\project\WebService\bin\DTO.dll.config
+D:\baty\project\WebService\bin\EntityFramework.xml
+D:\baty\project\WebService\bin\EntityFramework.SqlServer.xml
+D:\baty\project\WebService\bin\System.Net.Http.Formatting.xml
+D:\baty\project\WebService\bin\System.Web.Http.xml
+D:\baty\project\WebService\bin\System.Web.Http.Cors.xml
+D:\baty\project\WebService\bin\System.Web.Helpers.xml
+D:\baty\project\WebService\bin\System.Web.Mvc.xml
+D:\baty\project\WebService\bin\System.Web.Optimization.xml
+D:\baty\project\WebService\bin\System.Web.Razor.xml
+D:\baty\project\WebService\bin\System.Web.WebPages.xml
+D:\baty\project\WebService\bin\System.Web.WebPages.Deployment.xml
+D:\baty\project\WebService\bin\System.Web.WebPages.Razor.xml
+D:\baty\project\WebService\bin\Newtonsoft.Json.xml
+D:\baty\project\WebService\bin\Antlr3.Runtime.pdb
+D:\baty\project\WebService\bin\System.Web.Http.WebHost.xml
+D:\baty\project\WebService\bin\System.Diagnostics.DiagnosticSource.xml
+D:\baty\project\WebService\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+D:\baty\project\WebService\bin\Microsoft.AI.DependencyCollector.xml
+D:\baty\project\WebService\bin\Microsoft.AI.WindowsServer.xml
+D:\baty\project\WebService\bin\Microsoft.AI.Web.xml
+D:\baty\project\WebService\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\baty\project\WebService\obj\Debug\WebAPI.csprojResolveAssemblyReference.cache
+D:\baty\project\WebService\obj\Debug\WebAPI.csproj.CoreCompileInputs.cache
+D:\baty\project\WebService\obj\Debug\WebService.dll
+D:\baty\project\WebService\obj\Debug\WebService.pdb
+D:\baty\project1\WebService\bin\WebService.dll.config
+D:\baty\project1\WebService\bin\WebService.dll
+D:\baty\project1\WebService\bin\WebService.pdb
+D:\baty\project1\WebService\bin\roslyn\csc.exe
+D:\baty\project1\WebService\bin\roslyn\csc.exe.config
+D:\baty\project1\WebService\bin\roslyn\csc.rsp
+D:\baty\project1\WebService\bin\roslyn\csi.exe
+D:\baty\project1\WebService\bin\roslyn\csi.exe.config
+D:\baty\project1\WebService\bin\roslyn\csi.rsp
+D:\baty\project1\WebService\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\baty\project1\WebService\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\baty\project1\WebService\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\baty\project1\WebService\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\baty\project1\WebService\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\baty\project1\WebService\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\baty\project1\WebService\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\baty\project1\WebService\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\baty\project1\WebService\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\baty\project1\WebService\bin\roslyn\Microsoft.Managed.Core.targets
+D:\baty\project1\WebService\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\baty\project1\WebService\bin\roslyn\System.AppContext.dll
+D:\baty\project1\WebService\bin\roslyn\System.Collections.Immutable.dll
+D:\baty\project1\WebService\bin\roslyn\System.Console.dll
+D:\baty\project1\WebService\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\baty\project1\WebService\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\baty\project1\WebService\bin\roslyn\System.IO.Compression.dll
+D:\baty\project1\WebService\bin\roslyn\System.IO.FileSystem.dll
+D:\baty\project1\WebService\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\baty\project1\WebService\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\baty\project1\WebService\bin\roslyn\System.IO.Pipes.dll
+D:\baty\project1\WebService\bin\roslyn\System.Reflection.Metadata.dll
+D:\baty\project1\WebService\bin\roslyn\System.Security.AccessControl.dll
+D:\baty\project1\WebService\bin\roslyn\System.Security.Claims.dll
+D:\baty\project1\WebService\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\baty\project1\WebService\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\baty\project1\WebService\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\baty\project1\WebService\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\baty\project1\WebService\bin\roslyn\System.Security.Principal.Windows.dll
+D:\baty\project1\WebService\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\baty\project1\WebService\bin\roslyn\System.ValueTuple.dll
+D:\baty\project1\WebService\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\baty\project1\WebService\bin\roslyn\System.Xml.XmlDocument.dll
+D:\baty\project1\WebService\bin\roslyn\System.Xml.XPath.dll
+D:\baty\project1\WebService\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\baty\project1\WebService\bin\roslyn\vbc.exe
+D:\baty\project1\WebService\bin\roslyn\vbc.exe.config
+D:\baty\project1\WebService\bin\roslyn\vbc.rsp
+D:\baty\project1\WebService\bin\roslyn\VBCSCompiler.exe
+D:\baty\project1\WebService\bin\roslyn\VBCSCompiler.exe.config
+D:\baty\project1\WebService\bin\Antlr3.Runtime.dll
+D:\baty\project1\WebService\bin\BLL.dll
+D:\baty\project1\WebService\bin\DAL.dll
+D:\baty\project1\WebService\bin\DTO.dll
+D:\baty\project1\WebService\bin\EntityFramework.dll
+D:\baty\project1\WebService\bin\EntityFramework.SqlServer.dll
+D:\baty\project1\WebService\bin\Microsoft.AI.Agent.Intercept.dll
+D:\baty\project1\WebService\bin\Microsoft.AI.DependencyCollector.dll
+D:\baty\project1\WebService\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\baty\project1\WebService\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\baty\project1\WebService\bin\Microsoft.AI.Web.dll
+D:\baty\project1\WebService\bin\Microsoft.AI.WindowsServer.dll
+D:\baty\project1\WebService\bin\Microsoft.ApplicationInsights.dll
+D:\baty\project1\WebService\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+D:\baty\project1\WebService\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\baty\project1\WebService\bin\Microsoft.Web.Infrastructure.dll
+D:\baty\project1\WebService\bin\Newtonsoft.Json.dll
+D:\baty\project1\WebService\bin\System.Diagnostics.DiagnosticSource.dll
+D:\baty\project1\WebService\bin\System.Net.Http.Formatting.dll
+D:\baty\project1\WebService\bin\System.Web.Cors.dll
+D:\baty\project1\WebService\bin\System.Web.Helpers.dll
+D:\baty\project1\WebService\bin\System.Web.Http.Cors.dll
+D:\baty\project1\WebService\bin\System.Web.Http.dll
+D:\baty\project1\WebService\bin\System.Web.Http.WebHost.dll
+D:\baty\project1\WebService\bin\System.Web.Mvc.dll
+D:\baty\project1\WebService\bin\System.Web.Optimization.dll
+D:\baty\project1\WebService\bin\System.Web.Razor.dll
+D:\baty\project1\WebService\bin\System.Web.WebPages.Deployment.dll
+D:\baty\project1\WebService\bin\System.Web.WebPages.dll
+D:\baty\project1\WebService\bin\System.Web.WebPages.Razor.dll
+D:\baty\project1\WebService\bin\WebGrease.dll
+D:\baty\project1\WebService\bin\BLL.pdb
+D:\baty\project1\WebService\bin\BLL.dll.config
+D:\baty\project1\WebService\bin\DAL.pdb
+D:\baty\project1\WebService\bin\DAL.dll.config
+D:\baty\project1\WebService\bin\DTO.pdb
+D:\baty\project1\WebService\bin\DTO.dll.config
+D:\baty\project1\WebService\bin\EntityFramework.xml
+D:\baty\project1\WebService\bin\EntityFramework.SqlServer.xml
+D:\baty\project1\WebService\bin\System.Net.Http.Formatting.xml
+D:\baty\project1\WebService\bin\System.Web.Http.xml
+D:\baty\project1\WebService\bin\System.Web.Http.Cors.xml
+D:\baty\project1\WebService\bin\System.Web.Helpers.xml
+D:\baty\project1\WebService\bin\System.Web.Mvc.xml
+D:\baty\project1\WebService\bin\System.Web.Optimization.xml
+D:\baty\project1\WebService\bin\System.Web.Razor.xml
+D:\baty\project1\WebService\bin\System.Web.WebPages.xml
+D:\baty\project1\WebService\bin\System.Web.WebPages.Deployment.xml
+D:\baty\project1\WebService\bin\System.Web.WebPages.Razor.xml
+D:\baty\project1\WebService\bin\Newtonsoft.Json.xml
+D:\baty\project1\WebService\bin\Antlr3.Runtime.pdb
+D:\baty\project1\WebService\bin\System.Web.Http.WebHost.xml
+D:\baty\project1\WebService\bin\System.Diagnostics.DiagnosticSource.xml
+D:\baty\project1\WebService\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+D:\baty\project1\WebService\bin\Microsoft.AI.DependencyCollector.xml
+D:\baty\project1\WebService\bin\Microsoft.AI.WindowsServer.xml
+D:\baty\project1\WebService\bin\Microsoft.AI.Web.xml
+D:\baty\project1\WebService\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\baty\project1\WebService\obj\Debug\WebAPI.csprojResolveAssemblyReference.cache
+D:\baty\project1\WebService\obj\Debug\WebAPI.csproj.CoreCompileInputs.cache
+D:\baty\project1\WebService\obj\Debug\WebService.dll
+D:\baty\project1\WebService\obj\Debug\WebService.pdb
+D:\baty\ShiratYosef project\project1\WebService\bin\WebService.dll.config
+D:\baty\ShiratYosef project\project1\WebService\bin\WebService.dll
+D:\baty\ShiratYosef project\project1\WebService\bin\WebService.pdb
+D:\baty\ShiratYosef project\project1\WebService\bin\roslyn\csc.exe
+D:\baty\ShiratYosef project\project1\WebService\bin\roslyn\csc.exe.config
+D:\baty\ShiratYosef project\project1\WebService\bin\roslyn\csc.rsp
+D:\baty\ShiratYosef project\project1\WebService\bin\roslyn\csi.exe
+D:\baty\ShiratYosef project\project1\WebService\bin\roslyn\csi.exe.config
+D:\baty\ShiratYosef project\project1\WebService\bin\roslyn\csi.rsp
+D:\baty\ShiratYosef project\project1\WebService\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\baty\ShiratYosef project\project1\WebService\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\baty\ShiratYosef project\project1\WebService\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\baty\ShiratYosef project\project1\WebService\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\baty\ShiratYosef project\project1\WebService\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\baty\ShiratYosef project\project1\WebService\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\baty\ShiratYosef project\project1\WebService\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\baty\ShiratYosef project\project1\WebService\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\baty\ShiratYosef project\project1\WebService\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\baty\ShiratYosef project\project1\WebService\bin\roslyn\Microsoft.Managed.Core.targets
+D:\baty\ShiratYosef project\project1\WebService\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\baty\ShiratYosef project\project1\WebService\bin\roslyn\System.AppContext.dll
+D:\baty\ShiratYosef project\project1\WebService\bin\roslyn\System.Collections.Immutable.dll
+D:\baty\ShiratYosef project\project1\WebService\bin\roslyn\System.Console.dll
+D:\baty\ShiratYosef project\project1\WebService\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\baty\ShiratYosef project\project1\WebService\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\baty\ShiratYosef project\project1\WebService\bin\roslyn\System.IO.Compression.dll
+D:\baty\ShiratYosef project\project1\WebService\bin\roslyn\System.IO.FileSystem.dll
+D:\baty\ShiratYosef project\project1\WebService\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\baty\ShiratYosef project\project1\WebService\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\baty\ShiratYosef project\project1\WebService\bin\roslyn\System.IO.Pipes.dll
+D:\baty\ShiratYosef project\project1\WebService\bin\roslyn\System.Reflection.Metadata.dll
+D:\baty\ShiratYosef project\project1\WebService\bin\roslyn\System.Security.AccessControl.dll
+D:\baty\ShiratYosef project\project1\WebService\bin\roslyn\System.Security.Claims.dll
+D:\baty\ShiratYosef project\project1\WebService\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\baty\ShiratYosef project\project1\WebService\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\baty\ShiratYosef project\project1\WebService\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\baty\ShiratYosef project\project1\WebService\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\baty\ShiratYosef project\project1\WebService\bin\roslyn\System.Security.Principal.Windows.dll
+D:\baty\ShiratYosef project\project1\WebService\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\baty\ShiratYosef project\project1\WebService\bin\roslyn\System.ValueTuple.dll
+D:\baty\ShiratYosef project\project1\WebService\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\baty\ShiratYosef project\project1\WebService\bin\roslyn\System.Xml.XmlDocument.dll
+D:\baty\ShiratYosef project\project1\WebService\bin\roslyn\System.Xml.XPath.dll
+D:\baty\ShiratYosef project\project1\WebService\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\baty\ShiratYosef project\project1\WebService\bin\roslyn\vbc.exe
+D:\baty\ShiratYosef project\project1\WebService\bin\roslyn\vbc.exe.config
+D:\baty\ShiratYosef project\project1\WebService\bin\roslyn\vbc.rsp
+D:\baty\ShiratYosef project\project1\WebService\bin\roslyn\VBCSCompiler.exe
+D:\baty\ShiratYosef project\project1\WebService\bin\roslyn\VBCSCompiler.exe.config
+D:\baty\ShiratYosef project\project1\WebService\bin\Antlr3.Runtime.dll
+D:\baty\ShiratYosef project\project1\WebService\bin\BLL.dll
+D:\baty\ShiratYosef project\project1\WebService\bin\DAL.dll
+D:\baty\ShiratYosef project\project1\WebService\bin\DTO.dll
+D:\baty\ShiratYosef project\project1\WebService\bin\EntityFramework.dll
+D:\baty\ShiratYosef project\project1\WebService\bin\EntityFramework.SqlServer.dll
+D:\baty\ShiratYosef project\project1\WebService\bin\Microsoft.AI.Agent.Intercept.dll
+D:\baty\ShiratYosef project\project1\WebService\bin\Microsoft.AI.DependencyCollector.dll
+D:\baty\ShiratYosef project\project1\WebService\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\baty\ShiratYosef project\project1\WebService\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\baty\ShiratYosef project\project1\WebService\bin\Microsoft.AI.Web.dll
+D:\baty\ShiratYosef project\project1\WebService\bin\Microsoft.AI.WindowsServer.dll
+D:\baty\ShiratYosef project\project1\WebService\bin\Microsoft.ApplicationInsights.dll
+D:\baty\ShiratYosef project\project1\WebService\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+D:\baty\ShiratYosef project\project1\WebService\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\baty\ShiratYosef project\project1\WebService\bin\Microsoft.Web.Infrastructure.dll
+D:\baty\ShiratYosef project\project1\WebService\bin\Newtonsoft.Json.dll
+D:\baty\ShiratYosef project\project1\WebService\bin\System.Diagnostics.DiagnosticSource.dll
+D:\baty\ShiratYosef project\project1\WebService\bin\System.Net.Http.Formatting.dll
+D:\baty\ShiratYosef project\project1\WebService\bin\System.Web.Cors.dll
+D:\baty\ShiratYosef project\project1\WebService\bin\System.Web.Helpers.dll
+D:\baty\ShiratYosef project\project1\WebService\bin\System.Web.Http.Cors.dll
+D:\baty\ShiratYosef project\project1\WebService\bin\System.Web.Http.dll
+D:\baty\ShiratYosef project\project1\WebService\bin\System.Web.Http.WebHost.dll
+D:\baty\ShiratYosef project\project1\WebService\bin\System.Web.Mvc.dll
+D:\baty\ShiratYosef project\project1\WebService\bin\System.Web.Optimization.dll
+D:\baty\ShiratYosef project\project1\WebService\bin\System.Web.Razor.dll
+D:\baty\ShiratYosef project\project1\WebService\bin\System.Web.WebPages.Deployment.dll
+D:\baty\ShiratYosef project\project1\WebService\bin\System.Web.WebPages.dll
+D:\baty\ShiratYosef project\project1\WebService\bin\System.Web.WebPages.Razor.dll
+D:\baty\ShiratYosef project\project1\WebService\bin\WebGrease.dll
+D:\baty\ShiratYosef project\project1\WebService\bin\BLL.pdb
+D:\baty\ShiratYosef project\project1\WebService\bin\BLL.dll.config
+D:\baty\ShiratYosef project\project1\WebService\bin\DAL.pdb
+D:\baty\ShiratYosef project\project1\WebService\bin\DAL.dll.config
+D:\baty\ShiratYosef project\project1\WebService\bin\DTO.pdb
+D:\baty\ShiratYosef project\project1\WebService\bin\DTO.dll.config
+D:\baty\ShiratYosef project\project1\WebService\bin\EntityFramework.xml
+D:\baty\ShiratYosef project\project1\WebService\bin\EntityFramework.SqlServer.xml
+D:\baty\ShiratYosef project\project1\WebService\bin\System.Net.Http.Formatting.xml
+D:\baty\ShiratYosef project\project1\WebService\bin\System.Web.Http.xml
+D:\baty\ShiratYosef project\project1\WebService\bin\System.Web.Http.Cors.xml
+D:\baty\ShiratYosef project\project1\WebService\bin\System.Web.Helpers.xml
+D:\baty\ShiratYosef project\project1\WebService\bin\System.Web.Mvc.xml
+D:\baty\ShiratYosef project\project1\WebService\bin\System.Web.Optimization.xml
+D:\baty\ShiratYosef project\project1\WebService\bin\System.Web.Razor.xml
+D:\baty\ShiratYosef project\project1\WebService\bin\System.Web.WebPages.xml
+D:\baty\ShiratYosef project\project1\WebService\bin\System.Web.WebPages.Deployment.xml
+D:\baty\ShiratYosef project\project1\WebService\bin\System.Web.WebPages.Razor.xml
+D:\baty\ShiratYosef project\project1\WebService\bin\Newtonsoft.Json.xml
+D:\baty\ShiratYosef project\project1\WebService\bin\Antlr3.Runtime.pdb
+D:\baty\ShiratYosef project\project1\WebService\bin\System.Web.Http.WebHost.xml
+D:\baty\ShiratYosef project\project1\WebService\bin\System.Diagnostics.DiagnosticSource.xml
+D:\baty\ShiratYosef project\project1\WebService\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+D:\baty\ShiratYosef project\project1\WebService\bin\Microsoft.AI.DependencyCollector.xml
+D:\baty\ShiratYosef project\project1\WebService\bin\Microsoft.AI.WindowsServer.xml
+D:\baty\ShiratYosef project\project1\WebService\bin\Microsoft.AI.Web.xml
+D:\baty\ShiratYosef project\project1\WebService\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\baty\ShiratYosef project\project1\WebService\obj\Debug\WebAPI.csprojResolveAssemblyReference.cache
+D:\baty\ShiratYosef project\project1\WebService\obj\Debug\WebAPI.csproj.CoreCompileInputs.cache
+D:\baty\ShiratYosef project\project1\WebService\obj\Debug\WebService.dll
+D:\baty\ShiratYosef project\project1\WebService\obj\Debug\WebService.pdb
+D:\finallproject\project1\WebService\bin\WebService.dll.config
+D:\finallproject\project1\WebService\bin\WebService.dll
+D:\finallproject\project1\WebService\bin\WebService.pdb
+D:\finallproject\project1\WebService\bin\roslyn\csc.exe
+D:\finallproject\project1\WebService\bin\roslyn\csc.exe.config
+D:\finallproject\project1\WebService\bin\roslyn\csc.rsp
+D:\finallproject\project1\WebService\bin\roslyn\csi.exe
+D:\finallproject\project1\WebService\bin\roslyn\csi.exe.config
+D:\finallproject\project1\WebService\bin\roslyn\csi.rsp
+D:\finallproject\project1\WebService\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\finallproject\project1\WebService\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\finallproject\project1\WebService\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\finallproject\project1\WebService\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\finallproject\project1\WebService\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\finallproject\project1\WebService\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\finallproject\project1\WebService\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\finallproject\project1\WebService\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\finallproject\project1\WebService\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\finallproject\project1\WebService\bin\roslyn\Microsoft.Managed.Core.targets
+D:\finallproject\project1\WebService\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\finallproject\project1\WebService\bin\roslyn\System.AppContext.dll
+D:\finallproject\project1\WebService\bin\roslyn\System.Collections.Immutable.dll
+D:\finallproject\project1\WebService\bin\roslyn\System.Console.dll
+D:\finallproject\project1\WebService\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\finallproject\project1\WebService\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\finallproject\project1\WebService\bin\roslyn\System.IO.Compression.dll
+D:\finallproject\project1\WebService\bin\roslyn\System.IO.FileSystem.dll
+D:\finallproject\project1\WebService\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\finallproject\project1\WebService\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\finallproject\project1\WebService\bin\roslyn\System.IO.Pipes.dll
+D:\finallproject\project1\WebService\bin\roslyn\System.Reflection.Metadata.dll
+D:\finallproject\project1\WebService\bin\roslyn\System.Security.AccessControl.dll
+D:\finallproject\project1\WebService\bin\roslyn\System.Security.Claims.dll
+D:\finallproject\project1\WebService\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\finallproject\project1\WebService\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\finallproject\project1\WebService\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\finallproject\project1\WebService\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\finallproject\project1\WebService\bin\roslyn\System.Security.Principal.Windows.dll
+D:\finallproject\project1\WebService\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\finallproject\project1\WebService\bin\roslyn\System.ValueTuple.dll
+D:\finallproject\project1\WebService\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\finallproject\project1\WebService\bin\roslyn\System.Xml.XmlDocument.dll
+D:\finallproject\project1\WebService\bin\roslyn\System.Xml.XPath.dll
+D:\finallproject\project1\WebService\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\finallproject\project1\WebService\bin\roslyn\vbc.exe
+D:\finallproject\project1\WebService\bin\roslyn\vbc.exe.config
+D:\finallproject\project1\WebService\bin\roslyn\vbc.rsp
+D:\finallproject\project1\WebService\bin\roslyn\VBCSCompiler.exe
+D:\finallproject\project1\WebService\bin\roslyn\VBCSCompiler.exe.config
+D:\finallproject\project1\WebService\bin\Antlr3.Runtime.dll
+D:\finallproject\project1\WebService\bin\BLL.dll
+D:\finallproject\project1\WebService\bin\DAL.dll
+D:\finallproject\project1\WebService\bin\DTO.dll
+D:\finallproject\project1\WebService\bin\EntityFramework.dll
+D:\finallproject\project1\WebService\bin\EntityFramework.SqlServer.dll
+D:\finallproject\project1\WebService\bin\Microsoft.AI.Agent.Intercept.dll
+D:\finallproject\project1\WebService\bin\Microsoft.AI.DependencyCollector.dll
+D:\finallproject\project1\WebService\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\finallproject\project1\WebService\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\finallproject\project1\WebService\bin\Microsoft.AI.Web.dll
+D:\finallproject\project1\WebService\bin\Microsoft.AI.WindowsServer.dll
+D:\finallproject\project1\WebService\bin\Microsoft.ApplicationInsights.dll
+D:\finallproject\project1\WebService\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+D:\finallproject\project1\WebService\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\finallproject\project1\WebService\bin\Microsoft.Web.Infrastructure.dll
+D:\finallproject\project1\WebService\bin\Newtonsoft.Json.dll
+D:\finallproject\project1\WebService\bin\System.Diagnostics.DiagnosticSource.dll
+D:\finallproject\project1\WebService\bin\System.Net.Http.Formatting.dll
+D:\finallproject\project1\WebService\bin\System.Web.Cors.dll
+D:\finallproject\project1\WebService\bin\System.Web.Helpers.dll
+D:\finallproject\project1\WebService\bin\System.Web.Http.Cors.dll
+D:\finallproject\project1\WebService\bin\System.Web.Http.dll
+D:\finallproject\project1\WebService\bin\System.Web.Http.WebHost.dll
+D:\finallproject\project1\WebService\bin\System.Web.Mvc.dll
+D:\finallproject\project1\WebService\bin\System.Web.Optimization.dll
+D:\finallproject\project1\WebService\bin\System.Web.Razor.dll
+D:\finallproject\project1\WebService\bin\System.Web.WebPages.Deployment.dll
+D:\finallproject\project1\WebService\bin\System.Web.WebPages.dll
+D:\finallproject\project1\WebService\bin\System.Web.WebPages.Razor.dll
+D:\finallproject\project1\WebService\bin\WebGrease.dll
+D:\finallproject\project1\WebService\bin\BLL.pdb
+D:\finallproject\project1\WebService\bin\BLL.dll.config
+D:\finallproject\project1\WebService\bin\DAL.pdb
+D:\finallproject\project1\WebService\bin\DAL.dll.config
+D:\finallproject\project1\WebService\bin\DTO.pdb
+D:\finallproject\project1\WebService\bin\DTO.dll.config
+D:\finallproject\project1\WebService\bin\EntityFramework.xml
+D:\finallproject\project1\WebService\bin\EntityFramework.SqlServer.xml
+D:\finallproject\project1\WebService\bin\System.Net.Http.Formatting.xml
+D:\finallproject\project1\WebService\bin\System.Web.Http.xml
+D:\finallproject\project1\WebService\bin\System.Web.Http.Cors.xml
+D:\finallproject\project1\WebService\bin\System.Web.Helpers.xml
+D:\finallproject\project1\WebService\bin\System.Web.Mvc.xml
+D:\finallproject\project1\WebService\bin\System.Web.Optimization.xml
+D:\finallproject\project1\WebService\bin\System.Web.Razor.xml
+D:\finallproject\project1\WebService\bin\System.Web.WebPages.xml
+D:\finallproject\project1\WebService\bin\System.Web.WebPages.Deployment.xml
+D:\finallproject\project1\WebService\bin\System.Web.WebPages.Razor.xml
+D:\finallproject\project1\WebService\bin\Newtonsoft.Json.xml
+D:\finallproject\project1\WebService\bin\Antlr3.Runtime.pdb
+D:\finallproject\project1\WebService\bin\System.Web.Http.WebHost.xml
+D:\finallproject\project1\WebService\bin\System.Diagnostics.DiagnosticSource.xml
+D:\finallproject\project1\WebService\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+D:\finallproject\project1\WebService\bin\Microsoft.AI.DependencyCollector.xml
+D:\finallproject\project1\WebService\bin\Microsoft.AI.WindowsServer.xml
+D:\finallproject\project1\WebService\bin\Microsoft.AI.Web.xml
+D:\finallproject\project1\WebService\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\finallproject\project1\WebService\obj\Debug\WebAPI.csprojResolveAssemblyReference.cache
+D:\finallproject\project1\WebService\obj\Debug\WebAPI.csproj.CoreCompileInputs.cache
+D:\finallproject\project1\WebService\obj\Debug\WebService.dll
+D:\finallproject\project1\WebService\obj\Debug\WebService.pdb
+D:\baty\4\project1\WebService\bin\WebService.dll.config
+D:\baty\4\project1\WebService\bin\WebService.dll
+D:\baty\4\project1\WebService\bin\WebService.pdb
+D:\baty\4\project1\WebService\bin\roslyn\csc.exe
+D:\baty\4\project1\WebService\bin\roslyn\csc.exe.config
+D:\baty\4\project1\WebService\bin\roslyn\csc.rsp
+D:\baty\4\project1\WebService\bin\roslyn\csi.exe
+D:\baty\4\project1\WebService\bin\roslyn\csi.exe.config
+D:\baty\4\project1\WebService\bin\roslyn\csi.rsp
+D:\baty\4\project1\WebService\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\baty\4\project1\WebService\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\baty\4\project1\WebService\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\baty\4\project1\WebService\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\baty\4\project1\WebService\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\baty\4\project1\WebService\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\baty\4\project1\WebService\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\baty\4\project1\WebService\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\baty\4\project1\WebService\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\baty\4\project1\WebService\bin\roslyn\Microsoft.Managed.Core.targets
+D:\baty\4\project1\WebService\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\baty\4\project1\WebService\bin\roslyn\System.AppContext.dll
+D:\baty\4\project1\WebService\bin\roslyn\System.Collections.Immutable.dll
+D:\baty\4\project1\WebService\bin\roslyn\System.Console.dll
+D:\baty\4\project1\WebService\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\baty\4\project1\WebService\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\baty\4\project1\WebService\bin\roslyn\System.IO.Compression.dll
+D:\baty\4\project1\WebService\bin\roslyn\System.IO.FileSystem.dll
+D:\baty\4\project1\WebService\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\baty\4\project1\WebService\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\baty\4\project1\WebService\bin\roslyn\System.IO.Pipes.dll
+D:\baty\4\project1\WebService\bin\roslyn\System.Reflection.Metadata.dll
+D:\baty\4\project1\WebService\bin\roslyn\System.Security.AccessControl.dll
+D:\baty\4\project1\WebService\bin\roslyn\System.Security.Claims.dll
+D:\baty\4\project1\WebService\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\baty\4\project1\WebService\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\baty\4\project1\WebService\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\baty\4\project1\WebService\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\baty\4\project1\WebService\bin\roslyn\System.Security.Principal.Windows.dll
+D:\baty\4\project1\WebService\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\baty\4\project1\WebService\bin\roslyn\System.ValueTuple.dll
+D:\baty\4\project1\WebService\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\baty\4\project1\WebService\bin\roslyn\System.Xml.XmlDocument.dll
+D:\baty\4\project1\WebService\bin\roslyn\System.Xml.XPath.dll
+D:\baty\4\project1\WebService\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\baty\4\project1\WebService\bin\roslyn\vbc.exe
+D:\baty\4\project1\WebService\bin\roslyn\vbc.exe.config
+D:\baty\4\project1\WebService\bin\roslyn\vbc.rsp
+D:\baty\4\project1\WebService\bin\roslyn\VBCSCompiler.exe
+D:\baty\4\project1\WebService\bin\roslyn\VBCSCompiler.exe.config
+D:\baty\4\project1\WebService\bin\Antlr3.Runtime.dll
+D:\baty\4\project1\WebService\bin\BLL.dll
+D:\baty\4\project1\WebService\bin\DAL.dll
+D:\baty\4\project1\WebService\bin\DTO.dll
+D:\baty\4\project1\WebService\bin\EntityFramework.dll
+D:\baty\4\project1\WebService\bin\EntityFramework.SqlServer.dll
+D:\baty\4\project1\WebService\bin\Microsoft.AI.Agent.Intercept.dll
+D:\baty\4\project1\WebService\bin\Microsoft.AI.DependencyCollector.dll
+D:\baty\4\project1\WebService\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\baty\4\project1\WebService\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\baty\4\project1\WebService\bin\Microsoft.AI.Web.dll
+D:\baty\4\project1\WebService\bin\Microsoft.AI.WindowsServer.dll
+D:\baty\4\project1\WebService\bin\Microsoft.ApplicationInsights.dll
+D:\baty\4\project1\WebService\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+D:\baty\4\project1\WebService\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\baty\4\project1\WebService\bin\Microsoft.Web.Infrastructure.dll
+D:\baty\4\project1\WebService\bin\Newtonsoft.Json.dll
+D:\baty\4\project1\WebService\bin\System.Diagnostics.DiagnosticSource.dll
+D:\baty\4\project1\WebService\bin\System.Net.Http.Formatting.dll
+D:\baty\4\project1\WebService\bin\System.Web.Cors.dll
+D:\baty\4\project1\WebService\bin\System.Web.Helpers.dll
+D:\baty\4\project1\WebService\bin\System.Web.Http.Cors.dll
+D:\baty\4\project1\WebService\bin\System.Web.Http.dll
+D:\baty\4\project1\WebService\bin\System.Web.Http.WebHost.dll
+D:\baty\4\project1\WebService\bin\System.Web.Mvc.dll
+D:\baty\4\project1\WebService\bin\System.Web.Optimization.dll
+D:\baty\4\project1\WebService\bin\System.Web.Razor.dll
+D:\baty\4\project1\WebService\bin\System.Web.WebPages.Deployment.dll
+D:\baty\4\project1\WebService\bin\System.Web.WebPages.dll
+D:\baty\4\project1\WebService\bin\System.Web.WebPages.Razor.dll
+D:\baty\4\project1\WebService\bin\WebGrease.dll
+D:\baty\4\project1\WebService\bin\BLL.pdb
+D:\baty\4\project1\WebService\bin\BLL.dll.config
+D:\baty\4\project1\WebService\bin\DAL.pdb
+D:\baty\4\project1\WebService\bin\DAL.dll.config
+D:\baty\4\project1\WebService\bin\DTO.pdb
+D:\baty\4\project1\WebService\bin\DTO.dll.config
+D:\baty\4\project1\WebService\bin\EntityFramework.xml
+D:\baty\4\project1\WebService\bin\EntityFramework.SqlServer.xml
+D:\baty\4\project1\WebService\bin\System.Net.Http.Formatting.xml
+D:\baty\4\project1\WebService\bin\System.Web.Http.xml
+D:\baty\4\project1\WebService\bin\System.Web.Http.Cors.xml
+D:\baty\4\project1\WebService\bin\System.Web.Helpers.xml
+D:\baty\4\project1\WebService\bin\System.Web.Mvc.xml
+D:\baty\4\project1\WebService\bin\System.Web.Optimization.xml
+D:\baty\4\project1\WebService\bin\System.Web.Razor.xml
+D:\baty\4\project1\WebService\bin\System.Web.WebPages.xml
+D:\baty\4\project1\WebService\bin\System.Web.WebPages.Deployment.xml
+D:\baty\4\project1\WebService\bin\System.Web.WebPages.Razor.xml
+D:\baty\4\project1\WebService\bin\Newtonsoft.Json.xml
+D:\baty\4\project1\WebService\bin\Antlr3.Runtime.pdb
+D:\baty\4\project1\WebService\bin\System.Web.Http.WebHost.xml
+D:\baty\4\project1\WebService\bin\System.Diagnostics.DiagnosticSource.xml
+D:\baty\4\project1\WebService\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+D:\baty\4\project1\WebService\bin\Microsoft.AI.DependencyCollector.xml
+D:\baty\4\project1\WebService\bin\Microsoft.AI.WindowsServer.xml
+D:\baty\4\project1\WebService\bin\Microsoft.AI.Web.xml
+D:\baty\4\project1\WebService\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\baty\4\project1\WebService\obj\Debug\WebAPI.csprojResolveAssemblyReference.cache
+D:\baty\4\project1\WebService\obj\Debug\WebAPI.csproj.CoreCompileInputs.cache
+D:\baty\4\project1\WebService\obj\Debug\WebService.dll
+D:\baty\4\project1\WebService\obj\Debug\WebService.pdb
+D:\baty\6\project1\WebService\bin\WebService.dll.config
+D:\baty\6\project1\WebService\bin\WebService.dll
+D:\baty\6\project1\WebService\bin\WebService.pdb
+D:\baty\6\project1\WebService\bin\roslyn\csc.exe
+D:\baty\6\project1\WebService\bin\roslyn\csc.exe.config
+D:\baty\6\project1\WebService\bin\roslyn\csc.rsp
+D:\baty\6\project1\WebService\bin\roslyn\csi.exe
+D:\baty\6\project1\WebService\bin\roslyn\csi.exe.config
+D:\baty\6\project1\WebService\bin\roslyn\csi.rsp
+D:\baty\6\project1\WebService\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\baty\6\project1\WebService\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\baty\6\project1\WebService\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\baty\6\project1\WebService\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\baty\6\project1\WebService\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\baty\6\project1\WebService\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\baty\6\project1\WebService\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\baty\6\project1\WebService\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\baty\6\project1\WebService\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\baty\6\project1\WebService\bin\roslyn\Microsoft.Managed.Core.targets
+D:\baty\6\project1\WebService\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\baty\6\project1\WebService\bin\roslyn\System.AppContext.dll
+D:\baty\6\project1\WebService\bin\roslyn\System.Collections.Immutable.dll
+D:\baty\6\project1\WebService\bin\roslyn\System.Console.dll
+D:\baty\6\project1\WebService\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\baty\6\project1\WebService\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\baty\6\project1\WebService\bin\roslyn\System.IO.Compression.dll
+D:\baty\6\project1\WebService\bin\roslyn\System.IO.FileSystem.dll
+D:\baty\6\project1\WebService\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\baty\6\project1\WebService\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\baty\6\project1\WebService\bin\roslyn\System.IO.Pipes.dll
+D:\baty\6\project1\WebService\bin\roslyn\System.Reflection.Metadata.dll
+D:\baty\6\project1\WebService\bin\roslyn\System.Security.AccessControl.dll
+D:\baty\6\project1\WebService\bin\roslyn\System.Security.Claims.dll
+D:\baty\6\project1\WebService\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\baty\6\project1\WebService\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\baty\6\project1\WebService\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\baty\6\project1\WebService\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\baty\6\project1\WebService\bin\roslyn\System.Security.Principal.Windows.dll
+D:\baty\6\project1\WebService\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\baty\6\project1\WebService\bin\roslyn\System.ValueTuple.dll
+D:\baty\6\project1\WebService\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\baty\6\project1\WebService\bin\roslyn\System.Xml.XmlDocument.dll
+D:\baty\6\project1\WebService\bin\roslyn\System.Xml.XPath.dll
+D:\baty\6\project1\WebService\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\baty\6\project1\WebService\bin\roslyn\vbc.exe
+D:\baty\6\project1\WebService\bin\roslyn\vbc.exe.config
+D:\baty\6\project1\WebService\bin\roslyn\vbc.rsp
+D:\baty\6\project1\WebService\bin\roslyn\VBCSCompiler.exe
+D:\baty\6\project1\WebService\bin\roslyn\VBCSCompiler.exe.config
+D:\baty\6\project1\WebService\bin\Antlr3.Runtime.dll
+D:\baty\6\project1\WebService\bin\BLL.dll
+D:\baty\6\project1\WebService\bin\DAL.dll
+D:\baty\6\project1\WebService\bin\DTO.dll
+D:\baty\6\project1\WebService\bin\EntityFramework.dll
+D:\baty\6\project1\WebService\bin\EntityFramework.SqlServer.dll
+D:\baty\6\project1\WebService\bin\Microsoft.AI.Agent.Intercept.dll
+D:\baty\6\project1\WebService\bin\Microsoft.AI.DependencyCollector.dll
+D:\baty\6\project1\WebService\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\baty\6\project1\WebService\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\baty\6\project1\WebService\bin\Microsoft.AI.Web.dll
+D:\baty\6\project1\WebService\bin\Microsoft.AI.WindowsServer.dll
+D:\baty\6\project1\WebService\bin\Microsoft.ApplicationInsights.dll
+D:\baty\6\project1\WebService\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+D:\baty\6\project1\WebService\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\baty\6\project1\WebService\bin\Microsoft.Web.Infrastructure.dll
+D:\baty\6\project1\WebService\bin\Newtonsoft.Json.dll
+D:\baty\6\project1\WebService\bin\System.Diagnostics.DiagnosticSource.dll
+D:\baty\6\project1\WebService\bin\System.Net.Http.Formatting.dll
+D:\baty\6\project1\WebService\bin\System.Web.Cors.dll
+D:\baty\6\project1\WebService\bin\System.Web.Helpers.dll
+D:\baty\6\project1\WebService\bin\System.Web.Http.Cors.dll
+D:\baty\6\project1\WebService\bin\System.Web.Http.dll
+D:\baty\6\project1\WebService\bin\System.Web.Http.WebHost.dll
+D:\baty\6\project1\WebService\bin\System.Web.Mvc.dll
+D:\baty\6\project1\WebService\bin\System.Web.Optimization.dll
+D:\baty\6\project1\WebService\bin\System.Web.Razor.dll
+D:\baty\6\project1\WebService\bin\System.Web.WebPages.Deployment.dll
+D:\baty\6\project1\WebService\bin\System.Web.WebPages.dll
+D:\baty\6\project1\WebService\bin\System.Web.WebPages.Razor.dll
+D:\baty\6\project1\WebService\bin\WebGrease.dll
+D:\baty\6\project1\WebService\bin\BLL.pdb
+D:\baty\6\project1\WebService\bin\BLL.dll.config
+D:\baty\6\project1\WebService\bin\DAL.pdb
+D:\baty\6\project1\WebService\bin\DAL.dll.config
+D:\baty\6\project1\WebService\bin\DTO.pdb
+D:\baty\6\project1\WebService\bin\DTO.dll.config
+D:\baty\6\project1\WebService\bin\EntityFramework.xml
+D:\baty\6\project1\WebService\bin\EntityFramework.SqlServer.xml
+D:\baty\6\project1\WebService\bin\System.Net.Http.Formatting.xml
+D:\baty\6\project1\WebService\bin\System.Web.Http.xml
+D:\baty\6\project1\WebService\bin\System.Web.Http.Cors.xml
+D:\baty\6\project1\WebService\bin\System.Web.Helpers.xml
+D:\baty\6\project1\WebService\bin\System.Web.Mvc.xml
+D:\baty\6\project1\WebService\bin\System.Web.Optimization.xml
+D:\baty\6\project1\WebService\bin\System.Web.Razor.xml
+D:\baty\6\project1\WebService\bin\System.Web.WebPages.xml
+D:\baty\6\project1\WebService\bin\System.Web.WebPages.Deployment.xml
+D:\baty\6\project1\WebService\bin\System.Web.WebPages.Razor.xml
+D:\baty\6\project1\WebService\bin\Newtonsoft.Json.xml
+D:\baty\6\project1\WebService\bin\Antlr3.Runtime.pdb
+D:\baty\6\project1\WebService\bin\System.Web.Http.WebHost.xml
+D:\baty\6\project1\WebService\bin\System.Diagnostics.DiagnosticSource.xml
+D:\baty\6\project1\WebService\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+D:\baty\6\project1\WebService\bin\Microsoft.AI.DependencyCollector.xml
+D:\baty\6\project1\WebService\bin\Microsoft.AI.WindowsServer.xml
+D:\baty\6\project1\WebService\bin\Microsoft.AI.Web.xml
+D:\baty\6\project1\WebService\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\baty\6\project1\WebService\obj\Debug\WebAPI.csprojResolveAssemblyReference.cache
+D:\baty\6\project1\WebService\obj\Debug\WebAPI.csproj.CoreCompileInputs.cache
+D:\baty\6\project1\WebService\obj\Debug\WebService.dll
+D:\baty\6\project1\WebService\obj\Debug\WebService.pdb
+D:\baty\7\project1\WebService\bin\WebService.dll.config
+D:\baty\7\project1\WebService\bin\WebService.dll
+D:\baty\7\project1\WebService\bin\WebService.pdb
+D:\baty\7\project1\WebService\bin\roslyn\csc.exe
+D:\baty\7\project1\WebService\bin\roslyn\csc.exe.config
+D:\baty\7\project1\WebService\bin\roslyn\csc.rsp
+D:\baty\7\project1\WebService\bin\roslyn\csi.exe
+D:\baty\7\project1\WebService\bin\roslyn\csi.exe.config
+D:\baty\7\project1\WebService\bin\roslyn\csi.rsp
+D:\baty\7\project1\WebService\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\baty\7\project1\WebService\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\baty\7\project1\WebService\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\baty\7\project1\WebService\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\baty\7\project1\WebService\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\baty\7\project1\WebService\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\baty\7\project1\WebService\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\baty\7\project1\WebService\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\baty\7\project1\WebService\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\baty\7\project1\WebService\bin\roslyn\Microsoft.Managed.Core.targets
+D:\baty\7\project1\WebService\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\baty\7\project1\WebService\bin\roslyn\System.AppContext.dll
+D:\baty\7\project1\WebService\bin\roslyn\System.Collections.Immutable.dll
+D:\baty\7\project1\WebService\bin\roslyn\System.Console.dll
+D:\baty\7\project1\WebService\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\baty\7\project1\WebService\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\baty\7\project1\WebService\bin\roslyn\System.IO.Compression.dll
+D:\baty\7\project1\WebService\bin\roslyn\System.IO.FileSystem.dll
+D:\baty\7\project1\WebService\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\baty\7\project1\WebService\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\baty\7\project1\WebService\bin\roslyn\System.IO.Pipes.dll
+D:\baty\7\project1\WebService\bin\roslyn\System.Reflection.Metadata.dll
+D:\baty\7\project1\WebService\bin\roslyn\System.Security.AccessControl.dll
+D:\baty\7\project1\WebService\bin\roslyn\System.Security.Claims.dll
+D:\baty\7\project1\WebService\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\baty\7\project1\WebService\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\baty\7\project1\WebService\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\baty\7\project1\WebService\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\baty\7\project1\WebService\bin\roslyn\System.Security.Principal.Windows.dll
+D:\baty\7\project1\WebService\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\baty\7\project1\WebService\bin\roslyn\System.ValueTuple.dll
+D:\baty\7\project1\WebService\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\baty\7\project1\WebService\bin\roslyn\System.Xml.XmlDocument.dll
+D:\baty\7\project1\WebService\bin\roslyn\System.Xml.XPath.dll
+D:\baty\7\project1\WebService\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\baty\7\project1\WebService\bin\roslyn\vbc.exe
+D:\baty\7\project1\WebService\bin\roslyn\vbc.exe.config
+D:\baty\7\project1\WebService\bin\roslyn\vbc.rsp
+D:\baty\7\project1\WebService\bin\roslyn\VBCSCompiler.exe
+D:\baty\7\project1\WebService\bin\roslyn\VBCSCompiler.exe.config
+D:\baty\7\project1\WebService\bin\Antlr3.Runtime.dll
+D:\baty\7\project1\WebService\bin\BLL.dll
+D:\baty\7\project1\WebService\bin\DAL.dll
+D:\baty\7\project1\WebService\bin\DTO.dll
+D:\baty\7\project1\WebService\bin\EntityFramework.dll
+D:\baty\7\project1\WebService\bin\EntityFramework.SqlServer.dll
+D:\baty\7\project1\WebService\bin\Microsoft.AI.Agent.Intercept.dll
+D:\baty\7\project1\WebService\bin\Microsoft.AI.DependencyCollector.dll
+D:\baty\7\project1\WebService\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\baty\7\project1\WebService\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\baty\7\project1\WebService\bin\Microsoft.AI.Web.dll
+D:\baty\7\project1\WebService\bin\Microsoft.AI.WindowsServer.dll
+D:\baty\7\project1\WebService\bin\Microsoft.ApplicationInsights.dll
+D:\baty\7\project1\WebService\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+D:\baty\7\project1\WebService\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\baty\7\project1\WebService\bin\Microsoft.Web.Infrastructure.dll
+D:\baty\7\project1\WebService\bin\Newtonsoft.Json.dll
+D:\baty\7\project1\WebService\bin\System.Diagnostics.DiagnosticSource.dll
+D:\baty\7\project1\WebService\bin\System.Net.Http.Formatting.dll
+D:\baty\7\project1\WebService\bin\System.Web.Cors.dll
+D:\baty\7\project1\WebService\bin\System.Web.Helpers.dll
+D:\baty\7\project1\WebService\bin\System.Web.Http.Cors.dll
+D:\baty\7\project1\WebService\bin\System.Web.Http.dll
+D:\baty\7\project1\WebService\bin\System.Web.Http.WebHost.dll
+D:\baty\7\project1\WebService\bin\System.Web.Mvc.dll
+D:\baty\7\project1\WebService\bin\System.Web.Optimization.dll
+D:\baty\7\project1\WebService\bin\System.Web.Razor.dll
+D:\baty\7\project1\WebService\bin\System.Web.WebPages.Deployment.dll
+D:\baty\7\project1\WebService\bin\System.Web.WebPages.dll
+D:\baty\7\project1\WebService\bin\System.Web.WebPages.Razor.dll
+D:\baty\7\project1\WebService\bin\WebGrease.dll
+D:\baty\7\project1\WebService\bin\BLL.pdb
+D:\baty\7\project1\WebService\bin\BLL.dll.config
+D:\baty\7\project1\WebService\bin\DAL.pdb
+D:\baty\7\project1\WebService\bin\DAL.dll.config
+D:\baty\7\project1\WebService\bin\DTO.pdb
+D:\baty\7\project1\WebService\bin\DTO.dll.config
+D:\baty\7\project1\WebService\bin\EntityFramework.xml
+D:\baty\7\project1\WebService\bin\EntityFramework.SqlServer.xml
+D:\baty\7\project1\WebService\bin\System.Net.Http.Formatting.xml
+D:\baty\7\project1\WebService\bin\System.Web.Http.xml
+D:\baty\7\project1\WebService\bin\System.Web.Http.Cors.xml
+D:\baty\7\project1\WebService\bin\System.Web.Helpers.xml
+D:\baty\7\project1\WebService\bin\System.Web.Mvc.xml
+D:\baty\7\project1\WebService\bin\System.Web.Optimization.xml
+D:\baty\7\project1\WebService\bin\System.Web.Razor.xml
+D:\baty\7\project1\WebService\bin\System.Web.WebPages.xml
+D:\baty\7\project1\WebService\bin\System.Web.WebPages.Deployment.xml
+D:\baty\7\project1\WebService\bin\System.Web.WebPages.Razor.xml
+D:\baty\7\project1\WebService\bin\Newtonsoft.Json.xml
+D:\baty\7\project1\WebService\bin\Antlr3.Runtime.pdb
+D:\baty\7\project1\WebService\bin\System.Web.Http.WebHost.xml
+D:\baty\7\project1\WebService\bin\System.Diagnostics.DiagnosticSource.xml
+D:\baty\7\project1\WebService\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+D:\baty\7\project1\WebService\bin\Microsoft.AI.DependencyCollector.xml
+D:\baty\7\project1\WebService\bin\Microsoft.AI.WindowsServer.xml
+D:\baty\7\project1\WebService\bin\Microsoft.AI.Web.xml
+D:\baty\7\project1\WebService\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\baty\7\project1\WebService\obj\Debug\WebAPI.csprojResolveAssemblyReference.cache
+D:\baty\7\project1\WebService\obj\Debug\WebAPI.csproj.CoreCompileInputs.cache
+D:\baty\7\project1\WebService\obj\Debug\WebService.dll
+D:\baty\7\project1\WebService\obj\Debug\WebService.pdb

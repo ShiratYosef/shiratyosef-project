@@ -1,0 +1,20 @@
+
+<div class="container">
+    <h3 mat-dialog-title dir="rtl">מחיקת בית ספר</h3>
+  <h3>? האם אתה בטוח שברצונך למחוק פריט זה</h3>
+  <div mat-dialog-content dir="rtl">
+    שם ביה"ס: {{data.SchoolName}}
+    <p></p>
+    עיר: {{data.City}}
+    <p></p>
+    כתובת: {{data.Address}}
+    <p></p>
+    טלפון: {{data.Telephon}}
+    <p></p>
+  </div>
+
+  <div mat-dialog-actions dir="rtl">
+    <button mat-button [mat-dialog-close]="1" (click)="confirmDelete()">מחיקה</button>
+    <button mat-button (click)="onNoClick()" tabindex="-1">ביטול</button>
+  </div>
+</div>

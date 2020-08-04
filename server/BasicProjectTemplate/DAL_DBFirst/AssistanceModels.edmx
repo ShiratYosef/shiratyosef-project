@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="FinalProjectsSqlDbModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="AssistanceMeetings">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" Nullable="false" />
+          <Property Name="MeetingDate" Type="datetime" />
+          <Property Name="ShortDescription" Type="nvarchar" MaxLength="255" />
+          <Property Name="Content" Type="nvarchar(max)" />
+          <Property Name="ProjectId" Type="int" />
+          <Property Name="StudentId_1" Type="int" />
+          <Property Name="StudentId_2" Type="int" />
+          <Property Name="DurationInMinutes" Type="int" />
+          <Property Name="FromTime" Type="datetime" />
+          <Property Name="ToTime" Type="datetime" />
+          <Property Name="שדה1" Type="nvarchar" MaxLength="255" />
+          <Property Name="AssistanceId" Type="int" />
+        </EntityType>
+        <EntityType Name="Assistances">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" Nullable="false" />
+          <Property Name="FirstName" Type="nvarchar" MaxLength="255" />
+          <Property Name="LastName" Type="nvarchar" MaxLength="255" />
+          <Property Name="Tel" Type="nvarchar" MaxLength="255" />
+          <Property Name="Email" Type="nvarchar" MaxLength="255" />
+          <Property Name="Comments" Type="nvarchar(max)" />
+          <Property Name="Password" Type="nvarchar" MaxLength="20" />
+        </EntityType>
+        <Association Name="FK_AssistanceMeetings_Assistances">
+          <End Role="Assistances" Type="Self.Assistances" Multiplicity="0..1" />
+          <End Role="AssistanceMeetings" Type="Self.AssistanceMeetings" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Assistances">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="AssistanceMeetings">
+              <PropertyRef Name="AssistanceId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="FinalProjectsSqlDbModelStoreContainer">
+          <EntitySet Name="AssistanceMeetings" EntityType="Self.AssistanceMeetings" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Assistances" EntityType="Self.Assistances" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK_AssistanceMeetings_Assistances" Association="Self.FK_AssistanceMeetings_Assistances">
+            <End Role="Assistances" EntitySet="Assistances" />
+            <End Role="AssistanceMeetings" EntitySet="AssistanceMeetings" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="FinalProjectsSqlDbModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="AssistanceMeeting">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" />
+          <Property Name="MeetingDate" Type="DateTime" Precision="3" />
+          <Property Name="ShortDescription" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="Content" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="ProjectId" Type="Int32" />
+          <Property Name="StudentId_1" Type="Int32" />
+          <Property Name="StudentId_2" Type="Int32" />
+          <Property Name="DurationInMinutes" Type="Int32" />
+          <Property Name="FromTime" Type="DateTime" Precision="3" />
+          <Property Name="ToTime" Type="DateTime" Precision="3" />
+          <Property Name="שדה1" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="AssistanceId" Type="Int32" />
+          <NavigationProperty Name="Assistance" Relationship="Self.FK_AssistanceMeetings_Assistances" FromRole="AssistanceMeetings" ToRole="Assistances" />
+        </EntityType>
+        <EntityType Name="Assistance">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" />
+          <Property Name="FirstName" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="LastName" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="Tel" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="Email" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="Comments" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Password" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="AssistanceMeetings" Relationship="Self.FK_AssistanceMeetings_Assistances" FromRole="Assistances" ToRole="AssistanceMeetings" />
+        </EntityType>
+        <Association Name="FK_AssistanceMeetings_Assistances">
+          <End Role="Assistances" Type="Self.Assistance" Multiplicity="0..1" />
+          <End Role="AssistanceMeetings" Type="Self.AssistanceMeeting" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Assistances">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="AssistanceMeetings">
+              <PropertyRef Name="AssistanceId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="FinalProjectsSqlDbEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="AssistanceMeetings" EntityType="Self.AssistanceMeeting" />
+          <EntitySet Name="Assistances" EntityType="Self.Assistance" />
+          <AssociationSet Name="FK_AssistanceMeetings_Assistances" Association="Self.FK_AssistanceMeetings_Assistances">
+            <End Role="Assistances" EntitySet="Assistances" />
+            <End Role="AssistanceMeetings" EntitySet="AssistanceMeetings" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="FinalProjectsSqlDbModelStoreContainer" CdmEntityContainer="FinalProjectsSqlDbEntities">
+          <EntitySetMapping Name="AssistanceMeetings">
+            <EntityTypeMapping TypeName="FinalProjectsSqlDbModel.AssistanceMeeting">
+              <MappingFragment StoreEntitySet="AssistanceMeetings">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="MeetingDate" ColumnName="MeetingDate" />
+                <ScalarProperty Name="ShortDescription" ColumnName="ShortDescription" />
+                <ScalarProperty Name="Content" ColumnName="Content" />
+                <ScalarProperty Name="ProjectId" ColumnName="ProjectId" />
+                <ScalarProperty Name="StudentId_1" ColumnName="StudentId_1" />
+                <ScalarProperty Name="StudentId_2" ColumnName="StudentId_2" />
+                <ScalarProperty Name="DurationInMinutes" ColumnName="DurationInMinutes" />
+                <ScalarProperty Name="FromTime" ColumnName="FromTime" />
+                <ScalarProperty Name="ToTime" ColumnName="ToTime" />
+                <ScalarProperty Name="שדה1" ColumnName="שדה1" />
+                <ScalarProperty Name="AssistanceId" ColumnName="AssistanceId" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Assistances">
+            <EntityTypeMapping TypeName="FinalProjectsSqlDbModel.Assistance">
+              <MappingFragment StoreEntitySet="Assistances">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+                <ScalarProperty Name="LastName" ColumnName="LastName" />
+                <ScalarProperty Name="Tel" ColumnName="Tel" />
+                <ScalarProperty Name="Email" ColumnName="Email" />
+                <ScalarProperty Name="Comments" ColumnName="Comments" />
+                <ScalarProperty Name="Password" ColumnName="Password" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

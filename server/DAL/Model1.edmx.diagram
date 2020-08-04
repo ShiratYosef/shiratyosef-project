@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="104acdb554fb443e9b885c6d5f1a7f12" Name="Diagram1" ZoomLevel="85">
+        <EntityTypeShape EntityType="TimeTableDevModel.sysdiagram" Width="1.5" PointX="0.5" PointY="0.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="TimeTableDevModel.Bank" Width="1.5" PointX="12.25" PointY="6.5" />
+        <EntityTypeShape EntityType="TimeTableDevModel.CheckDetail" Width="1.5" PointX="10.125" PointY="5" />
+        <EntityTypeShape EntityType="TimeTableDevModel.Child" Width="1.5" PointX="2.25" PointY="0.5" />
+        <EntityTypeShape EntityType="TimeTableDevModel.ChildsRegistrationToSubject" Width="1.5" PointX="4.25" PointY="4.375" />
+        <EntityTypeShape EntityType="TimeTableDevModel.City" Width="1.5" PointX="0.5" PointY="5.875" />
+        <EntityTypeShape EntityType="TimeTableDevModel.CreditDetail" Width="1.5" PointX="12" PointY="2.625" />
+        <EntityTypeShape EntityType="TimeTableDevModel.Family" Width="1.5" PointX="4.375" PointY="0.5" />
+        <EntityTypeShape EntityType="TimeTableDevModel.Group" Width="1.5" PointX="6.25" PointY="0.5" />
+        <AssociationConnector Association="TimeTableDevModel.FK_CheckDetails_Banks" />
+        <AssociationConnector Association="TimeTableDevModel.FK_Customers_families" />
+        <AssociationConnector Association="TimeTableDevModel.FK_SubjectsForChild_Childs" />
+        <AssociationConnector Association="TimeTableDevModel.FK_families_Cities" />
+        <AssociationConnector Association="TimeTableDevModel.ChildsToGroups" />
+        <EntityTypeShape EntityType="TimeTableDevModel.Lesson" Width="1.5" PointX="8" PointY="0.5" />
+        <EntityTypeShape EntityType="TimeTableDevModel.Payment" Width="1.5" PointX="8.25" PointY="4.625" />
+        <EntityTypeShape EntityType="TimeTableDevModel.School" Width="1.5" PointX="0.5" PointY="3" />
+        <EntityTypeShape EntityType="TimeTableDevModel.Subject" Width="1.5" PointX="6.25" PointY="4.25" />
+        <EntityTypeShape EntityType="TimeTableDevModel.TammyValue" Width="1.5" PointX="2.5" PointY="6.125" />
+        <EntityTypeShape EntityType="TimeTableDevModel.Worker" Width="1.5" PointX="10" PointY="0.5" />
+        <EntityTypeShape EntityType="TimeTableDevModel.WorkingDay" Width="1.5" PointX="11.875" PointY="0.5" />
+        <AssociationConnector Association="TimeTableDevModel.FK_CheckDetails_Payment" />
+        <AssociationConnector Association="TimeTableDevModel.FK_Childs_Schools" />
+        <AssociationConnector Association="TimeTableDevModel.FK_Lessons_Childs" />
+        <AssociationConnector Association="TimeTableDevModel.FK_Payment_Childs" />
+        <AssociationConnector Association="TimeTableDevModel.FK_TammyValues_Childs" />
+        <AssociationConnector Association="TimeTableDevModel.FK_SubjectsForChild_Subjects" />
+        <AssociationConnector Association="TimeTableDevModel.FK_Schools_Cities" />
+        <AssociationConnector Association="TimeTableDevModel.FK_Workers_Cities" />
+        <AssociationConnector Association="TimeTableDevModel.FK_CreditDetails_Payment" />
+        <AssociationConnector Association="TimeTableDevModel.FK_Groups_Schools" />
+        <AssociationConnector Association="TimeTableDevModel.FK_Lessons_Groups" />
+        <AssociationConnector Association="TimeTableDevModel.FK_Lessons_Subjects" />
+        <AssociationConnector Association="TimeTableDevModel.FK_WorkingDays_Workers1" />
+        </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

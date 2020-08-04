@@ -1,0 +1,86 @@
+<!-- <div id="search" dir="rtl">
+<mat-form-field class="example-full-width">
+  <input matInput  placeholder="חיפוש לפי שם קבוצה" aria-label="State" [formControl]="stateCtrl" (ngModelChange)="searchByGroupName($event)">
+</mat-form-field>
+</div>
+
+<table mat-table
+       [dataSource]="newGroups" multiTemplateDataRows
+       class="mat-elevation-z8">
+  <ng-container matColumnDef="{{column}}" *ngFor="let column of columnsToDisplay">
+    <th mat-header-cell *matHeaderCellDef> {{column}} </th>
+    <td mat-cell *matCellDef="let element"> {{element[column]}} </td>
+  </ng-container>
+
+  <ng-container matColumnDef="expandedDetail">
+    <td   mat-cell *matCellDef="let element" [attr.colspan]="columnsToDisplay.length">
+    </td>
+  </ng-container>
+  <tr  mat-header-row *matHeaderRowDef="columnsToDisplay"></tr>
+  <tr mat-row *matRowDef="let element; columns: columnsToDisplay;"
+      class="example-element-row"
+      [class.example-expanded-row]="expandedElement === element"
+      (click)="expandedElement = expandedElement === element ? null : element"
+      (click)="ShowGroupDetails($event)"
+      >
+  </tr>
+ 
+</table> -->
+<div id="search" dir="rtl">
+  <mat-form-field class="example-full-width">
+    <input matInput  placeholder="חיפוש לפי שם קבוצה" aria-label="State" [formControl]="stateCtrl" (ngModelChange)="searchByGroupName($event)">
+  </mat-form-field>
+  </div>
+
+
+<mat-table id="datatable" #table [dataSource]="newGroups" matSort class="mat-cell">
+
+  <!-- ID Column -->
+  <ng-container matColumnDef="code">
+    <mat-header-cell ngClass="header" *matHeaderCellDef mat-sort-header>קוד קבוצה</mat-header-cell>
+    <mat-cell *matCellDef="let row" >{{row.code}}</mat-cell>
+  </ng-container>
+
+  <ng-container matColumnDef="GroupName">
+    <mat-header-cell ngClass="header" *matHeaderCellDef mat-sort-header>שם קבוצה</mat-header-cell>
+    <mat-cell *matCellDef="let row" >{{row.GroupName}}</mat-cell>
+  </ng-container>
+
+  <ng-container matColumnDef="grade1">
+    <mat-header-cell ngClass="header" *matHeaderCellDef mat-sort-header>החל מכיתה</mat-header-cell>
+    <mat-cell *matCellDef="let row"> {{grades[row.grade1-1]}}</mat-cell>
+  </ng-container>
+
+  <ng-container matColumnDef="grade2">
+    <mat-header-cell ngClass="header" *matHeaderCellDef mat-sort-header>עד כיתה</mat-header-cell>
+    <mat-cell *matCellDef="let row"> {{grades[row.grade2-1]}}</mat-cell>
+  </ng-container>
+
+  <ng-container matColumnDef="SchoolName">
+    <mat-header-cell ngClass="header" *matHeaderCellDef mat-sort-header>שם בית הספר</mat-header-cell>
+    <mat-cell *matCellDef="let row"> {{row.SchoolName}}</mat-cell>
+  </ng-container>
+  
+  
+  <!-- actions -->
+  <ng-container matColumnDef="actions">
+    <mat-header-cell ngClass="header" *matHeaderCellDef>
+      <button mat-icon-button (click)="addNew()">
+        <mat-icon ngClass="white">add</mat-icon>
+      </button>
+    </mat-header-cell>
+    <mat-cell *matCellDef="let row; let i=index;">
+      <button mat-icon-button (click)="deleteItem(row.code, row.GroupName, row.grade1, row.grade2, row.SchoolName)">
+        <mat-icon aria-label="Delete" ngClass="icon">delete</mat-icon>
+      </button>
+      <button mat-icon-button (click)="ShowGroupDetails(row.code, row.GroupName, row.grade1, row.grade2, row.SchoolName)">
+        <mat-icon aria-label="Delete" ngClass="icon">view_headline
+        </mat-icon>
+      </button>
+    </mat-cell>
+  </ng-container>
+
+  <mat-header-row *matHeaderRowDef="displayedColumns"></mat-header-row>
+  <mat-row [ngClass]="{'highlight': i%2 == 1}" *matRowDef="let row; let i=index; columns: displayedColumns;"></mat-row>
+</mat-table>
+<app-footer [countOfLines]=count></app-footer>

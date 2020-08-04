@@ -1,0 +1,136 @@
+/* .custom-dialog-container .mat-dialog-container {
+    overflow-y: hidden;
+  } */
+  
+  .mat-form-field {
+    font-size: 14px;
+    flex-grow: 1;
+    margin-top: 8px;
+  }
+ .mat-dialog-title{
+   position: fixed;
+   top:5%;
+   right:10.5%;
+   width: 80%;
+   height: 20%;
+   background-color:#2770a5 ;
+   color: white;
+ } 
+ .context{
+   position: absolute;
+   height:72%;
+   width:22% ;
+   top:25%;
+   overflow: auto;
+   right:10.5%;
+   background-color: #ebebeb;
+   color: rgba(34, 30, 30,0.6);
+   font-family: tahoma;
+
+ }
+ #in{
+   position: absolute;
+   width:80%;
+   right:10%;
+   text-align: center;
+ }
+ .tables{
+   position: absolute;
+   width: 58%;
+   height:72%;
+   top:25%;
+   right:32.5%;
+   background: #ebebeb;
+   overflow: auto;
+   margin: 0%;
+ }
+ mat-table{
+   background-color: #ebebeb;
+ }
+ mat-cell{
+  color: rgba(34, 30, 30,0.6);
+  font-family: tahoma;
+ }
+ mat-form-field{
+  font-family: tahoma;
+ }
+ mat-option{
+  color: rgba(34, 30, 30,0.6);
+  font-family: tahoma;
+ }
+
+ .addWaiting{
+   position: absolute;
+   bottom: 20%;
+   left:5%;
+ }
+ .waiting{
+position: absolute;
+width: 49%;
+height: 80%;
+right:50%;
+border-style: solid 2px black;
+ }
+ .lessons{
+  position: absolute;
+  width: 49%;
+  height: 80%;
+  right:0%;
+ }
+ .lesson{
+position: absolute;
+bottom:10%;
+right:78%;
+margin: 0%;
+ }
+ .waitings{
+position: absolute;
+bottom:10%;
+right:40%;
+margin: 0%;
+ }
+ .childDetails{
+position: absolute;
+right:6%;
+width:15%;
+height:10%;
+font-size: 100%;
+bottom:10%;
+font-weight: bold;
+
+ }
+ .icon{
+   position: absolute;
+   width: 20%;
+   height: 20%;
+   right:0%;
+   top:30%;
+  padding: 0%;
+  margin: 0%;
+ }
+ mat-header-cell{
+   font-size: 100%;
+   font-weight: bold;
+    font-family: tahoma;
+ }
+ .blue{
+   color: #2770a5;
+ }
+ /* .mat-icon {
+   position: absolute;
+  width: 20% !important;
+  height: 20% !important;
+} */
+ 
+ /* .mat-dialog-content{
+   position: absolute;
+   width: 45%;
+   height:80%;
+   right:0%;
+   overflow: auto;
+ } */
+ /* .custom-dialog-container .mat-dialog-title{
+  background-color:#2770a5 ;
+  width:100%;
+  height: 20%;
+ } */

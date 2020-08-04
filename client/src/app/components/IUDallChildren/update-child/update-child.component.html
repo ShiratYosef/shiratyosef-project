@@ -1,0 +1,140 @@
+<div class="container">
+  <h3 mat-dialog-title dir="rtl">עדכון ילד </h3>
+  <form class="mat-dialog-content" (ngSubmit)="submit" #formControl="ngForm">
+
+    <!--Textarea for demo purposes-->
+
+    <div class="form" dir="rtl">
+      <mat-form-field color="accent">
+        <input matInput #input class="form-control" placeholder="תעודת זהות" [(ngModel)]="data.IdentityNum"
+          name="IdentityNum" required>
+        <mat-error *ngIf="formControl.invalid">{{getErrorMessage()}}</mat-error>
+      </mat-form-field>
+    </div>
+
+    <!-- <div class="form" dir="rtl">
+      <mat-form-field color="accent"> 
+        <input matInput #input class="form-control" placeholder="שם משפחה" [(ngModel)]="data.FamilyName" name="FamilyName" required >
+        <mat-error *ngIf="formControl.invalid">{{getErrorMessage()}}</mat-error>
+      </mat-form-field>
+    </div> -->
+    <div dir="rtl" class="family">
+      <label>שם משפחה</label>
+    </div>
+    <p dir="rtl">{{data.FamilyName}}</p>
+
+    <div class="form" dir="rtl">
+      <mat-form-field color="accent">
+        <input matInput #input class="form-control" placeholder="שם פרטי" [(ngModel)]="data.FirstName" name="FirstName"
+          required>
+        <mat-error *ngIf="formControl.invalid">{{getErrorMessage()}}</mat-error>
+      </mat-form-field>
+    </div>
+
+    <div class="form" dir="rtl">
+      <mat-form-field color="accent">
+        <input matInput #input class="form-control" placeholder="מין" [(ngModel)]="data.Kind" name="Kind">
+      </mat-form-field>
+    </div>
+
+    <div class="form" dir="rtl">
+      <mat-form-field color="accent">
+        <input matInput #input class="form-control" placeholder="תאריך לידה" [(ngModel)]="data.BirthDate"
+          name="BirthDate">
+      </mat-form-field>
+    </div>
+
+    <div class="form" dir="rtl">
+      <mat-form-field color="accent">
+        <input matInput #input class="form-control" placeholder="מיקום במשפחה" [(ngModel)]="data.PlaceInFamily"
+          name="PlaceInFamily">
+      </mat-form-field>
+    </div>
+
+    <div dir="rtl">
+      <mat-form-field class="example-full-width" color="accent">
+        <input matInput placeholder="חיפוש לפי שם ביהס" aria-label="State" [matAutocomplete]="auto1"
+          [formControl]="stateCtrl" (ngModelChange)="searchBySchoolName($event)" [(ngModel)]="data.SchoolName">
+      </mat-form-field>
+      <mat-autocomplete #auto1="matAutocomplete" color="accent">
+        <mat-option *ngFor="let item of newschools" (click)="updateSchoolNameOfNgModel(item.SchoolId)"
+          [value]="item.SchoolName">
+          <div>{{item.SchoolName}}</div>
+        </mat-option>
+      </mat-autocomplete>
+    </div>
+    <br>
+    <!-- <div class="form" dir="rtl">
+      <mat-form-field color="accent"> 
+        <input matInput #input class="form-control" placeholder="שם בית ספר" [(ngModel)]="data.SchoolName" name="SchoolName">
+      </mat-form-field>
+    </div> -->
+    <div dir="rtl" class="grade">
+    <label>כיתה</label>
+  </div>
+  <div dir="rtl">
+    <mat-select style="width:40%" placeholder="{{grades[data.Grade-1]}}">
+      <mat-option *ngFor="let item of grades" (click)="updategrade1NgModel(item)" [value]="item">
+        <div>{{item}}</div>
+      </mat-option>
+    </mat-select>
+  </div>
+    <!-- <div class="form" dir="rtl">
+      <mat-form-field color="accent"> 
+        <input matInput #input class="form-control" placeholder="כיתה" [(ngModel)]="data.Grade" name="Grade">
+      </mat-form-field>
+    </div>
+  -->
+    <div class="form" dir="rtl">
+      <mat-form-field color="accent">
+        <input matInput #input class="form-control" placeholder="תאריך הצטרפות" [(ngModel)]="data.JoiningDate"
+          name="JoiningDate">
+      </mat-form-field>
+    </div>
+
+
+    <!-- <div class="form" dir="rtl">
+      <mat-form-field color="accent">
+        <input matInput #input class="form-control" placeholder="טופס ויתור סודיות" [(ngModel)]="data.ViturSodiutFrom"
+          name="ViturSodiutFrom">
+      </mat-form-field>
+    </div> -->
+
+    <!-- <div class="form" dir="rtl">
+      <mat-form-field color="accent"> 
+        <input matInput #input class="form-control" placeholder="PreviousCare" [(ngModel)]="data.PreviousCare" name="PreviousCare">
+      </mat-form-field>
+    </div> -->
+
+    <div class="form" dir="rtl">
+      <mat-form-field color="accent">
+        <input matInput #input class="form-control" placeholder="הערות" [(ngModel)]="data.Note" name="Note">
+      </mat-form-field>
+    </div>
+
+    <!-- <div class="form" dir="rtl">
+      <mat-form-field color="accent"> 
+        <input matInput #input class="form-control" placeholder="האם פעיל" [(ngModel)]="data.IsActive" name="IsActive">
+      </mat-form-field>
+    </div>
+  
+    <div class="form" dir="rtl">
+      <mat-form-field color="accent"> 
+        <input matInput #input class="form-control" placeholder="IsMunicipality" [(ngModel)]="data.IsMunicipality" name="IsMunicipality">
+      </mat-form-field>
+    </div> -->
+
+    <!-- <div class="form" dir="rtl">
+      <mat-form-field color="accent"> 
+        <input matInput #input class="form-control" placeholder="מחיר לאחר הנחה" [(ngModel)]="data.sumAfterDiscount" name="sumAfterDiscount">
+      </mat-form-field>
+    </div> -->
+
+
+    <div mat-dialog-actions dir="rtl">
+      <button mat-button [type]="submit" [disabled]="!formControl.valid" [mat-dialog-close]="1"
+        (click)="stopEdit()">שמירה</button>
+      <button mat-button (click)="onNoClick()" tabindex="-1">ביטול</button>
+    </div>
+  </form>
+</div>
